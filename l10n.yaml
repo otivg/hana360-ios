@@ -1,0 +1,8 @@
+# Flutter gen-l10n 配置 (Hana360 i18n)
+# 方案: output-dir 真实文件 + 相对路径 import (synthetic-package 参数已弃用, 新版本自动按此行为)。
+# 代码 import 用相对路径: 如 lib/ui/screens/x.dart → '../../l10n/app_localizations.dart'
+arb-dir: lib/l10n
+template-arb-file: app_zh.arb   # 中文为主基准 (key 来源)
+output-localization-file: app_localizations.dart
+output-dir: lib/l10n
+nullable-getter: false          # 生成非空 getter, UI 直接 AppLocalizations.of(context)!.key

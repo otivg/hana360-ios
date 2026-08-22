@@ -1,0 +1,349 @@
+{
+  "@@locale": "ro",
+  "appName": "Hana360",
+
+  "languageSettings": "Limbă",
+  "languageFollowSystem": "Urmează sistemul",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "Anulează",
+  "commonConfirm": "OK",
+  "commonBack": "Înapoi",
+  "commonDone": "Gata",
+  "commonUnknown": "Necunoscut",
+
+  "secUpmix": "Motor upmix",
+  "spatialAudioTitle": "Sunet spațial 360°",
+  "npNothingPlaying": "Nimic în redare încă",
+  "npPickSong": "Alege o melodie din bibliotecă",
+  "npSpatialSettings": "Setări 360°",
+  "npLyrics": "Versuri",
+  "libSearchHint": "Caută în muzica ta…",
+  "libClearLibrary": "Golește biblioteca",
+  "libImportMusic": "Importă muzică",
+  "libError": "Ceva nu a funcționat: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "Nimic nu se potrivește cu \"{query}\"",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "Hana360 are nevoie de permisiune pentru a-ți găsi muzica\nFără acces pe acest dispozitiv? Importă în schimb.",
+  "libNoSongs": "Nicio melodie găsită pe acest dispozitiv\nImportă muzică din fișierele tale pentru a începe",
+  "libGrantAccess": "Acordă acces",
+  "libRescan": "Rescanează",
+  "libAddedToQueue": "Adăugată în coadă",
+  "libNoAlbums": "Niciun album încă",
+  "libNoFolders": "Niciun dosar încă",
+  "libNoPlaylists": "Nicio listă de redare încă",
+  "libPlaylistCreated": "Lista de redare \"{name}\" creată 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "ține apăsat un dosar pentru a-l transforma în listă de redare",
+  "libSongCount": "{count} melodii",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} melodii · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "Trezit târziu ♪",
+  "homeGreetingMorning": "Bună dimineața ♪",
+  "homeGreetingAfternoon": "Bună ziua ♪",
+  "homeGreetingEvening": "Bună seara ♪",
+  "homeJumpBackIn": "RELUAȚI",
+  "homeForYou": "PENTRU TINE",
+  "homeForYouSub": "ales pe acest dispozitiv, din ascultările tale",
+  "homeWelcome": "Bine ai venit în Hana360 🌸",
+  "homeAllQuiet": "Totul liniștit 🌸",
+  "homeLibraryHint": "Muzica ta trăiește în fila Bibliotecă — adaugă acolo dosare. Tot ce asculți se adună aici.",
+  "homePlayHint": "Redă ceva și te va aștepta aici data viitoare.",
+  "youRescanLibrary": "Rescanează biblioteca",
+  "youExcludedFolders": "Dosare excluse",
+  "youExcludedFoldersSub": "Ascunde dosarele din bibliotecă",
+  "youCatMode": "Mod pisică",
+  "youAbout": "Despre",
+  "youScanning": "Se scanează muzica ta…",
+  "youOpenSource": "Open Source",
+  "youOpenSourceSub": "Hana360 este o derivată a Hanamimi (GPLv3) de ShaptakNaskar — modificat la 2026-08-10",
+  "youCheckUpdates": "Verifică actualizări",
+  "youCheckUpdatesSub": "Versiunile noi apar pe GitHub Releases",
+  "youUpToDate": "Ești la zi 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Creat de Sappy",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "Continuă redarea în fundal",
+  "youKeepPlayingAllowed": "Permis — sistemul nu îți pune muzica pe pauză",
+  "youKeepPlayingTap": "Atinge pentru a opri sistemul să întrerupă redarea",
+  "youExcludedFoldersTitle": "Dosare excluse",
+  "youExcludedFoldersDesc": "Melodiile din dosarele dezactivate sunt excluse din bibliotecă",
+  "youVisSensitivity": "Sensibilitate vizualizator",
+  "youVisSensitivitySub": "Mărește pentru melodiile care abia îl mișcă",
+  "youNerdMode": "Mod tocilar",
+  "youNerdModeSub": "Afișează codec, bitrate și ieșire audio pe Redare acum",
+  "youEqualizer": "Egalizator",
+  "youComingSoon": "În curând",
+  "sleepTimer": "Temporizator somn",
+  "sleep15": "15 minute",
+  "sleep30": "30 de minute",
+  "sleep1h": "1 oră",
+  "sleepEndTrack": "Sfârșitul melodiei",
+  "sleepFading": "Se estompează… vise plăcute",
+  "sleepIn": "Adormire peste {time}",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "Adormire când se termină această melodie",
+  "sleepCancel": "Anulează temporizatorul",
+  "queueUpNext": "Urmează",
+  "queueEmpty": "Coada este goală",
+  "updateAvailable": "Actualizare disponibilă ✨",
+  "updateNoNotes": "Fără note de lansare.",
+  "updateInstalling": "Se deschide instalarea…",
+  "updateFailed": "Nu s-a putut actualiza — încearcă din nou mai târziu",
+  "updateLater": "Mai târziu",
+  "updateRetry": "Reîncearcă",
+  "updateNow": "Actualizează",
+  "spatialToggleTitle": "Sunet spațial 360°",
+  "spatialOn": "Pornit",
+  "spatialOff": "Oprit",
+  "lyricsNoFound": "Nicio versiune găsită",
+  "lyricsJustListening": "Aceasta este doar de ascultat",
+  "lyricsTrySource": "Încearcă altă sursă",
+  "lyricsSource": "Sursa versurilor",
+  "lyricsWordSynced": "Sincronizat pe cuvinte",
+  "lyricsLineSynced": "Sincronizat pe linii",
+  "lyricsUnsynced": "Nesincronizat",
+  "plNoPlaylists": "Nicio listă de redare încă — creează mai întâi una!",
+  "plAddToPlaylist": "Adaugă în lista de redare",
+  "plAddedTo": "Adăugată în {name}",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "Distribuie versurile",
+  "shareMaxLines": "Număr maxim de linii selectate",
+  "sharePickLines": "Alege până la {count} linii",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "Alege câteva linii mai jos…",
+  "shareButton": "Distribuie",
+  "batTitle": "Ține muzica în redare 🎵",
+  "batBody": "Optimizarea bateriei Android poate pune muzica pe pauză când ecranul este oprit. Permite Hana360 să ruleze fără restricții pentru o redare stabilă.\n\nPoți schimba oricând acest lucru în Tu → \"Continuă redarea în fundal\".",
+  "batNotNow": "Nu acum",
+  "batAllow": "Permite",
+  "algoSwitch": "Algoritm",
+  "speakerDistance": "Distanța difuzoarelor",
+  "channelTrim": "Tăiere canal",
+  "masterGain": "Amplificare master",
+  "secHrtf": "Personalizare HRTF",
+  "outputGain": "Amplificare ieșire",
+  "secEq": "EQ spațial",
+  "secReverb": "Reverberație",
+  "roomSize": "Cameră",
+  "reverbGain": "Amplificare reverberație",
+  "secTracking": "Urmărirea capului",
+  "trackOff": "Oprit",
+  "trackSensor": "Senzorul telefonului",
+  "trackManual": "Manual XY",
+  "dragHint": "Trage pentru a regla orientarea capului (câmpul sonor urmează)",
+  "customEq": "Personalizat",
+  "eqPresetMusic": "Muzică",
+  "eqPresetCinema": "Cinema",
+  "eqPresetGame": "Joc",
+  "eqPresetVoice": "Voce",
+
+  "hrtfGroup0": "Bărbat / Mic / Mic",
+  "hrtfGroup1": "Bărbat / Mic / Mediu",
+  "hrtfGroup2": "Bărbat / Mic / Mare",
+  "hrtfGroup3": "Bărbat / Mediu / Mic",
+  "hrtfGroup4": "Bărbat / Mediu / Mediu",
+  "hrtfGroup5": "Bărbat / Mediu / Mare",
+  "hrtfGroup6": "Bărbat / Mare / Mic",
+  "hrtfGroup7": "Bărbat / Mare / Mediu",
+  "hrtfGroup8": "Bărbat / Mare / Mare",
+  "hrtfGroup9": "Femeie / Mic / Mic",
+  "hrtfGroup10": "Femeie / Mic / Mediu",
+  "hrtfGroup11": "Femeie / Mic / Mare",
+  "hrtfGroup12": "Femeie / Mediu / Mic",
+  "hrtfGroup13": "Femeie / Mediu / Mediu",
+  "hrtfGroup14": "Femeie / Mediu / Mare",
+
+  "navHome": "Acasă",
+  "navLibrary": "Bibliotecă",
+  "navPlaying": "Redare",
+  "navYou": "Tu",
+  "tabSongs": "Melodii",
+  "tabAlbums": "Albume",
+  "tabFolders": "Dosare",
+  "tabPlaylists": "Liste de redare",
+  "youMood": "STARE",
+  "youCompanion": "ÎNSOȚITORUL TĂU",
+  "youBuddies": "AMICI",
+  "youSound": "SUNET",
+  "youMore": "MAI MULT",
+  "themeCherryBlossom": "Floare de cireș",
+  "themeStarryNight": "Noapte înstelată",
+  "themeAdaptiveLight": "Luminos adaptiv",
+  "themeAdaptiveDark": "Întunecat adaptiv",
+  "youListenedTogether": "{h}h {m}m ascultate împreună",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "Antet și Redare acum",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "Se așază pe titlul Bibliotecii",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "Trage un pui de somn pe mini-player",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "Se plimbă deasupra melodiilor apreciate",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "Strălucesc pe temele întunecate",
+  "accBow": "Fundă roz",
+  "accHeadphones": "Căști mici",
+  "accFlower": "Floare",
+  "accCrown": "Coroană mică",
+  "accUnlockLabel": "Ascultă {h} ore",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "Trecere lină",
+  "youCrossfadeSub": "Îmbină sfârșitul unei melodii cu următoarea",
+  "youSmartShuffle": "Amestecare inteligentă",
+  "youSmartShuffleSub": "Amestecarea înclină spre favoritele tale — calculată pe acest dispozitiv",
+
+  "libLikedSongs": "Melodii apreciate",
+  "libTapHeart": "Atinge inima de pe o melodie pentru a o păstra aici",
+  "libRemovedFromQueue": "Eliminată din coadă",
+  "libRemovedFromLibrary": "Eliminată din bibliotecă",
+  "libRemoveFromLibrary": "Elimină din bibliotecă",
+  "libNewPlaylist": "Listă de redare nouă",
+  "libPlaylistName": "Numele listei",
+  "libCreate": "Creează",
+  "libSwipeHint": "glisează la stânga pentru a elimina · ține apăsat pentru a reordona",
+  "libChooseCover": "Alege imaginea de copertă",
+  "libBackToArtCover": "Înapoi la coperta melodiei",
+  "libDeleteConfirm": "Ștergi \"{name}\"?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "Melodiile în sine rămân pe dispozitivul tău",
+  "libKeep": "Păstrează",
+  "libDelete": "Șterge",
+  "libRemoveKeepFile": "Fișierul în sine rămâne pe dispozitivul tău",
+  "libClearConfirm": "Elimini toate fișierele?",
+  "libLibraryCleared": "Biblioteca a fost golită",
+  "libPickAudioFiles": "Alege fișiere audio…",
+  "libImportFolder": "Importă un dosar",
+  "libScanWholeFolder": "Scanează un dosar întreg… (recomandat)",
+  "libImportFailed": "Import eșuat: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "Niciun fișier audio găsit",
+  "libImportedCount": "Importate {count} melodii",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "Nimic aici încă — glisează la stânga pentru a elimina, ține apăsat pentru a reordona",
+  "sidebarYourLibrary": "BIBLIOTECA TA",
+  "sidebarPlaylists": "LISTE DE REDARE",
+  "sidebarFolders": "DOSARE",
+  "rowQueue": "Coadă",
+  "rowRemove": "Elimină",
+  "rowPlaylist": "Listă de redare",
+  "plTrackCount": "{count} piese",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "Auto",
+  "lyricsSourceEmbedded": "Încorporate",
+  "lyricsSourceBestQuality": "Cea mai bună calitate disponibilă",
+  "lyricsSourceFileTags": "Din propriile etichete ale fișierului audio",
+  "lyricsSourceWordOnline": "Sincronizat pe cuvinte (online)",
+  "lyricsSourceLineOnline": "Sincronizat pe linii (online)",
+  "lyricsSourceNotFound": "Nu s-au găsit pentru această melodie",
+  "npCatModeUnlocked": "Miau?! Modul pisică deblocat 🐱",
+  "shellResumePlayback": "Reluare redare",
+  "shellPlay": "REDĂ",
+  "devSection": "DEZVOLTATOR",
+  "devModeUnlocked": "🛠️ Modul dezvoltator deblocat",
+  "devUnlockAll": "Deblochează toate accesoriile",
+  "devClearLyricsCache": "Golește cache-ul versurilor",
+  "devRefetchLyrics": "Reîncarcă toate versurile…",
+  "devLyricsCleared": "Cache-ul versurilor golit",
+  "devHideOptions": "Ascunde opțiunile dezvoltatorului",
+  "devModeOff": "Modul dezvoltator oprit",
+  "youCantReadFolders": "Nu s-au putut citi dosarele tale de muzică",
+  "youNoMusicFolders": "Nu s-au găsit dosare de muzică"
+}

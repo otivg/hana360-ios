@@ -1,0 +1,349 @@
+{
+  "@@locale": "kn",
+  "appName": "Hana360",
+
+  "languageSettings": "ಭಾಷೆ",
+  "languageFollowSystem": "ಸಿಸ್ಟಮ್ ಅನುಸರಿಸಿ",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "ರದ್ದುಮಾಡಿ",
+  "commonConfirm": "ಸರಿ",
+  "commonBack": "ಹಿಂದೆ",
+  "commonDone": "ಮುಗಿಯಿತು",
+  "commonUnknown": "ಅಜ್ಞಾತ",
+
+  "secUpmix": "ಅಪ್‌ಮಿಕ್ಸ್ ಎಂಜಿನ್",
+  "spatialAudioTitle": "360° ಸ್ಪೇಶಿಯಲ್ ಆಡಿಯೋ",
+  "npNothingPlaying": "ಇನ್ನೂ ಏನೂ ಪ್ಲೇ ಆಗುತ್ತಿಲ್ಲ",
+  "npPickSong": "ನಿಮ್ಮ ಲೈಬ್ರರಿಯಿಂದ ಹಾಡನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+  "npSpatialSettings": "360° ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+  "npLyrics": "ಸಾಹಿತ್ಯ",
+  "libSearchHint": "ನಿಮ್ಮ ಸಂಗೀತದಲ್ಲಿ ಹುಡುಕಿ…",
+  "libClearLibrary": "ಲೈಬ್ರರಿ ಖಾಲಿ ಮಾಡಿ",
+  "libImportMusic": "ಸಂಗೀತ ಆಮದು ಮಾಡಿ",
+  "libError": "ಏನೋ ತಪ್ಪಾಗಿದೆ: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "\"{query}\" ಗೆ ಏನೂ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "ನಿಮ್ಮ ಸಂಗೀತವನ್ನು ಹುಡುಕಲು Hana360 ಗೆ ಅನುಮತಿ ಬೇಕು\nಈ ಸಾಧನದಲ್ಲಿ ಪ್ರವೇಶವಿಲ್ಲವೇ? ಬದಲಿಗೆ ಆಮದು ಮಾಡಿ.",
+  "libNoSongs": "ಈ ಸಾಧನದಲ್ಲಿ ಯಾವುದೇ ಹಾಡು ಸಿಗಲಿಲ್ಲ\nಪ್ರಾರಂಭಿಸಲು ನಿಮ್ಮ ಫೈಲ್‌ಗಳಿಂದ ಸಂಗೀತ ಆಮದು ಮಾಡಿ",
+  "libGrantAccess": "ಪ್ರವೇಶ ನೀಡಿ",
+  "libRescan": "ಮತ್ತೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+  "libAddedToQueue": "ಸರದಿಗೆ ಸೇರಿಸಲಾಗಿದೆ",
+  "libNoAlbums": "ಇನ್ನೂ ಯಾವುದೇ ಆಲ್ಬಮ್ ಇಲ್ಲ",
+  "libNoFolders": "ಇನ್ನೂ ಯಾವುದೇ ಫೋಲ್ಡರ್ ಇಲ್ಲ",
+  "libNoPlaylists": "ಇನ್ನೂ ಯಾವುದೇ ಪ್ಲೇಪಟ್ಟಿ ಇಲ್ಲ",
+  "libPlaylistCreated": "ಪ್ಲೇಪಟ್ಟಿ \"{name}\" ರಚಿಸಲಾಗಿದೆ 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "ಫೋಲ್ಡರ್ ಅನ್ನು ಪ್ಲೇಪಟ್ಟಿಯಾಗಿ ಮಾಡಲು ಹೆಚ್ಚು ಹೊತ್ತು ಒತ್ತಿ",
+  "libSongCount": "{count} ಹಾಡುಗಳು",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} ಹಾಡುಗಳು · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "ತಡವಾಗಿ ಎಚ್ಚರ ♪",
+  "homeGreetingMorning": "ಶುಭೋದಯ ♪",
+  "homeGreetingAfternoon": "ಶುಭ ಮಧ್ಯಾಹ್ನ ♪",
+  "homeGreetingEvening": "ಶುಭ ಸಂಜೆ ♪",
+  "homeJumpBackIn": "ಮತ್ತೆ ಸೇರಿ",
+  "homeForYou": "ನಿಮಗಾಗಿ",
+  "homeForYouSub": "ನಿಮ್ಮ ಆಲಿಸುವಿಕೆಯಿಂದ, ಈ ಸಾಧನದಲ್ಲಿ ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ",
+  "homeWelcome": "Hana360 ಗೆ ಸ್ವಾಗತ 🌸",
+  "homeAllQuiet": "ಎಲ್ಲವೂ ಶಾಂತ 🌸",
+  "homeLibraryHint": "ನಿಮ್ಮ ಸಂಗೀತವು ಲೈಬ್ರರಿ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ವಾಸಿಸುತ್ತದೆ — ಅಲ್ಲಿ ಫೋಲ್ಡರ್‌ಗಳನ್ನು ಸೇರಿಸಿ. ನೀವು ಪ್ಲೇ ಮಾಡುವ ಎಲ್ಲವೂ ಇಲ್ಲಿ ಸೇರುತ್ತದೆ.",
+  "homePlayHint": "ಏನನ್ನಾದರೂ ಪ್ಲೇ ಮಾಡಿ, ಮುಂದಿನ ಬಾರಿ ಅದು ಇಲ್ಲಿ ಕಾಯುತ್ತದೆ.",
+  "youRescanLibrary": "ಲೈಬ್ರರಿ ಮತ್ತೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+  "youExcludedFolders": "ಹೊರಗಿಡಲಾದ ಫೋಲ್ಡರ್‌ಗಳು",
+  "youExcludedFoldersSub": "ಲೈಬ್ರರಿಯಿಂದ ಫೋಲ್ಡರ್‌ಗಳನ್ನು ಮರೆಮಾಡಿ",
+  "youCatMode": "ಬೆಕ್ಕು ಮೋಡ್",
+  "youAbout": "ಕುರಿತು",
+  "youScanning": "ನಿಮ್ಮ ಸಂಗೀತ ಸ್ಕ್ಯಾನ್ ಆಗುತ್ತಿದೆ…",
+  "youOpenSource": "ಓಪನ್ ಸೋರ್ಸ್",
+  "youOpenSourceSub": "Hana360 ಅನ್ನು ShaptakNaskar ರ Hanamimi (GPLv3) ನಿಂದ ಪಡೆಯಲಾಗಿದೆ — 2026-08-10 ರಂದು ಮಾರ್ಪಡಿಸಲಾಗಿದೆ",
+  "youCheckUpdates": "ಅಪ್‌ಡೇಟ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ",
+  "youCheckUpdatesSub": "ಹೊಸ ಬಿಲ್ಡ್‌ಗಳು GitHub Releases ನಲ್ಲಿ ಬರುತ್ತವೆ",
+  "youUpToDate": "ನೀವು ಅಪ್‌-ಟು-ಡೇಟ್ ಆಗಿದ್ದೀರಿ 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Sappy ರವರಿಂದ ನಿರ್ಮಿಸಲಾಗಿದೆ",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಪ್ಲೇ ಮುಂದುವರಿಸಿ",
+  "youKeepPlayingAllowed": "ಅನುಮತಿಸಲಾಗಿದೆ — ಸಿಸ್ಟಮ್ ನಿಮ್ಮ ಸಂಗೀತವನ್ನು ವಿರಾಮಗೊಳಿಸುವುದಿಲ್ಲ",
+  "youKeepPlayingTap": "ಸಿಸ್ಟಮ್ ಪ್ಲೇಬ್ಯಾಕ್ ನಿಲ್ಲಿಸುವುದನ್ನು ತಡೆಯಲು ಟ್ಯಾಪ್ ಮಾಡಿ",
+  "youExcludedFoldersTitle": "ಹೊರಗಿಡಲಾದ ಫೋಲ್ಡರ್‌ಗಳು",
+  "youExcludedFoldersDesc": "ಆಫ್ ಮಾಡಿದ ಫೋಲ್ಡರ್‌ಗಳಲ್ಲಿನ ಹಾಡುಗಳನ್ನು ಲೈಬ್ರರಿಯಿಂದ ಹೊರಗಿಡಲಾಗುತ್ತದೆ",
+  "youVisSensitivity": "ವಿಷುಯಲೈಜರ್ ಸಂವೇದನೆ",
+  "youVisSensitivitySub": "ಅದನ್ನು ಕಷ್ಟದಿಂದ ಚಲಿಸುವ ಹಾಡುಗಳಿಗೆ ಹೆಚ್ಚಿಸಿ",
+  "youNerdMode": "ನರ್ಡ್ ಮೋಡ್",
+  "youNerdModeSub": "ಈಗ ಪ್ಲೇ ಆಗುತ್ತಿದೆ ಮೇಲೆ codec, bitrate ಮತ್ತು ಆಡಿಯೋ ಔಟ್‌ಪುಟ್ ತೋರಿಸಿ",
+  "youEqualizer": "ಈಕ್ವಲೈಜರ್",
+  "youComingSoon": "ಶೀಘ್ರದಲ್ಲೇ",
+  "sleepTimer": "ಸ್ಲೀಪ್ ಟೈಮರ್",
+  "sleep15": "15 ನಿಮಿಷ",
+  "sleep30": "30 ನಿಮಿಷ",
+  "sleep1h": "1 ಗಂಟೆ",
+  "sleepEndTrack": "ಹಾಡಿನ ಕೊನೆ",
+  "sleepFading": "ಮಸುಕಾಗುತ್ತಿದೆ… ಮಧುರ ಕನಸುಗಳು",
+  "sleepIn": "{time} ರಲ್ಲಿ ನಿದ್ರೆ",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "ಈ ಹಾಡು ಮುಗಿದಾಗ ನಿದ್ರೆ",
+  "sleepCancel": "ಟೈಮರ್ ರದ್ದುಮಾಡಿ",
+  "queueUpNext": "ಮುಂದೆ",
+  "queueEmpty": "ಸರದಿ ಖಾಲಿಯಾಗಿದೆ",
+  "updateAvailable": "ಅಪ್‌ಡೇಟ್ ಲಭ್ಯವಿದೆ ✨",
+  "updateNoNotes": "ಯಾವುದೇ ಬಿಡುಗಡೆ ಟಿಪ್ಪಣಿಗಳಿಲ್ಲ.",
+  "updateInstalling": "ಅನುಸ್ಥಾಪನೆ ತೆರೆಯಲಾಗುತ್ತಿದೆ…",
+  "updateFailed": "ಅಪ್‌ಡೇಟ್ ಆಗಲಿಲ್ಲ — ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ",
+  "updateLater": "ನಂತರ",
+  "updateRetry": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ",
+  "updateNow": "ಅಪ್‌ಡೇಟ್ ಮಾಡಿ",
+  "spatialToggleTitle": "360° ಸ್ಪೇಶಿಯಲ್ ಆಡಿಯೋ",
+  "spatialOn": "ಆನ್",
+  "spatialOff": "ಆಫ್",
+  "lyricsNoFound": "ಸಾಹಿತ್ಯ ಸಿಗಲಿಲ್ಲ",
+  "lyricsJustListening": "ಇದು ಕೇಳಲು ಮಾತ್ರ",
+  "lyricsTrySource": "ಬೇರೆ ಮೂಲ ಪ್ರಯತ್ನಿಸಿ",
+  "lyricsSource": "ಸಾಹಿತ್ಯದ ಮೂಲ",
+  "lyricsWordSynced": "ಪದ-ಸಿಂಕ್ ಮಾಡಲಾಗಿದೆ",
+  "lyricsLineSynced": "ಸಾಲು-ಸಿಂಕ್ ಮಾಡಲಾಗಿದೆ",
+  "lyricsUnsynced": "ಸಿಂಕ್ ಆಗಿಲ್ಲ",
+  "plNoPlaylists": "ಇನ್ನೂ ಯಾವುದೇ ಪ್ಲೇಪಟ್ಟಿ ಇಲ್ಲ — ಮೊದಲು ಒಂದನ್ನು ರಚಿಸಿ!",
+  "plAddToPlaylist": "ಪ್ಲೇಪಟ್ಟಿಗೆ ಸೇರಿಸಿ",
+  "plAddedTo": "{name} ಗೆ ಸೇರಿಸಲಾಗಿದೆ",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "ಸಾಹಿತ್ಯ ಹಂಚಿಕೊಳ್ಳಿ",
+  "shareMaxLines": "ಗರಿಷ್ಠ ಸಾಲುಗಳನ್ನು ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ",
+  "sharePickLines": "{count} ವರೆಗೆ ಸಾಲುಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "ಕೆಳಗೆ ಕೆಲವು ಸಾಲುಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ…",
+  "shareButton": "ಹಂಚಿಕೊಳ್ಳಿ",
+  "batTitle": "ಸಂಗೀತ ಪ್ಲೇ ಆಗುತ್ತಲೇ ಇರಲಿ 🎵",
+  "batBody": "Android ನ ಬ್ಯಾಟರಿ ಆಪ್ಟಿಮೈಸೇಶನ್ ಸ್ಕ್ರೀನ್ ಆಫ್ ಆಗಿದ್ದಾಗ ಸಂಗೀತವನ್ನು ವಿರಾಮಗೊಳಿಸಬಹುದು. ಸ್ಥಿರ ಪ್ಲೇಬ್ಯಾಕ್‌ಗಾಗಿ Hana360 ಗೆ ಅನಿಯಂತ್ರಿತವಾಗಿ ಚಲಿಸಲು ಅನುಮತಿಸಿ.\n\nನೀವು ಇದನ್ನು ಯಾವಾಗ ಬೇಕಾದರೂ ಬದಲಾಯಿಸಬಹುದು: ನೀವು → \"ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಪ್ಲೇ ಮುಂದುವರಿಸಿ\".",
+  "batNotNow": "ಈಗ ಬೇಡ",
+  "batAllow": "ಅನುಮತಿಸಿ",
+  "algoSwitch": "ಅಲ್ಗಾರಿದಮ್",
+  "speakerDistance": "ಸ್ಪೀಕರ್ ದೂರ",
+  "channelTrim": "ಚಾನೆಲ್ ಟ್ರಿಮ್",
+  "masterGain": "ಮಾಸ್ಟರ್ ಗೇನ್",
+  "secHrtf": "HRTF ವೈಯಕ್ತೀಕರಣ",
+  "outputGain": "ಔಟ್‌ಪುಟ್ ಗೇನ್",
+  "secEq": "ಸ್ಪೇಶಿಯಲ್ EQ",
+  "secReverb": "ರಿವರ್ಬ್",
+  "roomSize": "ಕೊಠಡಿ",
+  "reverbGain": "ರಿವರ್ಬ್ ಗೇನ್",
+  "secTracking": "ತಲೆ ಟ್ರ್ಯಾಕಿಂಗ್",
+  "trackOff": "ಆಫ್",
+  "trackSensor": "ಫೋನ್ ಸೆನ್ಸರ್",
+  "trackManual": "ಮ್ಯಾನುಯಲ್ XY",
+  "dragHint": "ತಲೆಯ ದಿಕ್ಕನ್ನು ಹೊಂದಿಸಲು ಎಳೆಯಿರಿ (ಧ್ವನಿ ಕ್ಷೇತ್ರ ಅನುಸರಿಸುತ್ತದೆ)",
+  "customEq": "ಕಸ್ಟಮ್",
+  "eqPresetMusic": "ಸಂಗೀತ",
+  "eqPresetCinema": "ಸಿನಿಮಾ",
+  "eqPresetGame": "ಆಟ",
+  "eqPresetVoice": "ಧ್ವನಿ",
+
+  "hrtfGroup0": "ಪುರುಷ / ಸಣ್ಣ / ಸಣ್ಣ",
+  "hrtfGroup1": "ಪುರುಷ / ಸಣ್ಣ / ಮಧ್ಯಮ",
+  "hrtfGroup2": "ಪುರುಷ / ಸಣ್ಣ / ದೊಡ್ಡ",
+  "hrtfGroup3": "ಪುರುಷ / ಮಧ್ಯಮ / ಸಣ್ಣ",
+  "hrtfGroup4": "ಪುರುಷ / ಮಧ್ಯಮ / ಮಧ್ಯಮ",
+  "hrtfGroup5": "ಪುರುಷ / ಮಧ್ಯಮ / ದೊಡ್ಡ",
+  "hrtfGroup6": "ಪುರುಷ / ದೊಡ್ಡ / ಸಣ್ಣ",
+  "hrtfGroup7": "ಪುರುಷ / ದೊಡ್ಡ / ಮಧ್ಯಮ",
+  "hrtfGroup8": "ಪುರುಷ / ದೊಡ್ಡ / ದೊಡ್ಡ",
+  "hrtfGroup9": "ಮಹಿಳೆ / ಸಣ್ಣ / ಸಣ್ಣ",
+  "hrtfGroup10": "ಮಹಿಳೆ / ಸಣ್ಣ / ಮಧ್ಯಮ",
+  "hrtfGroup11": "ಮಹಿಳೆ / ಸಣ್ಣ / ದೊಡ್ಡ",
+  "hrtfGroup12": "ಮಹಿಳೆ / ಮಧ್ಯಮ / ಸಣ್ಣ",
+  "hrtfGroup13": "ಮಹಿಳೆ / ಮಧ್ಯಮ / ಮಧ್ಯಮ",
+  "hrtfGroup14": "ಮಹಿಳೆ / ಮಧ್ಯಮ / ದೊಡ್ಡ",
+
+  "navHome": "ಹೋಮ್",
+  "navLibrary": "ಲೈಬ್ರರಿ",
+  "navPlaying": "ಪ್ಲೇ ಆಗುತ್ತಿದೆ",
+  "navYou": "ನೀವು",
+  "tabSongs": "ಹಾಡುಗಳು",
+  "tabAlbums": "ಆಲ್ಬಮ್‌ಗಳು",
+  "tabFolders": "ಫೋಲ್ಡರ್‌ಗಳು",
+  "tabPlaylists": "ಪ್ಲೇಪಟ್ಟಿಗಳು",
+  "youMood": "ಮೂಡ್",
+  "youCompanion": "ನಿಮ್ಮ ಸಂಗಾತಿ",
+  "youBuddies": "ಗೆಳೆಯರು",
+  "youSound": "ಧ್ವನಿ",
+  "youMore": "ಇನ್ನಷ್ಟು",
+  "themeCherryBlossom": "ಚೆರ್ರಿ ಹೂವು",
+  "themeStarryNight": "ನಕ್ಷತ್ರ ರಾತ್ರಿ",
+  "themeAdaptiveLight": "ಅಡಾಪ್ಟಿವ್ ಲೈಟ್",
+  "themeAdaptiveDark": "ಅಡಾಪ್ಟಿವ್ ಡಾರ್ಕ್",
+  "youListenedTogether": "{h}ಗಂ {m}ನಿ ಒಟ್ಟಿಗೆ ಆಲಿಸಲಾಗಿದೆ",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "ಹೆಡರ್ ಮತ್ತು ಈಗ ಪ್ಲೇ ಆಗುತ್ತಿದೆ",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "ಲೈಬ್ರರಿ ಶೀರ್ಷಿಕೆಯ ಮೇಲೆ ಕುಳಿತಿದೆ",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "ಮಿನಿ ಪ್ಲೇಯರ್ ಮೇಲೆ ನಿದ್ರಿಸುತ್ತದೆ",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "ಇಷ್ಟಪಟ್ಟ ಹಾಡುಗಳ ಮೇಲೆ ನಡೆಯುತ್ತದೆ",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "ಡಾರ್ಕ್ ಥೀಮ್‌ಗಳಲ್ಲಿ ಹೊಳೆಯುತ್ತವೆ",
+  "accBow": "ಗುಲಾಬಿ ರಿಬ್ಬನ್",
+  "accHeadphones": "ಸಣ್ಣ ಹೆಡ್‌ಫೋನ್",
+  "accFlower": "ಹೂವು",
+  "accCrown": "ಸಣ್ಣ ಕಿರೀಟ",
+  "accUnlockLabel": "{h} ಗಂಟೆಗಳ ಕಾಲ ಆಲಿಸಿ",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "ಕ್ರಾಸ್‌ಫೇಡ್",
+  "youCrossfadeSub": "ಹಾಡಿನ ಕೊನೆಯನ್ನು ಮುಂದಿನ ಹಾಡಿಗೆ ಮಿಶ್ರಿಸಿ",
+  "youSmartShuffle": "ಸ್ಮಾರ್ಟ್ ಶಫಲ್",
+  "youSmartShuffleSub": "ಶಫಲ್ ನಿಮ್ಮ ಮೆಚ್ಚಿನವುಗಳ ಕಡೆಗೆ ಒಲವು — ಈ ಸಾಧನದಲ್ಲಿ ಲೆಕ್ಕಹಾಕಲಾಗಿದೆ",
+
+  "libLikedSongs": "ಇಷ್ಟಪಟ್ಟ ಹಾಡುಗಳು",
+  "libTapHeart": "ಹಾಡನ್ನು ಇಲ್ಲಿ ಇರಿಸಲು ಅದರ ಮೇಲಿನ ಹೃದಯವನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ",
+  "libRemovedFromQueue": "ಸರದಿಯಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ",
+  "libRemovedFromLibrary": "ಲೈಬ್ರರಿಯಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ",
+  "libRemoveFromLibrary": "ಲೈಬ್ರರಿಯಿಂದ ತೆಗೆದುಹಾಕಿ",
+  "libNewPlaylist": "ಹೊಸ ಪ್ಲೇಪಟ್ಟಿ",
+  "libPlaylistName": "ಪ್ಲೇಪಟ್ಟಿ ಹೆಸರು",
+  "libCreate": "ರಚಿಸಿ",
+  "libSwipeHint": "ತೆಗೆದುಹಾಕಲು ಎಡಕ್ಕೆ ಸ್ವೈಪ್ · ಮರುಕ್ರಮಗೊಳಿಸಲು ಹಿಡಿದುಕೊಳ್ಳಿ",
+  "libChooseCover": "ಕವರ್ ಚಿತ್ರ ಆಯ್ಕೆಮಾಡಿ",
+  "libBackToArtCover": "ಹಾಡಿನ ಕವರ್‌ಗೆ ಹಿಂತಿರುಗಿ",
+  "libDeleteConfirm": "\"{name}\" ಅಳಿಸುವುದೇ?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "ಹಾಡುಗಳು ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಉಳಿಯುತ್ತವೆ",
+  "libKeep": "ಇರಿಸಿ",
+  "libDelete": "ಅಳಿಸಿ",
+  "libRemoveKeepFile": "ಫೈಲ್ ಸ್ವತಃ ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಉಳಿಯುತ್ತದೆ",
+  "libClearConfirm": "ಎಲ್ಲಾ ಫೈಲ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದೇ?",
+  "libLibraryCleared": "ಲೈಬ್ರರಿ ಖಾಲಿ ಮಾಡಲಾಗಿದೆ",
+  "libPickAudioFiles": "ಆಡಿಯೋ ಫೈಲ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ…",
+  "libImportFolder": "ಫೋಲ್ಡರ್ ಆಮದು ಮಾಡಿ",
+  "libScanWholeFolder": "ಸಂಪೂರ್ಣ ಫೋಲ್ಡರ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ… (ಶಿಫಾರಸು)",
+  "libImportFailed": "ಆಮದು ವಿಫಲವಾಗಿದೆ: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "ಯಾವುದೇ ಆಡಿಯೋ ಫೈಲ್ ಸಿಗಲಿಲ್ಲ",
+  "libImportedCount": "{count} ಹಾಡುಗಳನ್ನು ಆಮದು ಮಾಡಲಾಗಿದೆ",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "ಇಲ್ಲಿ ಇನ್ನೂ ಏನೂ ಇಲ್ಲ — ತೆಗೆದುಹಾಕಲು ಎಡಕ್ಕೆ ಸ್ವೈಪ್, ಮರುಕ್ರಮಗೊಳಿಸಲು ಹಿಡಿದುಕೊಳ್ಳಿ",
+  "sidebarYourLibrary": "ನಿಮ್ಮ ಲೈಬ್ರರಿ",
+  "sidebarPlaylists": "ಪ್ಲೇಪಟ್ಟಿಗಳು",
+  "sidebarFolders": "ಫೋಲ್ಡರ್‌ಗಳು",
+  "rowQueue": "ಸರದಿ",
+  "rowRemove": "ತೆಗೆದುಹಾಕಿ",
+  "rowPlaylist": "ಪ್ಲೇಪಟ್ಟಿ",
+  "plTrackCount": "{count} ಟ್ರ್ಯಾಕ್‌ಗಳು",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "ಆಟೋ",
+  "lyricsSourceEmbedded": "ಎಂಬೆಡೆಡ್",
+  "lyricsSourceBestQuality": "ಅತ್ಯುತ್ತಮ ಲಭ್ಯ ಗುಣಮಟ್ಟ",
+  "lyricsSourceFileTags": "ಆಡಿಯೋ ಫೈಲ್‌ನ ಸ್ವಂತ ಟ್ಯಾಗ್‌ಗಳಿಂದ",
+  "lyricsSourceWordOnline": "ಪದ-ಸಿಂಕ್ (ಆನ್‌ಲೈನ್)",
+  "lyricsSourceLineOnline": "ಸಾಲು-ಸಿಂಕ್ (ಆನ್‌ಲೈನ್)",
+  "lyricsSourceNotFound": "ಈ ಹಾಡಿಗೆ ಸಿಗಲಿಲ್ಲ",
+  "npCatModeUnlocked": "ಮಿಯಾವ್?! ಬೆಕ್ಕು ಮೋಡ್ ಅನ್‌ಲಾಕ್ ಆಗಿದೆ 🐱",
+  "shellResumePlayback": "ಪ್ಲೇಬ್ಯಾಕ್ ಮುಂದುವರಿಸಿ",
+  "shellPlay": "ಪ್ಲೇ ಮಾಡಿ",
+  "devSection": "ಡೆವಲಪರ್",
+  "devModeUnlocked": "🛠️ ಡೆವಲಪರ್ ಮೋಡ್ ಅನ್‌ಲಾಕ್ ಆಗಿದೆ",
+  "devUnlockAll": "ಎಲ್ಲಾ ಪರಿಕರಗಳನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಿ",
+  "devClearLyricsCache": "ಸಾಹಿತ್ಯ ಕ್ಯಾಶ್ ತೆರವುಗೊಳಿಸಿ",
+  "devRefetchLyrics": "ಎಲ್ಲಾ ಸಾಹಿತ್ಯ ಮತ್ತೆ ಪಡೆಯಿರಿ…",
+  "devLyricsCleared": "ಸಾಹಿತ್ಯ ಕ್ಯಾಶ್ ತೆರವುಗೊಳಿಸಲಾಗಿದೆ",
+  "devHideOptions": "ಡೆವಲಪರ್ ಆಯ್ಕೆಗಳನ್ನು ಮರೆಮಾಡಿ",
+  "devModeOff": "ಡೆವಲಪರ್ ಮೋಡ್ ಆಫ್",
+  "youCantReadFolders": "ನಿಮ್ಮ ಸಂಗೀತ ಫೋಲ್ಡರ್‌ಗಳನ್ನು ಓದಲಾಗಲಿಲ್ಲ",
+  "youNoMusicFolders": "ಯಾವುದೇ ಸಂಗೀತ ಫೋಲ್ಡರ್ ಸಿಗಲಿಲ್ಲ"
+}

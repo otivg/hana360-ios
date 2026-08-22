@@ -1,0 +1,98 @@
+name: hanamimi
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 4.0.38+438 # 4.0.38: 修复 DTS 播放规律性噼啪声 (V9.6) 新增 24 语言 i18n (意大利/荷兰/波兰/瑞典/挪威/丹麦/芬兰/捷克/匈牙利/罗马尼亚/斯洛伐克/克罗地亚/斯洛文尼亚/乌克兰/希腊/希伯来/加泰罗尼亚/马来/古吉拉特/卡纳达/马拉雅拉姆/奥里亚/旁遮普/泰米尔 → 51 语言) + 多语言审核文档 (PRIVACY/NOTICE 16语言 + AppStore应用描述16语言含Subtitle/PromotionalText/Keywords) # 4.0.35: 恢复 Speech/Siri purpose string (90683 — permission_handler 引用 Speech/Intents 授权 API 即使未启用也必需 purpose string; 相机/麦克风无库引用保持删除) # 4.0.34: App审核整改 (移除 bluetooth-central/fetch/remote-notification 后台模式→仅 audio; 删除未实现的相机/麦克风权限声明) # 4.0.33: Android 适配 (App名 Hanamimi→Hana360 + 花音通知栏图标 + channel ID 去 Baseus 残留 + Kotlin 2.1.0→2.2.20) # 4.0.32: 语言精简 + min iOS 15.0 (删除 9 个无内置翻译语言 ii/hmd/sjo/za/tdd/nbf/pcm/wuu/yue + 放弃 4 方言 ha/ps/ta/jv → 27 语言; min iOS 18.0→15.0 支持 iPod touch 7/iPhone 6s+ 本地播放; 繁体中文补全 splashEnter) # 4.0.31: Bug Fix — 少数民族/方言语言切换冻结 (根因: Flutter 内置 Material/Cupertino/Widgets 委托对 ii/hmd/sjo/za/tdd/nbf/pcm/wuu/yue 等不支持语言 getMaterialTranslation(...)! 抛空断言致 Localizations 加载失败→App冻结; 新增 lib/l10n/safe_localizations.dart Safe*LocalizationsDelegate 对不支持语言回退 English) # 4.0.30: Bug Fix — 语言切换彻底修复 (①appLocaleProvider safeResolve 保证 locale 永远在 supportedLocales 内, 防止三字母代码 unsupported 导致弹层冻结; ②localeResolutionCallback 改用 deviceLocale 参数; ③语言列表用完整 tag 显示 — 繁体正确显示「繁體中文」而非「中文」) # 4.0.29: Bug Fix — 语言切换 (①set(Locale) 保留 scriptCode 防止 zh_Hant→zh 简体化; ②appLocaleProvider 解析 zh_Hant/xx_YY; ③localeResolutionCallback 兜底防止选择 unsupported locale 后 UI 冻结) # 4.0.28: 多语言大扩充 — 中华民族语言 11 个 (繁体中文/蒙古/藏/维吾尔/壮/哈萨克/锡伯/傣/彝/纳西/苗) + Tier3 方言 8 个 (粤语/吴语/泰/斯瓦希里/塔加洛/皮钦/马拉地/泰卢固), 全部可切换 # 4.0.27: 花音家族完善 (APP 图标换花音头像, 16 语言伙伴名拼音化 Hanon/Qingyu/Yuemian/Paopao/Xingchen, web splash 去 Baseus) # 4.0.26: 吉祥物升级 — 花音 HANA 音灵家族 (比格犬 Hana → 花朵音符团子 Hanon; 伙伴 Parrot/Cat/Duck/Fireflies → 青羽/月眠/泡泡/星尘; 全新原创配色 HanaColors; 启动页去 Baseus 狮子 Logo → 花音主题) # 4.0.25: i18n 全面完成 (18 语言完整 259 key: 中英西阿法日韩德俄葡印地印尼土越波斯孟加拉乌尔都; App内全语言切换列表+默认跟随系统; Music/Cinema/Game 布局模式翻译; 自查修复 library对话框/侧栏/歌词来源/开发者项等 50+ 遗漏) # 4.0.24: 修 MP3 ID3 封面不显示 (①导入封面只提第一首→改每首提取 saveArt 按 album hash 去重; ②系统音乐库封面 caches→applicationSupport 防清理; ③首次加载 DB 非空异步 repairMissingArt 兜底重提取, 导入走 ImportChannel ID3 直读, 系统走 MediaStore) # 4.0.23: i18n 多语言 P1+P3 (flutter_localizations+intl+ARB 骨架, Settings.bundle 系统设置切换, App内语言项, 跟随系统/中/英, didBecomeActive 刷新) # 4.0.22: 修专辑封面重启后丢失 (封面存 cachesDirectory 被系统清理 → 改存 applicationSupportDirectory; scan() 只查路径非空不查文件存在 → 加文件存在检查兜底重提取) # 4.0.21: 修播放暂停状态不同步 (切歌瞬间暂停被 decodeLoop 自动播放覆盖 — 加 userPaused 意图标志, decodeLoop/assetReaderLoop 尊重暂停; play() no-op 时同步状态) # 4.0.20: 默认参数调整 (HRTF组=女·中头·中耳 13, 输出增益 0.5, 空间EQ默认开+音乐模式) + 启动页按钮文字 Baseus × Hanamimi # 4.0.19: 齿音抑制 B+C (上混阶段: S信号8kHz低通防多方向重复卷积 + C对象8kHz shelf -4dB人声齿音) # 4.0.18: De-esser 齿音动态抑制 (D方案: split-band 5k检测/6k分割, 自适应阈值, ratio 3:1, 只压齿音瞬态) # 4.0.17: HRTF 齿音抑制 (A+E: 8kHz HF shelf -2.5dB + masterGain 1.6 + hrtfGain 0.4) # 4.0.16: Swift 6 并发修复 (Sendable + NSLock withLock) + iOS 16 async load() API 迁移 + Xcode 推荐设置, 0 warning # 4.0.15: 品牌调整 — 改名 Hana360 (去 Hanamimi/花耳), GPLv3 LICENSE+NOTICE, About 页开源声明 # 4.0.14: 设备切换仍无声 — restartPipeline 加 engine.stop()+reconnect (route change 后仅 start 是 no-op, 必须拆除重建音频图) # 4.0.13: 修设备切换仍无声 (restartPipeline 不提前 play, seek 先 engine.start — route change 后引擎实际已停) # 4.0.12: 设备切换诊断 — 引擎文件日志 (Documents/hanamimi_engine.log), 拉取分析 routeChange # 4.0.11: 修音频设备切换无声 (扬声器↔蓝牙, route change 自动重排管线) # 4.0.10: 更换 App Icon 为小狮子 (lion.png) — 19 尺寸生成 # 4.0.9: 修播放完成不自动切歌/单曲循环不重播 (EOF 收尾改为以节点状态为准) # 4.0.8: Library 顶栏加清空列表按钮 (垃圾桶图标 + Remove all files 确认框) # 4.0.7: 修导入卡死 (bookmark dict O(1) + 锁外枚举 + 只缓存音频 + metadata 并行读) # 4.0.6: directory bookmark 持久化 (folder picker + UserDefaults), App 重启后整个音乐库直接可播 (Offline Music 同款方案) # 4.0.5: security-scoped bookmark 持久化, App 重启后 Library 旧歌可播 # 4.0.4: 真机 security-scoped URL 持久化 (ScopedURLStore), 修导入文件真机无法播放 # 4.0.3: AVAudioFile 失败时回退 AVAssetReader (修 MPEG-2 24kHz 单声道 mp3 无声) # 4.0.2: 修 AVAudioFile init 在 sourceFormat 不兼容转换时抛错导致无声/0:00 + probe 用 AVAudioFile 解 mp3 (开发规范: 每次功能升级按 X.Y.Z 更新)
+
+environment:
+  sdk: ^3.7.2
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any # pinned by flutter_localizations; see l10n.yaml
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^3.3.2
+  permission_handler: ^12.0.3
+  sqflite: ^2.4.2
+  shared_preferences: ^2.5.3
+  just_audio:
+    path: third_party/just_audio
+  audio_service: ^0.18.19
+  audio_session: ^0.2.2 # single focus owner; engine reacts to call interruptions
+  rxdart: ^0.28.0
+  http: ^1.6.0
+  screen_brightness: ^2.1.11
+  url_launcher: ^6.3.1 # maker links in About
+  package_info_plus: ^8.3.0 # versionCode for the update checker
+  path_provider: ^2.1.5 # temp dir for the update APK download
+  image_picker: ^1.2.1 # custom playlist covers (Android Photo Picker)
+  share_plus: ^12.0.1 # lyrics cards
+  gamepads: ^0.1.7 # couch-mode controller navigation (handhelds)
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  generate: true # 4.0.23: flutter gen-l10n 自动生成 AppLocalizations
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-400.ttf
+          weight: 400
+        - asset: assets/fonts/Nunito-600.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito-700.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito-800.ttf
+          weight: 800
+
+  assets:
+    - assets/splash/
+    - assets/icon_360.png
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/icon/icon.png
+  adaptive_icon_background: "#F4A7B9"
+  adaptive_icon_foreground: assets/icon/icon_foreground.png

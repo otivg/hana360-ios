@@ -1,0 +1,349 @@
+{
+  "@@locale": "uk",
+  "appName": "Hana360",
+
+  "languageSettings": "Мова",
+  "languageFollowSystem": "Слідувати за системою",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "Скасувати",
+  "commonConfirm": "OK",
+  "commonBack": "Назад",
+  "commonDone": "Готово",
+  "commonUnknown": "Невідомо",
+
+  "secUpmix": "Двигун upmix",
+  "spatialAudioTitle": "Просторовий звук 360°",
+  "npNothingPlaying": "Поки нічого не відтворюється",
+  "npPickSong": "Виберіть пісню зі своєї бібліотеки",
+  "npSpatialSettings": "Налаштування 360°",
+  "npLyrics": "Тексти",
+  "libSearchHint": "Пошук у вашій музиці…",
+  "libClearLibrary": "Очистити бібліотеку",
+  "libImportMusic": "Імпортувати музику",
+  "libError": "Щось пішло не так: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "Нічого не відповідає \"{query}\"",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "Hana360 потрібен дозвіл, щоб знайти вашу музику\nНемає доступу на цьому пристрої? Імпортуйте натомість.",
+  "libNoSongs": "На цьому пристрої не знайдено пісень\nІмпортуйте музику зі своїх файлів, щоб почати",
+  "libGrantAccess": "Надати доступ",
+  "libRescan": "Сканувати знову",
+  "libAddedToQueue": "Додано до черги",
+  "libNoAlbums": "Поки немає альбомів",
+  "libNoFolders": "Поки немає папок",
+  "libNoPlaylists": "Поки немає списків відтворення",
+  "libPlaylistCreated": "Список відтворення \"{name}\" створено 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "довго натисніть папку, щоб перетворити її на список відтворення",
+  "libSongCount": "{count} пісень",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} пісень · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "Не спите допізна ♪",
+  "homeGreetingMorning": "Доброго ранку ♪",
+  "homeGreetingAfternoon": "Доброго дня ♪",
+  "homeGreetingEvening": "Доброго вечора ♪",
+  "homeJumpBackIn": "ПРОДОВЖИТИ",
+  "homeForYou": "ДЛЯ ВАС",
+  "homeForYouSub": "вибрано на цьому пристрої на основі вашого прослуховування",
+  "homeWelcome": "Ласкаво просимо до Hana360 🌸",
+  "homeAllQuiet": "Все тихо 🌸",
+  "homeLibraryHint": "Ваша музика живе на вкладці «Бібліотека» — додайте туди папки. Все, що ви відтворюєте, збирається тут.",
+  "homePlayHint": "Відтворіть щось, і наступного разу воно чекатиме тут.",
+  "youRescanLibrary": "Сканувати бібліотеку знову",
+  "youExcludedFolders": "Виключені папки",
+  "youExcludedFoldersSub": "Сховати папки з бібліотеки",
+  "youCatMode": "Котячий режим",
+  "youAbout": "Про застосунок",
+  "youScanning": "Сканування вашої музики…",
+  "youOpenSource": "Open Source",
+  "youOpenSourceSub": "Hana360 є похідним від Hanamimi (GPLv3) авторства ShaptakNaskar — змінено 2026-08-10",
+  "youCheckUpdates": "Перевірити оновлення",
+  "youCheckUpdatesSub": "Нові збірки з'являються на GitHub Releases",
+  "youUpToDate": "У вас актуальна версія 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Створено Sappy",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "Продовжити відтворення у фоні",
+  "youKeepPlayingAllowed": "Дозволено — система не ставитиме вашу музику на паузу",
+  "youKeepPlayingTap": "Торкніться, щоб система не зупиняла відтворення",
+  "youExcludedFoldersTitle": "Виключені папки",
+  "youExcludedFoldersDesc": "Пісні у вимкнених папках виключаються з бібліотеки",
+  "youVisSensitivity": "Чутливість візуалізатора",
+  "youVisSensitivitySub": "Збільште для пісень, які ледь його рухають",
+  "youNerdMode": "Режим ботана",
+  "youNerdModeSub": "Показати кодек, бітрейт і аудіовихід на екрані «Зараз грає»",
+  "youEqualizer": "Еквалайзер",
+  "youComingSoon": "Скоро",
+  "sleepTimer": "Таймер сну",
+  "sleep15": "15 хвилин",
+  "sleep30": "30 хвилин",
+  "sleep1h": "1 година",
+  "sleepEndTrack": "Кінець пісні",
+  "sleepFading": "Затухання… солодких снів",
+  "sleepIn": "Сон через {time}",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "Сон, коли закінчиться ця пісня",
+  "sleepCancel": "Скасувати таймер",
+  "queueUpNext": "Далі",
+  "queueEmpty": "Черга порожня",
+  "updateAvailable": "Доступне оновлення ✨",
+  "updateNoNotes": "Немає нотаток про випуск.",
+  "updateInstalling": "Відкриття інсталяції…",
+  "updateFailed": "Не вдалося оновити — спробуйте пізніше",
+  "updateLater": "Пізніше",
+  "updateRetry": "Повторити",
+  "updateNow": "Оновити",
+  "spatialToggleTitle": "Просторовий звук 360°",
+  "spatialOn": "Увімк.",
+  "spatialOff": "Вимк.",
+  "lyricsNoFound": "Текст не знайдено",
+  "lyricsJustListening": "Ця пісня — лише для прослуховування",
+  "lyricsTrySource": "Спробуйте інше джерело",
+  "lyricsSource": "Джерело текстів",
+  "lyricsWordSynced": "Синхронізовано по словах",
+  "lyricsLineSynced": "Синхронізовано по рядках",
+  "lyricsUnsynced": "Несинхронізовано",
+  "plNoPlaylists": "Поки немає списків — спершу створіть один!",
+  "plAddToPlaylist": "Додати до списку",
+  "plAddedTo": "Додано до {name}",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "Поділитися текстами",
+  "shareMaxLines": "Вибрано максимальну кількість рядків",
+  "sharePickLines": "Виберіть до {count} рядків",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "Виберіть кілька рядків нижче…",
+  "shareButton": "Поділитися",
+  "batTitle": "Нехай музика продовжує грати 🎵",
+  "batBody": "Оптимізація батареї Android може ставити музику на паузу, коли екран вимкнено. Дозвольте Hana360 працювати без обмежень, щоб відтворення залишалося стабільним.\n\nВи можете будь-коли змінити це у «Ви» → «Продовжити відтворення у фоні».",
+  "batNotNow": "Не зараз",
+  "batAllow": "Дозволити",
+  "algoSwitch": "Алгоритм",
+  "speakerDistance": "Відстань до динаміків",
+  "channelTrim": "Підрізка каналів",
+  "masterGain": "Головне підсилення",
+  "secHrtf": "Персоналізація HRTF",
+  "outputGain": "Вихідне підсилення",
+  "secEq": "Просторовий EQ",
+  "secReverb": "Реверберація",
+  "roomSize": "Кімната",
+  "reverbGain": "Підсилення реверберації",
+  "secTracking": "Відстеження голови",
+  "trackOff": "Вимк.",
+  "trackSensor": "Датчик телефону",
+  "trackManual": "Ручне XY",
+  "dragHint": "Перетягніть, щоб налаштувати орієнтацію голови (звукове поле слідує)",
+  "customEq": "Користувацький",
+  "eqPresetMusic": "Музика",
+  "eqPresetCinema": "Кіно",
+  "eqPresetGame": "Гра",
+  "eqPresetVoice": "Голос",
+
+  "hrtfGroup0": "Чоловік / Мала / Мала",
+  "hrtfGroup1": "Чоловік / Мала / Середня",
+  "hrtfGroup2": "Чоловік / Мала / Велика",
+  "hrtfGroup3": "Чоловік / Середня / Мала",
+  "hrtfGroup4": "Чоловік / Середня / Середня",
+  "hrtfGroup5": "Чоловік / Середня / Велика",
+  "hrtfGroup6": "Чоловік / Велика / Мала",
+  "hrtfGroup7": "Чоловік / Велика / Середня",
+  "hrtfGroup8": "Чоловік / Велика / Велика",
+  "hrtfGroup9": "Жінка / Мала / Мала",
+  "hrtfGroup10": "Жінка / Мала / Середня",
+  "hrtfGroup11": "Жінка / Мала / Велика",
+  "hrtfGroup12": "Жінка / Середня / Мала",
+  "hrtfGroup13": "Жінка / Середня / Середня",
+  "hrtfGroup14": "Жінка / Середня / Велика",
+
+  "navHome": "Головна",
+  "navLibrary": "Бібліотека",
+  "navPlaying": "Відтворення",
+  "navYou": "Ви",
+  "tabSongs": "Пісні",
+  "tabAlbums": "Альбоми",
+  "tabFolders": "Папки",
+  "tabPlaylists": "Списки",
+  "youMood": "НАСТРІЙ",
+  "youCompanion": "ВАШ КОМПАНЬЙОН",
+  "youBuddies": "ДРУЗІ",
+  "youSound": "ЗВУК",
+  "youMore": "БІЛЬШЕ",
+  "themeCherryBlossom": "Цвіт сакури",
+  "themeStarryNight": "Зоряна ніч",
+  "themeAdaptiveLight": "Адаптивна світла",
+  "themeAdaptiveDark": "Адаптивна темна",
+  "youListenedTogether": "{h} год {m} хв прослухано разом",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "Заголовок і «Зараз грає»",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "Сидить на заголовку бібліотеки",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "Дрімає на міні-плеєрі",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "Походжає над вподобаними піснями",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "Сяють на темних темах",
+  "accBow": "Рожевий бант",
+  "accHeadphones": "Крихітні навушники",
+  "accFlower": "Квітка",
+  "accCrown": "Маленька корона",
+  "accUnlockLabel": "Слухайте {h} годин",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "Кросфейд",
+  "youCrossfadeSub": "Змішуйте кінець пісні з наступною",
+  "youSmartShuffle": "Розумне перемішування",
+  "youSmartShuffleSub": "Перемішування тяжіє до ваших улюблених — обчислюється на цьому пристрої",
+
+  "libLikedSongs": "Вподобані пісні",
+  "libTapHeart": "Торкніться сердечка на пісні, щоб зберегти її тут",
+  "libRemovedFromQueue": "Видалено з черги",
+  "libRemovedFromLibrary": "Видалено з бібліотеки",
+  "libRemoveFromLibrary": "Видалити з бібліотеки",
+  "libNewPlaylist": "Новий список",
+  "libPlaylistName": "Назва списку",
+  "libCreate": "Створити",
+  "libSwipeHint": "проведіть ліворуч, щоб видалити · утримуйте, щоб переставити",
+  "libChooseCover": "Вибрати зображення обкладинки",
+  "libBackToArtCover": "Назад до обкладинки пісні",
+  "libDeleteConfirm": "Видалити \"{name}\"?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "Самі пісні залишаться на вашому пристрої",
+  "libKeep": "Зберегти",
+  "libDelete": "Видалити",
+  "libRemoveKeepFile": "Сам файл залишиться на вашому пристрої",
+  "libClearConfirm": "Видалити всі файли?",
+  "libLibraryCleared": "Бібліотеку очищено",
+  "libPickAudioFiles": "Вибрати аудіофайли…",
+  "libImportFolder": "Імпортувати папку",
+  "libScanWholeFolder": "Сканувати всю папку… (рекомендовано)",
+  "libImportFailed": "Імпорт не вдався: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "Аудіофайли не знайдено",
+  "libImportedCount": "Імпортовано {count} пісень",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "Тут поки нічого немає — проведіть ліворуч, щоб видалити, утримуйте, щоб переставити",
+  "sidebarYourLibrary": "ВАША БІБЛІОТЕКА",
+  "sidebarPlaylists": "СПИСКИ ВІДТВОРЕННЯ",
+  "sidebarFolders": "ПАПКИ",
+  "rowQueue": "Черга",
+  "rowRemove": "Видалити",
+  "rowPlaylist": "Список",
+  "plTrackCount": "{count} доріжок",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "Авто",
+  "lyricsSourceEmbedded": "Вбудовані",
+  "lyricsSourceBestQuality": "Найкраща доступна якість",
+  "lyricsSourceFileTags": "З власних тегів аудіофайлу",
+  "lyricsSourceWordOnline": "Синхронізовано по словах (онлайн)",
+  "lyricsSourceLineOnline": "Синхронізовано по рядках (онлайн)",
+  "lyricsSourceNotFound": "Не знайдено для цієї пісні",
+  "npCatModeUnlocked": "Няв?! Котячий режим розблоковано 🐱",
+  "shellResumePlayback": "Продовжити відтворення",
+  "shellPlay": "ВІДТВОРИТИ",
+  "devSection": "РОЗРОБНИК",
+  "devModeUnlocked": "🛠️ Режим розробника розблоковано",
+  "devUnlockAll": "Розблокувати всі аксесуари",
+  "devClearLyricsCache": "Очистити кеш текстів",
+  "devRefetchLyrics": "Повторно отримати всі тексти…",
+  "devLyricsCleared": "Кеш текстів очищено",
+  "devHideOptions": "Сховати параметри розробника",
+  "devModeOff": "Режим розробника вимкнено",
+  "youCantReadFolders": "Не вдалося прочитати ваші музичні папки",
+  "youNoMusicFolders": "Музичних папок не знайдено"
+}

@@ -1,0 +1,349 @@
+{
+  "@@locale": "he",
+  "appName": "Hana360",
+
+  "languageSettings": "שפה",
+  "languageFollowSystem": "עקוב אחר המערכת",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "ביטול",
+  "commonConfirm": "אישור",
+  "commonBack": "חזרה",
+  "commonDone": "סיום",
+  "commonUnknown": "לא ידוע",
+
+  "secUpmix": "מנוע Upmix",
+  "spatialAudioTitle": "שמע מרחבי 360°",
+  "npNothingPlaying": "שום דבר לא מתנגן עדיין",
+  "npPickSong": "בחר שיר מהספרייה שלך",
+  "npSpatialSettings": "הגדרות 360°",
+  "npLyrics": "מילים",
+  "libSearchHint": "חיפוש במוזיקה שלך…",
+  "libClearLibrary": "נקה ספרייה",
+  "libImportMusic": "ייבא מוזיקה",
+  "libError": "משהו השתבש: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "שום דבר לא תואם ל-\"{query}\"",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "Hana360 זקוק להרשאה כדי למצוא את המוזיקה שלך\nאין גישה במכשיר הזה? ייבא במקום זאת.",
+  "libNoSongs": "לא נמצאו שירים במכשיר הזה\nייבא מוזיקה מהקבצים שלך כדי להתחיל",
+  "libGrantAccess": "הענק גישה",
+  "libRescan": "סרוק מחדש",
+  "libAddedToQueue": "נוסף לתור",
+  "libNoAlbums": "אין עדיין אלבומים",
+  "libNoFolders": "אין עדיין תיקיות",
+  "libNoPlaylists": "אין עדיין רשימות השמעה",
+  "libPlaylistCreated": "רשימת ההשמעה \"{name}\" נוצרה 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "לחץ לחיצה ארוכה על תיקיה כדי להפוך אותה לרשימת השמעה",
+  "libSongCount": "{count} שירים",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} שירים · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "ער עד מאוחר ♪",
+  "homeGreetingMorning": "בוקר טוב ♪",
+  "homeGreetingAfternoon": "צהריים טובים ♪",
+  "homeGreetingEvening": "ערב טוב ♪",
+  "homeJumpBackIn": "חזור פנימה",
+  "homeForYou": "בשבילך",
+  "homeForYouSub": "נבחר במכשיר הזה, מההאזנות שלך",
+  "homeWelcome": "ברוך הבא ל-Hana360 🌸",
+  "homeAllQuiet": "הכל שקט 🌸",
+  "homeLibraryHint": "המוזיקה שלך גרה בלשונית הספרייה — הוסף שם תיקיות. כל מה שאתה מנגן נאסף כאן.",
+  "homePlayHint": "נגן משהו והוא יחכה כאן בפעם הבאה.",
+  "youRescanLibrary": "סרוק מחדש את הספרייה",
+  "youExcludedFolders": "תיקיות מוחרגות",
+  "youExcludedFoldersSub": "הסתר תיקיות מהספרייה",
+  "youCatMode": "מצב חתול",
+  "youAbout": "אודות",
+  "youScanning": "סורק את המוזיקה שלך…",
+  "youOpenSource": "קוד פתוח",
+  "youOpenSourceSub": "Hana360 הוא נגזרת של Hanamimi (GPLv3) מאת ShaptakNaskar — שונה ב-2026-08-10",
+  "youCheckUpdates": "בדוק עדכונים",
+  "youCheckUpdatesSub": "גרסאות חדשות מגיעות ל-GitHub Releases",
+  "youUpToDate": "אתה מעודכן 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "נוצר על ידי Sappy",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "המשך נגינה ברקע",
+  "youKeepPlayingAllowed": "מותר — המערכת לא תעצור את המוזיקה שלך",
+  "youKeepPlayingTap": "הקש כדי למנוע מהמערכת לעצור את ההשמעה",
+  "youExcludedFoldersTitle": "תיקיות מוחרגות",
+  "youExcludedFoldersDesc": "שירים בתיקיות כבויות מוחרגים מהספרייה",
+  "youVisSensitivity": "רגישות הממחיש",
+  "youVisSensitivitySub": "הגבר עבור שירים שכמעט לא מזיזים אותו",
+  "youNerdMode": "מצב חנון",
+  "youNerdModeSub": "הצג codec, bitrate ויציאת שמע במסך מתנגן עכשיו",
+  "youEqualizer": "אקולייזר",
+  "youComingSoon": "בקרוב",
+  "sleepTimer": "טיימר שינה",
+  "sleep15": "15 דקות",
+  "sleep30": "30 דקות",
+  "sleep1h": "שעה אחת",
+  "sleepEndTrack": "סוף השיר",
+  "sleepFading": "דועך… חלומות מתוקים",
+  "sleepIn": "שינה בעוד {time}",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "שינה כשהשיר הזה יסתיים",
+  "sleepCancel": "בטל טיימר",
+  "queueUpNext": "הבא בתור",
+  "queueEmpty": "התור ריק",
+  "updateAvailable": "עדכון זמין ✨",
+  "updateNoNotes": "אין הערות גרסה.",
+  "updateInstalling": "פותח התקנה…",
+  "updateFailed": "לא ניתן לעדכן — נסה שוב מאוחר יותר",
+  "updateLater": "מאוחר יותר",
+  "updateRetry": "נסה שוב",
+  "updateNow": "עדכן",
+  "spatialToggleTitle": "שמע מרחבי 360°",
+  "spatialOn": "פועל",
+  "spatialOff": "כבוי",
+  "lyricsNoFound": "לא נמצאו מילים",
+  "lyricsJustListening": "זה רק להאזנה",
+  "lyricsTrySource": "נסה מקור אחר",
+  "lyricsSource": "מקור המילים",
+  "lyricsWordSynced": "מסונכרן לפי מילים",
+  "lyricsLineSynced": "מסונכרן לפי שורות",
+  "lyricsUnsynced": "לא מסונכרן",
+  "plNoPlaylists": "אין עדיין רשימות — צור אחת קודם!",
+  "plAddToPlaylist": "הוסף לרשימת השמעה",
+  "plAddedTo": "נוסף ל-{name}",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "שתף מילים",
+  "shareMaxLines": "נבחר מספר שורות מקסימלי",
+  "sharePickLines": "בחר עד {count} שורות",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "בחר כמה שורות למטה…",
+  "shareButton": "שתף",
+  "batTitle": "המשך לנגן את המוזיקה 🎵",
+  "batBody": "אופטימיזציית הסוללה של Android עשויה להשהות את המוזיקה כשהמסך כבוי. אפשר ל-Hana360 לפעול ללא הגבלה כדי שההשמעה תישאר יציבה.\n\nתוכל לשנות זאת בכל עת ב-אתה → \"המשך נגינה ברקע\".",
+  "batNotNow": "לא עכשיו",
+  "batAllow": "אפשר",
+  "algoSwitch": "אלגוריתם",
+  "speakerDistance": "מרחק רמקולים",
+  "channelTrim": "חיתוך ערוץ",
+  "masterGain": "הגבר מאסטר",
+  "secHrtf": "התאמה אישית של HRTF",
+  "outputGain": "הגבר פלט",
+  "secEq": "EQ מרחבי",
+  "secReverb": "הדהוד",
+  "roomSize": "חדר",
+  "reverbGain": "הגבר הדהוד",
+  "secTracking": "מעקב ראש",
+  "trackOff": "כבוי",
+  "trackSensor": "חיישן הטלפון",
+  "trackManual": "XY ידני",
+  "dragHint": "גרור כדי לכוונן את כיוון הראש (שדה השמע עוקב)",
+  "customEq": "מותאם אישית",
+  "eqPresetMusic": "מוזיקה",
+  "eqPresetCinema": "קולנוע",
+  "eqPresetGame": "משחק",
+  "eqPresetVoice": "קול",
+
+  "hrtfGroup0": "גבר / קטן / קטן",
+  "hrtfGroup1": "גבר / קטן / בינוני",
+  "hrtfGroup2": "גבר / קטן / גדול",
+  "hrtfGroup3": "גבר / בינוני / קטן",
+  "hrtfGroup4": "גבר / בינוני / בינוני",
+  "hrtfGroup5": "גבר / בינוני / גדול",
+  "hrtfGroup6": "גבר / גדול / קטן",
+  "hrtfGroup7": "גבר / גדול / בינוני",
+  "hrtfGroup8": "גבר / גדול / גדול",
+  "hrtfGroup9": "אישה / קטן / קטן",
+  "hrtfGroup10": "אישה / קטן / בינוני",
+  "hrtfGroup11": "אישה / קטן / גדול",
+  "hrtfGroup12": "אישה / בינוני / קטן",
+  "hrtfGroup13": "אישה / בינוני / בינוני",
+  "hrtfGroup14": "אישה / בינוני / גדול",
+
+  "navHome": "בית",
+  "navLibrary": "ספרייה",
+  "navPlaying": "מתנגן",
+  "navYou": "אתה",
+  "tabSongs": "שירים",
+  "tabAlbums": "אלבומים",
+  "tabFolders": "תיקיות",
+  "tabPlaylists": "רשימות השמעה",
+  "youMood": "מצב רוח",
+  "youCompanion": "המלווה שלך",
+  "youBuddies": "חברים",
+  "youSound": "צליל",
+  "youMore": "עוד",
+  "themeCherryBlossom": "פריחת דובדבן",
+  "themeStarryNight": "ליל כוכבים",
+  "themeAdaptiveLight": "בהיר אדפטיבי",
+  "themeAdaptiveDark": "כהה אדפטיבי",
+  "youListenedTogether": "{h} שע' {m} דק' האזנה משותפת",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "כותרת ומתנגן עכשיו",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "יושב על כותרת הספרייה",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "מנמנם על הנגן הקטן",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "צועד מעל השירים שאוהבים",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "זוהרים בערכות הנושא הכהות",
+  "accBow": "קשת ורודה",
+  "accHeadphones": "אוזניות זעירות",
+  "accFlower": "פרח",
+  "accCrown": "כתר זעיר",
+  "accUnlockLabel": "האזן במשך {h} שעות",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "Crossfade",
+  "youCrossfadeSub": "מזג את סוף השיר עם הבא",
+  "youSmartShuffle": "ערבוב חכם",
+  "youSmartShuffleSub": "הערבוב נוטה למועדפים שלך — מחושב במכשיר הזה",
+
+  "libLikedSongs": "שירים אהובים",
+  "libTapHeart": "הקש על הלב בשיר כדי לשמור אותו כאן",
+  "libRemovedFromQueue": "הוסר מהתור",
+  "libRemovedFromLibrary": "הוסר מהספרייה",
+  "libRemoveFromLibrary": "הסר מהספרייה",
+  "libNewPlaylist": "רשימת השמעה חדשה",
+  "libPlaylistName": "שם הרשימה",
+  "libCreate": "צור",
+  "libSwipeHint": "החלק שמאלה להסרה · החזק לסידור מחדש",
+  "libChooseCover": "בחר תמונת עטיפה",
+  "libBackToArtCover": "חזרה לעטיפת השיר",
+  "libDeleteConfirm": "למחוק את \"{name}\"?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "השירים עצמם נשארים במכשיר שלך",
+  "libKeep": "שמור",
+  "libDelete": "מחק",
+  "libRemoveKeepFile": "הקובץ עצמו נשאר במכשיר שלך",
+  "libClearConfirm": "להסיר את כל הקבצים?",
+  "libLibraryCleared": "הספרייה נוקתה",
+  "libPickAudioFiles": "בחר קבצי שמע…",
+  "libImportFolder": "ייבא תיקיה",
+  "libScanWholeFolder": "סרוק תיקיה שלמה… (מומלץ)",
+  "libImportFailed": "הייבוא נכשל: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "לא נמצאו קבצי שמע",
+  "libImportedCount": "יובאו {count} שירים",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "אין כאן עדיין כלום — החלק שמאלה להסרה, החזק לסידור מחדש",
+  "sidebarYourLibrary": "הספרייה שלך",
+  "sidebarPlaylists": "רשימות השמעה",
+  "sidebarFolders": "תיקיות",
+  "rowQueue": "תור",
+  "rowRemove": "הסר",
+  "rowPlaylist": "רשימת השמעה",
+  "plTrackCount": "{count} רצועות",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "אוטומטי",
+  "lyricsSourceEmbedded": "מוטבע",
+  "lyricsSourceBestQuality": "האיכות הטובה ביותר הזמינה",
+  "lyricsSourceFileTags": "מהתגים של קובץ השמע עצמו",
+  "lyricsSourceWordOnline": "מסונכרן לפי מילים (מקוון)",
+  "lyricsSourceLineOnline": "מסונכרן לפי שורות (מקוון)",
+  "lyricsSourceNotFound": "לא נמצא עבור השיר הזה",
+  "npCatModeUnlocked": "מיאו?! מצב חתול נפתח 🐱",
+  "shellResumePlayback": "המשך השמעה",
+  "shellPlay": "נגן",
+  "devSection": "מפתח",
+  "devModeUnlocked": "🛠️ מצב מפתח נפתח",
+  "devUnlockAll": "פתח את כל האביזרים",
+  "devClearLyricsCache": "נקה מטמון מילים",
+  "devRefetchLyrics": "טען מחדש את כל המילים…",
+  "devLyricsCleared": "מטמון המילים נוקה",
+  "devHideOptions": "הסתר אפשרויות מפתח",
+  "devModeOff": "מצב מפתח כבוי",
+  "youCantReadFolders": "לא ניתן לקרוא את תיקיות המוזיקה שלך",
+  "youNoMusicFolders": "לא נמצאו תיקיות מוזיקה"
+}

@@ -1,0 +1,349 @@
+{
+  "@@locale": "el",
+  "appName": "Hana360",
+
+  "languageSettings": "Γλώσσα",
+  "languageFollowSystem": "Ακολούθηση συστήματος",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "Ακύρωση",
+  "commonConfirm": "OK",
+  "commonBack": "Πίσω",
+  "commonDone": "Τέλος",
+  "commonUnknown": "Άγνωστο",
+
+  "secUpmix": "Μηχανή upmix",
+  "spatialAudioTitle": "Χωρικός ήχος 360°",
+  "npNothingPlaying": "Δεν αναπαράγεται τίποτα ακόμα",
+  "npPickSong": "Διάλεξε ένα τραγούδι από τη βιβλιοθήκη σου",
+  "npSpatialSettings": "Ρυθμίσεις 360°",
+  "npLyrics": "Στίχοι",
+  "libSearchHint": "Αναζήτηση στη μουσική σου…",
+  "libClearLibrary": "Καθαρισμός βιβλιοθήκης",
+  "libImportMusic": "Εισαγωγή μουσικής",
+  "libError": "Κάτι πήγε στραβά: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "Τίποτα δεν αντιστοιχεί στο \"{query}\"",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "Το Hana360 χρειάζεται άδεια για να βρει τη μουσική σου\nΔεν υπάρχει πρόσβαση σε αυτή τη συσκευή; Εισαγωγή αντ' αυτού.",
+  "libNoSongs": "Δεν βρέθηκαν τραγούδια σε αυτή τη συσκευή\nΕισαγωγή μουσικής από τα αρχεία σου για να ξεκινήσεις",
+  "libGrantAccess": "Παροχή πρόσβασης",
+  "libRescan": "Νέα σάρωση",
+  "libAddedToQueue": "Προστέθηκε στην ουρά",
+  "libNoAlbums": "Κανένα άλμπουμ ακόμα",
+  "libNoFolders": "Κανένας φάκελος ακόμα",
+  "libNoPlaylists": "Καμία λίστα αναπαραγωγής ακόμα",
+  "libPlaylistCreated": "Η λίστα \"{name}\" δημιουργήθηκε 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "κράτησε πατημένο έναν φάκελο για να τον μετατρέψεις σε λίστα",
+  "libSongCount": "{count} τραγούδια",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} τραγούδια · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "Ξύπνιος αργά ♪",
+  "homeGreetingMorning": "Καλημέρα ♪",
+  "homeGreetingAfternoon": "Καλησπέρα ♪",
+  "homeGreetingEvening": "Καλό βράδυ ♪",
+  "homeJumpBackIn": "ΣΥΝΕΧΙΣΕ",
+  "homeForYou": "ΓΙΑ ΣΕΝΑ",
+  "homeForYouSub": "επιλεγμένο σε αυτή τη συσκευή από τις ακροάσεις σου",
+  "homeWelcome": "Καλώς ήρθες στο Hana360 🌸",
+  "homeAllQuiet": "Όλα ήσυχα 🌸",
+  "homeLibraryHint": "Η μουσική σου ζει στην καρτέλα Βιβλιοθήκη — πρόσθεσε εκεί φακέλους. Ό,τι αναπαράγεις μαζεύεται εδώ.",
+  "homePlayHint": "Παίξε κάτι και θα σε περιμένει εδώ την επόμενη φορά.",
+  "youRescanLibrary": "Νέα σάρωση βιβλιοθήκης",
+  "youExcludedFolders": "Εξαιρούμενοι φάκελοι",
+  "youExcludedFoldersSub": "Απόκρυψη φακέλων από τη βιβλιοθήκη",
+  "youCatMode": "Λειτουργία γάτας",
+  "youAbout": "Σχετικά",
+  "youScanning": "Σάρωση της μουσικής σου…",
+  "youOpenSource": "Open Source",
+  "youOpenSourceSub": "Το Hana360 είναι παράγωγο του Hanamimi (GPLv3) του ShaptakNaskar — τροποποιήθηκε 2026-08-10",
+  "youCheckUpdates": "Έλεγχος ενημερώσεων",
+  "youCheckUpdatesSub": "Νέες εκδόσεις έρχονται στο GitHub Releases",
+  "youUpToDate": "Είσαι ενημερωμένος 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Φτιαγμένο από τον Sappy",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "Συνέχιση αναπαραγωγής στο παρασκήνιο",
+  "youKeepPlayingAllowed": "Επιτρέπεται — το σύστημα δεν θα διακόψει τη μουσική σου",
+  "youKeepPlayingTap": "Πάτησε για να μην σταματά το σύστημα την αναπαραγωγή",
+  "youExcludedFoldersTitle": "Εξαιρούμενοι φάκελοι",
+  "youExcludedFoldersDesc": "Τα τραγούδια σε απενεργοποιημένους φακέλους εξαιρούνται από τη βιβλιοθήκη",
+  "youVisSensitivity": "Ευαισθησία οπτικοποιητή",
+  "youVisSensitivitySub": "Αύξησέ την για τραγούδια που μετά βίας τον κινούν",
+  "youNerdMode": "Λειτουργία nerd",
+  "youNerdModeSub": "Εμφάνιση κωδικοποιητή, bitrate και εξόδου ήχου στο Παίζει τώρα",
+  "youEqualizer": "Ισοσταθμιστής",
+  "youComingSoon": "Έρχεται σύντομα",
+  "sleepTimer": "Χρονοδιακόπτης ύπνου",
+  "sleep15": "15 λεπτά",
+  "sleep30": "30 λεπτά",
+  "sleep1h": "1 ώρα",
+  "sleepEndTrack": "Τέλος τραγουδιού",
+  "sleepFading": "Σβήσιμο… όνειρα γλυκά",
+  "sleepIn": "Ύπνος σε {time}",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "Ύπνος όταν τελειώσει αυτό το τραγούδι",
+  "sleepCancel": "Ακύρωση χρονοδιακόπτη",
+  "queueUpNext": "Επόμενο",
+  "queueEmpty": "Η ουρά είναι κενή",
+  "updateAvailable": "Διαθέσιμη ενημέρωση ✨",
+  "updateNoNotes": "Καμία σημείωση έκδοσης.",
+  "updateInstalling": "Άνοιγμα εγκατάστασης…",
+  "updateFailed": "Η ενημέρωση απέτυχε — δοκίμασε αργότερα",
+  "updateLater": "Αργότερα",
+  "updateRetry": "Επανάληψη",
+  "updateNow": "Ενημέρωση",
+  "spatialToggleTitle": "Χωρικός ήχος 360°",
+  "spatialOn": "Ενεργό",
+  "spatialOff": "Ανενεργό",
+  "lyricsNoFound": "Δεν βρέθηκαν στίχοι",
+  "lyricsJustListening": "Αυτό είναι μόνο για ακρόαση",
+  "lyricsTrySource": "Δοκίμασε άλλη πηγή",
+  "lyricsSource": "Πηγή στίχων",
+  "lyricsWordSynced": "Συγχρονισμένο ανά λέξη",
+  "lyricsLineSynced": "Συγχρονισμένο ανά γραμμή",
+  "lyricsUnsynced": "Μη συγχρονισμένο",
+  "plNoPlaylists": "Καμία λίστα ακόμα — φτιάξε πρώτα μία!",
+  "plAddToPlaylist": "Προσθήκη στη λίστα",
+  "plAddedTo": "Προστέθηκε στο {name}",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "Κοινοποίηση στίχων",
+  "shareMaxLines": "Επιλέχθηκε μέγιστος αριθμός γραμμών",
+  "sharePickLines": "Επίλεξε έως {count} γραμμές",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "Επίλεξε μερικές γραμμές παρακάτω…",
+  "shareButton": "Κοινοποίηση",
+  "batTitle": "Συνέχισε να παίζει η μουσική 🎵",
+  "batBody": "Η βελτιστοποίηση μπαταρίας του Android μπορεί να διακόψει τη μουσική όταν η οθόνη είναι κλειστή. Επίτρεψε στο Hana360 να τρέχει χωρίς περιορισμούς για σταθερή αναπαραγωγή.\n\nΜπορείς να το αλλάξεις ανά πάσα στιγμή στο Εσύ → \"Συνέχιση αναπαραγωγής στο παρασκήνιο\".",
+  "batNotNow": "Όχι τώρα",
+  "batAllow": "Να επιτραπεί",
+  "algoSwitch": "Αλγόριθμος",
+  "speakerDistance": "Απόσταση ηχείων",
+  "channelTrim": "Περικοπή καναλιού",
+  "masterGain": "Κύρια ενίσχυση",
+  "secHrtf": "Εξατομίκευση HRTF",
+  "outputGain": "Ενίσχυση εξόδου",
+  "secEq": "Χωρικό EQ",
+  "secReverb": "Αντήχηση",
+  "roomSize": "Δωμάτιο",
+  "reverbGain": "Ενίσχυση αντήχησης",
+  "secTracking": "Παρακολούθηση κεφαλής",
+  "trackOff": "Ανενεργό",
+  "trackSensor": "Αισθητήρας τηλεφώνου",
+  "trackManual": "Χειροκίνητο XY",
+  "dragHint": "Σύρε για να ρυθμίσεις τον προσανατολισμό της κεφαλής (το ηχητικό πεδίο ακολουθεί)",
+  "customEq": "Προσαρμοσμένο",
+  "eqPresetMusic": "Μουσική",
+  "eqPresetCinema": "Κινηματογράφος",
+  "eqPresetGame": "Παιχνίδι",
+  "eqPresetVoice": "Φωνή",
+
+  "hrtfGroup0": "Άνδρας / Μικρό / Μικρό",
+  "hrtfGroup1": "Άνδρας / Μικρό / Μεσαίο",
+  "hrtfGroup2": "Άνδρας / Μικρό / Μεγάλο",
+  "hrtfGroup3": "Άνδρας / Μεσαίο / Μικρό",
+  "hrtfGroup4": "Άνδρας / Μεσαίο / Μεσαίο",
+  "hrtfGroup5": "Άνδρας / Μεσαίο / Μεγάλο",
+  "hrtfGroup6": "Άνδρας / Μεγάλο / Μικρό",
+  "hrtfGroup7": "Άνδρας / Μεγάλο / Μεσαίο",
+  "hrtfGroup8": "Άνδρας / Μεγάλο / Μεγάλο",
+  "hrtfGroup9": "Γυναίκα / Μικρό / Μικρό",
+  "hrtfGroup10": "Γυναίκα / Μικρό / Μεσαίο",
+  "hrtfGroup11": "Γυναίκα / Μικρό / Μεγάλο",
+  "hrtfGroup12": "Γυναίκα / Μεσαίο / Μικρό",
+  "hrtfGroup13": "Γυναίκα / Μεσαίο / Μεσαίο",
+  "hrtfGroup14": "Γυναίκα / Μεσαίο / Μεγάλο",
+
+  "navHome": "Αρχική",
+  "navLibrary": "Βιβλιοθήκη",
+  "navPlaying": "Αναπαραγωγή",
+  "navYou": "Εσύ",
+  "tabSongs": "Τραγούδια",
+  "tabAlbums": "Άλμπουμ",
+  "tabFolders": "Φάκελοι",
+  "tabPlaylists": "Λίστες",
+  "youMood": "ΔΙΑΘΕΣΗ",
+  "youCompanion": "Ο ΣΥΝΤΡΟΦΟΣ ΣΟΥ",
+  "youBuddies": "ΦΙΛΟΙ",
+  "youSound": "ΗΧΟΣ",
+  "youMore": "ΠΕΡΙΣΣΟΤΕΡΑ",
+  "themeCherryBlossom": "Άνθος κερασιάς",
+  "themeStarryNight": "Έναστρη νύχτα",
+  "themeAdaptiveLight": "Προσαρμοστικό φωτεινό",
+  "themeAdaptiveDark": "Προσαρμοστικό σκούρο",
+  "youListenedTogether": "{h} ώ {m} λ ακρόασης μαζί",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "Κεφαλίδα και Παίζει τώρα",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "Κάθεται στον τίτλο της βιβλιοθήκης",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "Κοιμάται στο mini player",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "Περπατά πάνω από τα αγαπημένα",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "Λάμπουν στα σκούρα θέματα",
+  "accBow": "Ροζ φιόγκος",
+  "accHeadphones": "Μικροσκοπικά ακουστικά",
+  "accFlower": "Λουλούδι",
+  "accCrown": "Μικρή κορώνα",
+  "accUnlockLabel": "Άκουσε για {h} ώρες",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "Crossfade",
+  "youCrossfadeSub": "Ανάμειξε το τέλος ενός τραγουδιού με το επόμενο",
+  "youSmartShuffle": "Έξυπνη αναπαραγωγή",
+  "youSmartShuffleSub": "Η αναπαραγωγή κλίνει προς τα αγαπημένα σου — υπολογίζεται σε αυτή τη συσκευή",
+
+  "libLikedSongs": "Αγαπημένα τραγούδια",
+  "libTapHeart": "Πάτησε την καρδιά σε ένα τραγούδι για να το κρατήσεις εδώ",
+  "libRemovedFromQueue": "Αφαιρέθηκε από την ουρά",
+  "libRemovedFromLibrary": "Αφαιρέθηκε από τη βιβλιοθήκη",
+  "libRemoveFromLibrary": "Αφαίρεση από τη βιβλιοθήκη",
+  "libNewPlaylist": "Νέα λίστα",
+  "libPlaylistName": "Όνομα λίστας",
+  "libCreate": "Δημιουργία",
+  "libSwipeHint": "σύρε αριστερά για αφαίρεση · κράτησε για αναδιάταξη",
+  "libChooseCover": "Επίλεξε εικόνα εξωφύλλου",
+  "libBackToArtCover": "Πίσω στο εξώφυλλο τραγουδιού",
+  "libDeleteConfirm": "Διαγραφή \"{name}\"?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "Τα ίδια τα τραγούδια παραμένουν στη συσκευή σου",
+  "libKeep": "Κράτηση",
+  "libDelete": "Διαγραφή",
+  "libRemoveKeepFile": "Το ίδιο το αρχείο παραμένει στη συσκευή σου",
+  "libClearConfirm": "Αφαίρεση όλων των αρχείων;",
+  "libLibraryCleared": "Η βιβλιοθήκη καθαρίστηκε",
+  "libPickAudioFiles": "Επίλεξε αρχεία ήχου…",
+  "libImportFolder": "Εισαγωγή φακέλου",
+  "libScanWholeFolder": "Σάρωση ολόκληρου φακέλου… (συνιστάται)",
+  "libImportFailed": "Η εισαγωγή απέτυχε: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "Δεν βρέθηκαν αρχεία ήχου",
+  "libImportedCount": "Εισήχθησαν {count} τραγούδια",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "Τίποτα εδώ ακόμα — σύρε αριστερά για αφαίρεση, κράτησε για αναδιάταξη",
+  "sidebarYourLibrary": "Η ΒΙΒΛΙΟΘΗΚΗ ΣΟΥ",
+  "sidebarPlaylists": "ΛΙΣΤΕΣ ΑΝΑΠΑΡΑΓΩΓΗΣ",
+  "sidebarFolders": "ΦΑΚΕΛΟΙ",
+  "rowQueue": "Ουρά",
+  "rowRemove": "Αφαίρεση",
+  "rowPlaylist": "Λίστα",
+  "plTrackCount": "{count} κομμάτια",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "Αυτόματα",
+  "lyricsSourceEmbedded": "Ενσωματωμένοι",
+  "lyricsSourceBestQuality": "Καλύτερη διαθέσιμη ποιότητα",
+  "lyricsSourceFileTags": "Από τις ετικέτες του αρχείου ήχου",
+  "lyricsSourceWordOnline": "Συγχρονισμένο ανά λέξη (online)",
+  "lyricsSourceLineOnline": "Συγχρονισμένο ανά γραμμή (online)",
+  "lyricsSourceNotFound": "Δεν βρέθηκε για αυτό το τραγούδι",
+  "npCatModeUnlocked": "Νιάου?! Ξεκλειδώθηκε η λειτουργία γάτας 🐱",
+  "shellResumePlayback": "Συνέχιση αναπαραγωγής",
+  "shellPlay": "ΑΝΑΠΑΡΑΓΩΓΗ",
+  "devSection": "ΠΡΟΓΡΑΜΜΑΤΙΣΤΗΣ",
+  "devModeUnlocked": "🛠️ Ξεκλειδώθηκε η λειτουργία προγραμματιστή",
+  "devUnlockAll": "Ξεκλείδωμα όλων των αξεσουάρ",
+  "devClearLyricsCache": "Καθαρισμός προσωρινής μνήμης στίχων",
+  "devRefetchLyrics": "Επαναφόρτωση όλων των στίχων…",
+  "devLyricsCleared": "Η προσωρινή μνήμη στίχων καθαρίστηκε",
+  "devHideOptions": "Απόκρυψη επιλογών προγραμματιστή",
+  "devModeOff": "Λειτουργία προγραμματιστή απενεργοποιημένη",
+  "youCantReadFolders": "Δεν ήταν δυνατή η ανάγνωση των φακέλων μουσικής σου",
+  "youNoMusicFolders": "Δεν βρέθηκαν φάκελοι μουσικής"
+}

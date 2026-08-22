@@ -1,0 +1,349 @@
+{
+  "@@locale": "ta",
+  "appName": "Hana360",
+
+  "languageSettings": "மொழி",
+  "languageFollowSystem": "கணினியைப் பின்தொடர்",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "ரத்துசெய்",
+  "commonConfirm": "சரி",
+  "commonBack": "பின்",
+  "commonDone": "முடிந்தது",
+  "commonUnknown": "தெரியாது",
+
+  "secUpmix": "அப்மிக்ஸ் இன்ஜின்",
+  "spatialAudioTitle": "360° ஸ்பேஷியல் ஆடியோ",
+  "npNothingPlaying": "இன்னும் எதுவும் இயங்கவில்லை",
+  "npPickSong": "உங்கள் நூலகத்திலிருந்து ஒரு பாடலைத் தேர்ந்தெடுக்கவும்",
+  "npSpatialSettings": "360° அமைப்புகள்",
+  "npLyrics": "பாடல் வரிகள்",
+  "libSearchHint": "உங்கள் இசையில் தேடு…",
+  "libClearLibrary": "நூலகத்தை காலி செய்",
+  "libImportMusic": "இசையை இறக்குமதி செய்",
+  "libError": "ஏதோ தவறு: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "\"{query}\" உடன் எதுவும் பொருந்தவில்லை",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "உங்கள் இசையை கண்டறிய Hana360 க்கு அனுமதி தேவை\nஇந்த சாதனத்தில் அணுகல் இல்லையா? அதற்கு பதிலாக இறக்குமதி செய்யுங்கள்.",
+  "libNoSongs": "இந்த சாதனத்தில் பாடல்கள் எதுவும் காணப்படவில்லை\nதொடங்க உங்கள் கோப்புகளிலிருந்து இசையை இறக்குமதி செய்யுங்கள்",
+  "libGrantAccess": "அணுகலை வழங்கு",
+  "libRescan": "மீண்டும் ஸ்கேன் செய்",
+  "libAddedToQueue": "வரிசையில் சேர்க்கப்பட்டது",
+  "libNoAlbums": "இன்னும் ஆல்பங்கள் இல்லை",
+  "libNoFolders": "இன்னும் கோப்புறைகள் இல்லை",
+  "libNoPlaylists": "இன்னும் பிளேலிஸ்ட்கள் இல்லை",
+  "libPlaylistCreated": "பிளேலிஸ்ட் \"{name}\" உருவாக்கப்பட்டது 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "கோப்புறையை பிளேலிஸ்டாக மாற்ற நீண்ட நேரம் அழுத்தவும்",
+  "libSongCount": "{count} பாடல்கள்",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} பாடல்கள் · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "தாமதமாக விழித்திருக்கிறீர்கள் ♪",
+  "homeGreetingMorning": "காலை வணக்கம் ♪",
+  "homeGreetingAfternoon": "மதிய வணக்கம் ♪",
+  "homeGreetingEvening": "மாலை வணக்கம் ♪",
+  "homeJumpBackIn": "மீண்டும் இணையுங்கள்",
+  "homeForYou": "உங்களுக்காக",
+  "homeForYouSub": "உங்கள் கேட்பதிலிருந்து, இந்த சாதனத்தில் தேர்ந்தெடுக்கப்பட்டது",
+  "homeWelcome": "Hana360 க்கு வரவேற்கிறோம் 🌸",
+  "homeAllQuiet": "எல்லாம் அமைதி 🌸",
+  "homeLibraryHint": "உங்கள் இசை நூலகம் தாவலில் வாழ்கிறது — அங்கு கோப்புறைகளைச் சேர்க்கவும். நீங்கள் இயக்குவதெல்லாம் இங்கே சேகரமாகும்.",
+  "homePlayHint": "ஏதாவது இயக்குங்கள், அடுத்த முறை அது இங்கே காத்திருக்கும்.",
+  "youRescanLibrary": "நூலகத்தை மீண்டும் ஸ்கேன் செய்",
+  "youExcludedFolders": "விலக்கப்பட்ட கோப்புறைகள்",
+  "youExcludedFoldersSub": "நூலகத்திலிருந்து கோப்புறைகளை மறை",
+  "youCatMode": "பூனை மோட்",
+  "youAbout": "பற்றி",
+  "youScanning": "உங்கள் இசை ஸ்கேன் செய்யப்படுகிறது…",
+  "youOpenSource": "ஓப்பன் சோர்ஸ்",
+  "youOpenSourceSub": "ShaptakNaskar இன் Hanamimi (GPLv3) இன் வழித்தோன்றல் Hana360 — 2026-08-10 அன்று மாற்றப்பட்டது",
+  "youCheckUpdates": "புதுப்பிப்புகளை சரிபார்",
+  "youCheckUpdatesSub": "புதிய பில்டுகள் GitHub Releases இல் வரும்",
+  "youUpToDate": "நீங்கள் தற்போதையவர் 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Sappy உருவாக்கியது",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "பின்னணியில் இயக்குவதை தொடரவும்",
+  "youKeepPlayingAllowed": "அனுமதிக்கப்பட்டது — கணினி உங்கள் இசையை இடைநிறுத்தாது",
+  "youKeepPlayingTap": "கணினி பிளேபேக்கை நிறுத்துவதை தடுக்க தட்டவும்",
+  "youExcludedFoldersTitle": "விலக்கப்பட்ட கோப்புறைகள்",
+  "youExcludedFoldersDesc": "முடக்கப்பட்ட கோப்புறைகளில் உள்ள பாடல்கள் நூலகத்திலிருந்து விலக்கப்படும்",
+  "youVisSensitivity": "விஷுவலைசர் உணர்திறன்",
+  "youVisSensitivitySub": "அதை அரிதாக அசைக்கும் பாடல்களுக்கு அதிகரிக்கவும்",
+  "youNerdMode": "நெர்ட் மோட்",
+  "youNerdModeSub": "இப்போது இயங்குகிறது இல் codec, bitrate மற்றும் ஆடியோ வெளியீட்டை காட்டு",
+  "youEqualizer": "ஈக்வலைசர்",
+  "youComingSoon": "விரைவில்",
+  "sleepTimer": "தூக்க நேரம்",
+  "sleep15": "15 நிமிடங்கள்",
+  "sleep30": "30 நிமிடங்கள்",
+  "sleep1h": "1 மணிநேரம்",
+  "sleepEndTrack": "பாடலின் முடிவு",
+  "sleepFading": "மங்குகிறது… இனிய கனவுகள்",
+  "sleepIn": "{time} இல் தூக்கம்",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "இந்த பாடல் முடிந்ததும் தூக்கம்",
+  "sleepCancel": "டைமரை ரத்து செய்",
+  "queueUpNext": "அடுத்து",
+  "queueEmpty": "வரிசை காலியாக உள்ளது",
+  "updateAvailable": "புதுப்பிப்பு கிடைக்கிறது ✨",
+  "updateNoNotes": "வெளியீட்டு குறிப்புகள் இல்லை.",
+  "updateInstalling": "நிறுவலை திறக்கிறது…",
+  "updateFailed": "புதுப்பிக்க முடியவில்லை — பின்னர் மீண்டும் முயற்சிக்கவும்",
+  "updateLater": "பின்னர்",
+  "updateRetry": "மீண்டும் முயற்சி",
+  "updateNow": "புதுப்பி",
+  "spatialToggleTitle": "360° ஸ்பேஷியல் ஆடியோ",
+  "spatialOn": "இயக்கு",
+  "spatialOff": "நிறுத்து",
+  "lyricsNoFound": "பாடல் வரிகள் கிடைக்கவில்லை",
+  "lyricsJustListening": "இது கேட்பதற்கு மட்டுமே",
+  "lyricsTrySource": "வேறு மூலத்தை முயற்சிக்கவும்",
+  "lyricsSource": "பாடல் வரிகளின் மூலம்",
+  "lyricsWordSynced": "சொல்-ஒத்திசைவு",
+  "lyricsLineSynced": "வரி-ஒத்திசைவு",
+  "lyricsUnsynced": "ஒத்திசைவற்றது",
+  "plNoPlaylists": "இன்னும் பிளேலிஸ்ட்கள் இல்லை — முதலில் ஒன்றை உருவாக்குங்கள்!",
+  "plAddToPlaylist": "பிளேலிஸ்டில் சேர்",
+  "plAddedTo": "{name} இல் சேர்க்கப்பட்டது",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "பாடல் வரிகளைப் பகிர்",
+  "shareMaxLines": "அதிகபட்ச வரிகள் தேர்ந்தெடுக்கப்பட்டன",
+  "sharePickLines": "{count} வரை வரிகளைத் தேர்ந்தெடுக்கவும்",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "கீழே சில வரிகளைத் தேர்ந்தெடுக்கவும்…",
+  "shareButton": "பகிர்",
+  "batTitle": "இசை தொடர்ந்து இயங்கட்டும் 🎵",
+  "batBody": "Android இன் பேட்டரி ஆப்டிமைசேஷன் திரை அணைந்திருக்கும்போது இசையை இடைநிறுத்தலாம். நிலையான பிளேபேக்கிற்கு Hana360 கட்டுப்பாடின்றி இயங்க அனுமதிக்கவும்.\n\nநீங்கள் → \"பின்னணியில் இயக்குவதை தொடரவும்\" இல் எப்போது வேண்டுமானாலும் இதை மாற்றலாம்.",
+  "batNotNow": "இப்போது இல்லை",
+  "batAllow": "அனுமதி",
+  "algoSwitch": "அல்கோரிதம்",
+  "speakerDistance": "ஸ்பீக்கர் தூரம்",
+  "channelTrim": "சேனல் டிரிம்",
+  "masterGain": "மாஸ்டர் கெய்ன்",
+  "secHrtf": "HRTF தனிப்பயனாக்கம்",
+  "outputGain": "வெளியீட்டு கெய்ன்",
+  "secEq": "ஸ்பேஷியல் EQ",
+  "secReverb": "ரிவெர்ப்",
+  "roomSize": "அறை",
+  "reverbGain": "ரிவெர்ப் கெய்ன்",
+  "secTracking": "தலை கண்காணிப்பு",
+  "trackOff": "நிறுத்து",
+  "trackSensor": "போன் சென்சார்",
+  "trackManual": "மேனுவல் XY",
+  "dragHint": "தலை திசையை சரிசெய்ய இழுக்கவும் (ஒலி புலம் பின்தொடர்கிறது)",
+  "customEq": "தனிப்பயன்",
+  "eqPresetMusic": "இசை",
+  "eqPresetCinema": "சினிமா",
+  "eqPresetGame": "விளையாட்டு",
+  "eqPresetVoice": "குரல்",
+
+  "hrtfGroup0": "ஆண் / சிறிய / சிறிய",
+  "hrtfGroup1": "ஆண் / சிறிய / நடுத்தர",
+  "hrtfGroup2": "ஆண் / சிறிய / பெரிய",
+  "hrtfGroup3": "ஆண் / நடுத்தர / சிறிய",
+  "hrtfGroup4": "ஆண் / நடுத்தர / நடுத்தர",
+  "hrtfGroup5": "ஆண் / நடுத்தர / பெரிய",
+  "hrtfGroup6": "ஆண் / பெரிய / சிறிய",
+  "hrtfGroup7": "ஆண் / பெரிய / நடுத்தர",
+  "hrtfGroup8": "ஆண் / பெரிய / பெரிய",
+  "hrtfGroup9": "பெண் / சிறிய / சிறிய",
+  "hrtfGroup10": "பெண் / சிறிய / நடுத்தர",
+  "hrtfGroup11": "பெண் / சிறிய / பெரிய",
+  "hrtfGroup12": "பெண் / நடுத்தர / சிறிய",
+  "hrtfGroup13": "பெண் / நடுத்தர / நடுத்தர",
+  "hrtfGroup14": "பெண் / நடுத்தர / பெரிய",
+
+  "navHome": "முகப்பு",
+  "navLibrary": "நூலகம்",
+  "navPlaying": "இயங்குகிறது",
+  "navYou": "நீங்கள்",
+  "tabSongs": "பாடல்கள்",
+  "tabAlbums": "ஆல்பங்கள்",
+  "tabFolders": "கோப்புறைகள்",
+  "tabPlaylists": "பிளேலிஸ்ட்கள்",
+  "youMood": "மூட்",
+  "youCompanion": "உங்கள் துணை",
+  "youBuddies": "நண்பர்கள்",
+  "youSound": "ஒலி",
+  "youMore": "மேலும்",
+  "themeCherryBlossom": "செர்ரி பூ",
+  "themeStarryNight": "நட்சத்திர இரவு",
+  "themeAdaptiveLight": "அடாப்டிவ் லைட்",
+  "themeAdaptiveDark": "அடாப்டிவ் டார்க்",
+  "youListenedTogether": "{h}ம {m}நி ஒன்றாக கேட்டது",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "தலைப்பு மற்றும் இப்போது இயங்குகிறது",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "நூலக தலைப்பில் அமர்ந்திருக்கிறது",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "மினி பிளேயரில் தூங்குகிறது",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "விரும்பிய பாடல்களின் மேல் நடக்கிறது",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "டார்க் தீம்களில் ஒளிர்கிறது",
+  "accBow": "இளஞ்சிவப்பு ரிப்பன்",
+  "accHeadphones": "சிறிய ஹெட்ஃபோன்",
+  "accFlower": "மலர்",
+  "accCrown": "சிறிய கிரீடம்",
+  "accUnlockLabel": "{h} மணிநேரம் கேளுங்கள்",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "கிராஸ்ஃபேட்",
+  "youCrossfadeSub": "பாடலின் முடிவை அடுத்த பாடலுடன் கலக்கவும்",
+  "youSmartShuffle": "ஸ்மார்ட் ஷஃபிள்",
+  "youSmartShuffleSub": "ஷஃபிள் உங்கள் விருப்பங்களுக்கு சாய்கிறது — இந்த சாதனத்தில் கணக்கிடப்படுகிறது",
+
+  "libLikedSongs": "விரும்பிய பாடல்கள்",
+  "libTapHeart": "பாடலை இங்கே வைக்க அதில் உள்ள இதயத்தை தட்டவும்",
+  "libRemovedFromQueue": "வரிசையிலிருந்து நீக்கப்பட்டது",
+  "libRemovedFromLibrary": "நூலகத்திலிருந்து நீக்கப்பட்டது",
+  "libRemoveFromLibrary": "நூலகத்திலிருந்து நீக்கு",
+  "libNewPlaylist": "புதிய பிளேலிஸ்ட்",
+  "libPlaylistName": "பிளேலிஸ்ட் பெயர்",
+  "libCreate": "உருவாக்கு",
+  "libSwipeHint": "நீக்க இடதுபுறம் ஸ்வைப் · மறுவரிசைப்படுத்த பிடித்து வைக்கவும்",
+  "libChooseCover": "அட்டைப் படத்தைத் தேர்ந்தெடுக்கவும்",
+  "libBackToArtCover": "பாடலின் அட்டைக்கு திரும்பு",
+  "libDeleteConfirm": "\"{name}\" நீக்கவா?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "பாடல்கள் தானாக உங்கள் சாதனத்தில் இருக்கும்",
+  "libKeep": "வைத்திரு",
+  "libDelete": "நீக்கு",
+  "libRemoveKeepFile": "கோப்பு தானாக உங்கள் சாதனத்தில் இருக்கும்",
+  "libClearConfirm": "எல்லா கோப்புகளையும் அகற்றவா?",
+  "libLibraryCleared": "நூலகம் காலி செய்யப்பட்டது",
+  "libPickAudioFiles": "ஆடியோ கோப்புகளைத் தேர்ந்தெடுக்கவும்…",
+  "libImportFolder": "கோப்புறையை இறக்குமதி செய்",
+  "libScanWholeFolder": "முழு கோப்புறையையும் ஸ்கேன் செய்… (பரிந்துரைக்கப்படுகிறது)",
+  "libImportFailed": "இறக்குமதி தோல்வி: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "ஆடியோ கோப்புகள் எதுவும் காணப்படவில்லை",
+  "libImportedCount": "{count} பாடல்கள் இறக்குமதி செய்யப்பட்டன",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "இங்கே இன்னும் எதுவும் இல்லை — நீக்க இடதுபுறம் ஸ்வைப், மறுவரிசைப்படுத்த பிடித்து வைக்கவும்",
+  "sidebarYourLibrary": "உங்கள் நூலகம்",
+  "sidebarPlaylists": "பிளேலிஸ்ட்கள்",
+  "sidebarFolders": "கோப்புறைகள்",
+  "rowQueue": "வரிசை",
+  "rowRemove": "நீக்கு",
+  "rowPlaylist": "பிளேலிஸ்ட்",
+  "plTrackCount": "{count} டிராக்குகள்",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "ஆட்டோ",
+  "lyricsSourceEmbedded": "உட்பொதிக்கப்பட்டது",
+  "lyricsSourceBestQuality": "கிடைக்கும் சிறந்த தரம்",
+  "lyricsSourceFileTags": "ஆடியோ கோப்பின் சொந்த டேக்குகளிலிருந்து",
+  "lyricsSourceWordOnline": "சொல்-ஒத்திசைவு (ஆன்லைன்)",
+  "lyricsSourceLineOnline": "வரி-ஒத்திசைவு (ஆன்லைன்)",
+  "lyricsSourceNotFound": "இந்த பாடலுக்கு கிடைக்கவில்லை",
+  "npCatModeUnlocked": "மியாவ்?! பூனை மோட் திறக்கப்பட்டது 🐱",
+  "shellResumePlayback": "பிளேபேக்கை மீண்டும் தொடங்கு",
+  "shellPlay": "இயக்கு",
+  "devSection": "டெவலப்பர்",
+  "devModeUnlocked": "🛠️ டெவலப்பர் மோட் திறக்கப்பட்டது",
+  "devUnlockAll": "எல்லா ஆக்சஸரிகளையும் திறக்கவும்",
+  "devClearLyricsCache": "பாடல் வரிகள் கேசை அழி",
+  "devRefetchLyrics": "எல்லா வரிகளையும் மீண்டும் பெறு…",
+  "devLyricsCleared": "பாடல் வரிகள் கேஷ் அழிக்கப்பட்டது",
+  "devHideOptions": "டெவலப்பர் விருப்பங்களை மறை",
+  "devModeOff": "டெவலப்பர் மோட் நிறுத்தப்பட்டது",
+  "youCantReadFolders": "உங்கள் இசை கோப்புறைகளை படிக்க முடியவில்லை",
+  "youNoMusicFolders": "இசை கோப்புறைகள் எதுவும் காணப்படவில்லை"
+}

@@ -1,0 +1,55 @@
+# --- Flutter / Dart ---
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+*.iml
+.idea/
+.vscode/
+
+# Generated code
+*.g.dart
+*.freezed.dart
+
+# --- Android ---
+android/.gradle/
+android/local.properties
+android/app/.cxx/
+android/key.properties
+*.keystore
+*.jks
+
+# --- Internal planning/design docs (not published) ---
+PROGRESS.md
+ARCHITECTURE*.md
+DESIGN.md
+design/
+
+# --- Misc ---
+Hanamimi-handoff.zip
+*.log
+.DS_Store
+
+# 内测安装包 (二进制, 走网盘/IM 分发)
+Release/**/*.ipa
+# Android 构建产物 (体积大, 走网盘/IM 分发)
+Release/**/*.apk
+docs/
+
+# --- 仅本地保留, 不上传 GitHub ---
+.github/workflows/
+.workbuddy/memory/
+Release/
+
+# --- Build artifacts (native) ---
+*.o
+*.a
+*.dylib
+
+# --- HRIR data (third-party research data, NOT distributed in source repo) ---
+**/cipic_v9_hrir.bin
+
+# --- Local dev tool state ---
+.serena/

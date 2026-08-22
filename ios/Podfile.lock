@@ -1,0 +1,32 @@
+PODS:
+  - DtsDecode (0.1.0)
+  - Flutter (1.0.0)
+  - gamepads_ios (0.1.1):
+    - Flutter
+  - SpatialDsp (1.0.0)
+
+DEPENDENCIES:
+  - DtsDecode (from `../native/DtsDecode`)
+  - Flutter (from `Flutter`)
+  - gamepads_ios (from `.symlinks/plugins/gamepads_ios/ios`)
+  - SpatialDsp (from `../native/SpatialDsp`)
+
+EXTERNAL SOURCES:
+  DtsDecode:
+    :path: "../native/DtsDecode"
+  Flutter:
+    :path: Flutter
+  gamepads_ios:
+    :path: ".symlinks/plugins/gamepads_ios/ios"
+  SpatialDsp:
+    :path: "../native/SpatialDsp"
+
+SPEC CHECKSUMS:
+  DtsDecode: 8fd082f50584bd4597f8378248b4b6bc6f0bdb51
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  gamepads_ios: c75c6d31377d275b0effb9174c619e2705678c09
+  SpatialDsp: 93391c102d36c8a1fae424af26de4b260b85e222
+
+PODFILE CHECKSUM: 2256719954c96256dfdc98d5bb3c5a285dfe5c3d
+
+COCOAPODS: 1.17.0

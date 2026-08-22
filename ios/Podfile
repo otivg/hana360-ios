@@ -1,0 +1,79 @@
+# Hanamimi iOS — CocoaPods 配置
+# 最低系统 iOS 15.0 (支持 iPod touch 7 / iPhone 6s 及以上本地播放)
+platform :ios, '15.0'
+
+# CocoaPods analytics sends network stats synchronously affecting flutter build latency.
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+
+project 'Runner', {
+  'Debug' => :debug,
+  'Profile' => :release,
+  'Release' => :release,
+}
+
+def flutter_root
+  generated_xcode_build_settings_path = File.expand_path(File.join('..', 'Flutter', 'Generated.xcconfig'), __FILE__)
+  unless File.exist?(generated_xcode_build_settings_path)
+    raise "#{generated_xcode_build_settings_path} must exist. If you're running pod install manually, make sure flutter pub get is executed first"
+  end
+
+  File.foreach(generated_xcode_build_settings_path) do |line|
+    matches = line.match(/FLUTTER_ROOT\=(.*)/)
+    return matches[1].strip if matches
+  end
+  raise "FLUTTER_ROOT not found in #{generated_xcode_build_settings_path}. Try deleting Generated.xcconfig, then run flutter pub get"
+end
+
+require File.expand_path(File.join('packages', 'flutter_tools', 'bin', 'podhelper'), flutter_root)
+
+flutter_ios_podfile_setup
+
+target 'Runner' do
+  use_frameworks! :linkage => :static
+
+  flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
+
+  target 'RunnerTests' do
+    inherit! :search_paths
+  end
+
+  # Hanamimi 360 空间音效 DSP 内核 (本地 pod, C++17)
+  pod 'SpatialDsp', :path => '../native/SpatialDsp'
+  # DTS-WAV 解码器封装 (本地 pod, dcadec LGPLv2.1, C99)
+  pod 'DtsDecode', :path => '../native/DtsDecode'
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    flutter_additional_ios_build_settings(target)
+    # CocoaPods 生成的 umbrella header 用双引号 include "xxx.h",
+    # Xcode 26 把 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER 当 error
+    # (此前 "Enable Recommended Warning" 已启用)。在所有 pod target 关闭,
+    # 否则 CocoaPods 的 framework header 编译直接失败。
+    target.build_configurations.each do |config|
+      config.build_settings['CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER'] = 'NO'
+    end
+  end
+  # Xcode 26 可能仍把 framework header 的双引号 include 当硬 error,
+  # 直接改写 CocoaPods 生成的 umbrella header (双引号 → 尖括号) 兜底。
+  # NOTE: CocoaPods 生成的是 #import 而非 #include, 必须两个都匹配,
+  #       否则 gsub 静默失败 (此前 4.0.21 build 重现 umbrella error 的根因)。
+  umbrella = File.join(Dir.pwd, 'Pods', 'Target Support Files',
+                       'SpatialDsp', 'SpatialDsp-umbrella.h')
+  if File.exist?(umbrella)
+    content = File.read(umbrella)
+    content = content.gsub(/(?:#include|#import) "spatial_dsp\.h"/,
+                           '#import <SpatialDsp/spatial_dsp.h>')
+    File.write(umbrella, content)
+    puts "  [Hanamimi] Fixed SpatialDsp-umbrella.h quoted include"
+  end
+  # 静态框架 SpatialDsp (C++) 链接进 App/测试 bundle 时需带 libc++:
+  # RunnerTests 用 inherit! :search_paths, 不会自动继承 -lc++, 在此统一补上。
+  installer.aggregate_targets.each do |aggregate|
+    aggregate.xcconfigs.each do |_name, config|
+      flags = config.attributes['OTHER_LDFLAGS'] || '$(inherited)'
+      flags += ' -lc++'
+      config.attributes['OTHER_LDFLAGS'] = flags
+    end
+  end
+end

@@ -1,0 +1,349 @@
+{
+  "@@locale": "ms",
+  "appName": "Hana360",
+
+  "languageSettings": "Bahasa",
+  "languageFollowSystem": "Ikut sistem",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "Batal",
+  "commonConfirm": "OK",
+  "commonBack": "Kembali",
+  "commonDone": "Selesai",
+  "commonUnknown": "Tidak diketahui",
+
+  "secUpmix": "Enjin upmix",
+  "spatialAudioTitle": "Audio ruang 360°",
+  "npNothingPlaying": "Belum ada apa-apa dimainkan",
+  "npPickSong": "Pilih lagu daripada pustaka anda",
+  "npSpatialSettings": "Tetapan 360°",
+  "npLyrics": "Lirik",
+  "libSearchHint": "Cari dalam muzik anda…",
+  "libClearLibrary": "Kosongkan pustaka",
+  "libImportMusic": "Import muzik",
+  "libError": "Ada sesuatu yang tidak kena: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "Tiada yang sepadan dengan \"{query}\"",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "Hana360 memerlukan kebenaran untuk mencari muzik anda\nTiada akses pada peranti ini? Import sebaliknya.",
+  "libNoSongs": "Tiada lagu ditemui pada peranti ini\nImport muzik daripada fail anda untuk bermula",
+  "libGrantAccess": "Beri akses",
+  "libRescan": "Imbas semula",
+  "libAddedToQueue": "Ditambah ke baris gilir",
+  "libNoAlbums": "Belum ada album",
+  "libNoFolders": "Belum ada folder",
+  "libNoPlaylists": "Belum ada senarai main",
+  "libPlaylistCreated": "Senarai main \"{name}\" dicipta 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "tekan lama folder untuk menjadikannya senarai main",
+  "libSongCount": "{count} lagu",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} lagu · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "Berjaga lewat ♪",
+  "homeGreetingMorning": "Selamat pagi ♪",
+  "homeGreetingAfternoon": "Selamat tengah hari ♪",
+  "homeGreetingEvening": "Selamat petang ♪",
+  "homeJumpBackIn": "SAMBUNG SEMULA",
+  "homeForYou": "UNTUK ANDA",
+  "homeForYouSub": "dipilih pada peranti ini, daripada pendengaran anda",
+  "homeWelcome": "Selamat datang ke Hana360 🌸",
+  "homeAllQuiet": "Semua senyap 🌸",
+  "homeLibraryHint": "Muzik anda tinggal di tab Pustaka — tambah folder di sana. Semua yang anda mainkan berkumpul di sini.",
+  "homePlayHint": "Mainkan sesuatu dan ia akan menunggu di sini lain kali.",
+  "youRescanLibrary": "Imbas semula pustaka",
+  "youExcludedFolders": "Folder dikecualikan",
+  "youExcludedFoldersSub": "Sembunyikan folder daripada pustaka",
+  "youCatMode": "Mod kucing",
+  "youAbout": "Perihal",
+  "youScanning": "Mengimbas muzik anda…",
+  "youOpenSource": "Sumber Terbuka",
+  "youOpenSourceSub": "Hana360 ialah terbitan Hanamimi (GPLv3) oleh ShaptakNaskar — diubah suai 2026-08-10",
+  "youCheckUpdates": "Semak kemas kini",
+  "youCheckUpdatesSub": "Binaan baharu muncul di GitHub Releases",
+  "youUpToDate": "Anda terkini 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Dibuat oleh Sappy",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "Teruskan main di latar belakang",
+  "youKeepPlayingAllowed": "Dibenarkan — sistem tidak akan menjeda muzik anda",
+  "youKeepPlayingTap": "Ketik untuk menghentikan sistem daripada memberhentikan mainan",
+  "youExcludedFoldersTitle": "Folder dikecualikan",
+  "youExcludedFoldersDesc": "Lagu dalam folder yang dimatikan dikecualikan daripada pustaka",
+  "youVisSensitivity": "Kepekaan visualizer",
+  "youVisSensitivitySub": "Naikkan untuk lagu yang hampir tidak menggerakkannya",
+  "youNerdMode": "Mod nerd",
+  "youNerdModeSub": "Paparkan codec, bitrate dan output audio pada Sedang Dimain",
+  "youEqualizer": "Equalizer",
+  "youComingSoon": "Akan datang",
+  "sleepTimer": "Pemasa tidur",
+  "sleep15": "15 minit",
+  "sleep30": "30 minit",
+  "sleep1h": "1 jam",
+  "sleepEndTrack": "Akhir lagu",
+  "sleepFading": "Semakin pudar… mimpi indah",
+  "sleepIn": "Tidur dalam {time}",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "Tidur apabila lagu ini tamat",
+  "sleepCancel": "Batalkan pemasa",
+  "queueUpNext": "Seterusnya",
+  "queueEmpty": "Baris gilir kosong",
+  "updateAvailable": "Kemas kini tersedia ✨",
+  "updateNoNotes": "Tiada nota keluaran.",
+  "updateInstalling": "Membuka pemasangan…",
+  "updateFailed": "Tidak dapat mengemas kini — cuba lagi kemudian",
+  "updateLater": "Kemudian",
+  "updateRetry": "Cuba semula",
+  "updateNow": "Kemas kini",
+  "spatialToggleTitle": "Audio ruang 360°",
+  "spatialOn": "Hidup",
+  "spatialOff": "Mati",
+  "lyricsNoFound": "Lirik tidak ditemui",
+  "lyricsJustListening": "Yang ini hanya untuk didengar",
+  "lyricsTrySource": "Cuba sumber lain",
+  "lyricsSource": "Sumber lirik",
+  "lyricsWordSynced": "Diselaraskan perkataan",
+  "lyricsLineSynced": "Diselaraskan baris",
+  "lyricsUnsynced": "Tidak diselaraskan",
+  "plNoPlaylists": "Belum ada senarai main — buat satu dahulu!",
+  "plAddToPlaylist": "Tambah ke senarai main",
+  "plAddedTo": "Ditambah ke {name}",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "Kongsi lirik",
+  "shareMaxLines": "Bilangan baris maksimum dipilih",
+  "sharePickLines": "Pilih sehingga {count} baris",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "Pilih beberapa baris di bawah…",
+  "shareButton": "Kongsi",
+  "batTitle": "Teruskan muzik dimainkan 🎵",
+  "batBody": "Pengoptimuman bateri Android boleh menjeda muzik anda apabila skrin dimatikan. Benarkan Hana360 berjalan tanpa sekatan supaya mainan kekal stabil.\n\nAnda boleh mengubah ini bila-bila masa di Anda → \"Teruskan main di latar belakang\".",
+  "batNotNow": "Bukan sekarang",
+  "batAllow": "Benarkan",
+  "algoSwitch": "Algoritma",
+  "speakerDistance": "Jarak pembesar suara",
+  "channelTrim": "Trim saluran",
+  "masterGain": "Gandaan utama",
+  "secHrtf": "Pemperibadian HRTF",
+  "outputGain": "Gandaan output",
+  "secEq": "EQ ruang",
+  "secReverb": "Gema",
+  "roomSize": "Bilik",
+  "reverbGain": "Gandaan gema",
+  "secTracking": "Penjejakan kepala",
+  "trackOff": "Mati",
+  "trackSensor": "Sensor telefon",
+  "trackManual": "XY manual",
+  "dragHint": "Seret untuk melaras orientasi kepala (medan bunyi mengikuti)",
+  "customEq": "Tersuai",
+  "eqPresetMusic": "Muzik",
+  "eqPresetCinema": "Pawagam",
+  "eqPresetGame": "Permainan",
+  "eqPresetVoice": "Suara",
+
+  "hrtfGroup0": "Lelaki / Kecil / Kecil",
+  "hrtfGroup1": "Lelaki / Kecil / Sederhana",
+  "hrtfGroup2": "Lelaki / Kecil / Besar",
+  "hrtfGroup3": "Lelaki / Sederhana / Kecil",
+  "hrtfGroup4": "Lelaki / Sederhana / Sederhana",
+  "hrtfGroup5": "Lelaki / Sederhana / Besar",
+  "hrtfGroup6": "Lelaki / Besar / Kecil",
+  "hrtfGroup7": "Lelaki / Besar / Sederhana",
+  "hrtfGroup8": "Lelaki / Besar / Besar",
+  "hrtfGroup9": "Wanita / Kecil / Kecil",
+  "hrtfGroup10": "Wanita / Kecil / Sederhana",
+  "hrtfGroup11": "Wanita / Kecil / Besar",
+  "hrtfGroup12": "Wanita / Sederhana / Kecil",
+  "hrtfGroup13": "Wanita / Sederhana / Sederhana",
+  "hrtfGroup14": "Wanita / Sederhana / Besar",
+
+  "navHome": "Utama",
+  "navLibrary": "Pustaka",
+  "navPlaying": "Sedang Dimain",
+  "navYou": "Anda",
+  "tabSongs": "Lagu",
+  "tabAlbums": "Album",
+  "tabFolders": "Folder",
+  "tabPlaylists": "Senarai Main",
+  "youMood": "MOOD",
+  "youCompanion": "TEMAN ANDA",
+  "youBuddies": "RAKAN",
+  "youSound": "BUNYI",
+  "youMore": "LAGI",
+  "themeCherryBlossom": "Bunga Sakura",
+  "themeStarryNight": "Malam Berbintang",
+  "themeAdaptiveLight": "Terang adaptif",
+  "themeAdaptiveDark": "Gelap adaptif",
+  "youListenedTogether": "{h}j {m}m didengar bersama",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "Pengepala dan Sedang Dimain",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "Bertenggek pada tajuk Pustaka",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "Tidur sebentar pada pemain mini",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "Berjalan di atas lagu disukai",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "Bercahaya pada tema gelap",
+  "accBow": "Reben merah jambu",
+  "accHeadphones": "Fon kepala kecil",
+  "accFlower": "Bunga",
+  "accCrown": "Mahkota kecil",
+  "accUnlockLabel": "Dengar selama {h} jam",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "Crossfade",
+  "youCrossfadeSub": "Campurkan akhir lagu ke lagu seterusnya",
+  "youSmartShuffle": "Kocok pintar",
+  "youSmartShuffleSub": "Kocok condong kepada kegemaran anda — dikira pada peranti ini",
+
+  "libLikedSongs": "Lagu disukai",
+  "libTapHeart": "Ketik hati pada lagu untuk menyimpannya di sini",
+  "libRemovedFromQueue": "Dikeluarkan daripada baris gilir",
+  "libRemovedFromLibrary": "Dikeluarkan daripada pustaka",
+  "libRemoveFromLibrary": "Keluarkan daripada pustaka",
+  "libNewPlaylist": "Senarai main baharu",
+  "libPlaylistName": "Nama senarai main",
+  "libCreate": "Cipta",
+  "libSwipeHint": "leret ke kiri untuk mengeluarkan · tekan lama untuk menyusun semula",
+  "libChooseCover": "Pilih imej kulit",
+  "libBackToArtCover": "Kembali ke kulit lagu",
+  "libDeleteConfirm": "Padam \"{name}\"?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "Lagu itu sendiri kekal pada peranti anda",
+  "libKeep": "Simpan",
+  "libDelete": "Padam",
+  "libRemoveKeepFile": "Fail itu sendiri kekal pada peranti anda",
+  "libClearConfirm": "Keluarkan semua fail?",
+  "libLibraryCleared": "Pustaka dikosongkan",
+  "libPickAudioFiles": "Pilih fail audio…",
+  "libImportFolder": "Import folder",
+  "libScanWholeFolder": "Imbas keseluruhan folder… (disyorkan)",
+  "libImportFailed": "Import gagal: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "Tiada fail audio ditemui",
+  "libImportedCount": "Diimport {count} lagu",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "Belum ada apa-apa di sini — leret ke kiri untuk mengeluarkan, tekan lama untuk menyusun semula",
+  "sidebarYourLibrary": "PUSTAKA ANDA",
+  "sidebarPlaylists": "SENARAI MAIN",
+  "sidebarFolders": "FOLDER",
+  "rowQueue": "Baris gilir",
+  "rowRemove": "Keluarkan",
+  "rowPlaylist": "Senarai main",
+  "plTrackCount": "{count} trek",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "Auto",
+  "lyricsSourceEmbedded": "Terbenam",
+  "lyricsSourceBestQuality": "Kualiti terbaik tersedia",
+  "lyricsSourceFileTags": "Daripada tag fail audio sendiri",
+  "lyricsSourceWordOnline": "Diselaraskan perkataan (dalam talian)",
+  "lyricsSourceLineOnline": "Diselaraskan baris (dalam talian)",
+  "lyricsSourceNotFound": "Tidak ditemui untuk lagu ini",
+  "npCatModeUnlocked": "Meow?! Mod kucing dibuka 🐱",
+  "shellResumePlayback": "Sambung mainan",
+  "shellPlay": "MAIN",
+  "devSection": "PEMBANGUN",
+  "devModeUnlocked": "🛠️ Mod pembangun dibuka",
+  "devUnlockAll": "Buka semua aksesori",
+  "devClearLyricsCache": "Kosongkan cache lirik",
+  "devRefetchLyrics": "Ambil semula semua lirik…",
+  "devLyricsCleared": "Cache lirik dikosongkan",
+  "devHideOptions": "Sembunyikan pilihan pembangun",
+  "devModeOff": "Mod pembangun dimatikan",
+  "youCantReadFolders": "Tidak dapat membaca folder muzik anda",
+  "youNoMusicFolders": "Tiada folder muzik ditemui"
+}

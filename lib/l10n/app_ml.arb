@@ -1,0 +1,349 @@
+{
+  "@@locale": "ml",
+  "appName": "Hana360",
+
+  "languageSettings": "ഭാഷ",
+  "languageFollowSystem": "സിസ്റ്റം പിന്തുടരുക",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "റദ്ദാക്കുക",
+  "commonConfirm": "ശരി",
+  "commonBack": "തിരികെ",
+  "commonDone": "പൂർത്തിയായി",
+  "commonUnknown": "അജ്ഞാതം",
+
+  "secUpmix": "അപ്‌മിക്സ് എഞ്ചിൻ",
+  "spatialAudioTitle": "360° സ്പേഷ്യൽ ഓഡിയോ",
+  "npNothingPlaying": "ഇതുവരെ ഒന്നും പ്ലേ ആയിട്ടില്ല",
+  "npPickSong": "നിങ്ങളുടെ ലൈബ്രറിയിൽ നിന്ന് ഒരു പാട്ട് തിരഞ്ഞെടുക്കുക",
+  "npSpatialSettings": "360° ക്രമീകരണങ്ങൾ",
+  "npLyrics": "വരികൾ",
+  "libSearchHint": "നിങ്ങളുടെ സംഗീതത്തിൽ തിരയുക…",
+  "libClearLibrary": "ലൈബ്രറി ശൂന്യമാക്കുക",
+  "libImportMusic": "സംഗീതം ഇറക്കുമതി ചെയ്യുക",
+  "libError": "എന്തോ കുഴപ്പം സംഭവിച്ചു: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "\"{query}\" എന്നതുമായി ഒന്നും യോജിക്കുന്നില്ല",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "നിങ്ങളുടെ സംഗീതം കണ്ടെത്താൻ Hana360 ന് അനുമതി വേണം\nഈ ഉപകരണത്തിൽ ആക്സസ് ഇല്ലേ? പകരം ഇറക്കുമതി ചെയ്യുക.",
+  "libNoSongs": "ഈ ഉപകരണത്തിൽ പാട്ടുകളൊന്നും കണ്ടെത്തിയില്ല\nആരംഭിക്കാൻ നിങ്ങളുടെ ഫയലുകളിൽ നിന്ന് സംഗീതം ഇറക്കുമതി ചെയ്യുക",
+  "libGrantAccess": "ആക്സസ് നൽകുക",
+  "libRescan": "വീണ്ടും സ്കാൻ ചെയ്യുക",
+  "libAddedToQueue": "ക്യൂവിൽ ചേർത്തു",
+  "libNoAlbums": "ഇതുവരെ ആൽബങ്ങളൊന്നുമില്ല",
+  "libNoFolders": "ഇതുവരെ ഫോൾഡറുകളൊന്നുമില്ല",
+  "libNoPlaylists": "ഇതുവരെ പ്ലേലിസ്റ്റുകളൊന്നുമില്ല",
+  "libPlaylistCreated": "പ്ലേലിസ്റ്റ് \"{name}\" സൃഷ്ടിച്ചു 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "ഒരു ഫോൾഡർ പ്ലേലിസ്റ്റാക്കാൻ അധികനേരം അമർത്തുക",
+  "libSongCount": "{count} പാട്ടുകൾ",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} പാട്ടുകൾ · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "വൈകി ഉണർന്നിരിക്കുന്നു ♪",
+  "homeGreetingMorning": "സുപ്രഭാതം ♪",
+  "homeGreetingAfternoon": "ശുഭ ഉച്ച ♪",
+  "homeGreetingEvening": "ശുഭ സായാഹ്നം ♪",
+  "homeJumpBackIn": "തിരികെ ചേരുക",
+  "homeForYou": "നിങ്ങൾക്കായി",
+  "homeForYouSub": "നിങ്ങളുടെ ശ്രവണത്തിൽ നിന്ന്, ഈ ഉപകരണത്തിൽ തിരഞ്ഞെടുത്തു",
+  "homeWelcome": "Hana360 ലേക്ക് സ്വാഗതം 🌸",
+  "homeAllQuiet": "എല്ലാം ശാന്തം 🌸",
+  "homeLibraryHint": "നിങ്ങളുടെ സംഗീതം ലൈബ്രറി ടാബിൽ വസിക്കുന്നു — അവിടെ ഫോൾഡറുകൾ ചേർക്കുക. നിങ്ങൾ പ്ലേ ചെയ്യുന്നതെല്ലാം ഇവിടെ ശേഖരിക്കപ്പെടുന്നു.",
+  "homePlayHint": "എന്തെങ്കിലും പ്ലേ ചെയ്യുക, അടുത്ത തവണ അത് ഇവിടെ കാത്തിരിക്കും.",
+  "youRescanLibrary": "ലൈബ്രറി വീണ്ടും സ്കാൻ ചെയ്യുക",
+  "youExcludedFolders": "ഒഴിവാക്കിയ ഫോൾഡറുകൾ",
+  "youExcludedFoldersSub": "ലൈബ്രറിയിൽ നിന്ന് ഫോൾഡറുകൾ മറയ്ക്കുക",
+  "youCatMode": "പൂച്ച മോഡ്",
+  "youAbout": "കുറിച്ച്",
+  "youScanning": "നിങ്ങളുടെ സംഗീതം സ്കാൻ ചെയ്യുന്നു…",
+  "youOpenSource": "ഓപ്പൺ സോഴ്‌സ്",
+  "youOpenSourceSub": "ShaptakNaskar ന്റെ Hanamimi (GPLv3) യുടെ വ്യുൽപ്പന്നമാണ് Hana360 — 2026-08-10 ന് പരിഷ്കരിച്ചു",
+  "youCheckUpdates": "അപ്ഡേറ്റുകൾ പരിശോധിക്കുക",
+  "youCheckUpdatesSub": "പുതിയ ബിൽഡുകൾ GitHub Releases ൽ എത്തുന്നു",
+  "youUpToDate": "നിങ്ങൾ കാലികമാണ് 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Sappy നിർമ്മിച്ചത്",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "പശ്ചാത്തലത്തിൽ പ്ലേ തുടരുക",
+  "youKeepPlayingAllowed": "അനുവദിച്ചു — സിസ്റ്റം നിങ്ങളുടെ സംഗീതം പോസ് ചെയ്യില്ല",
+  "youKeepPlayingTap": "സിസ്റ്റം പ്ലേബാക്ക് നിർത്തുന്നത് തടയാൻ ടാപ്പ് ചെയ്യുക",
+  "youExcludedFoldersTitle": "ഒഴിവാക്കിയ ഫോൾഡറുകൾ",
+  "youExcludedFoldersDesc": "ഓഫാക്കിയ ഫോൾഡറുകളിലെ പാട്ടുകൾ ലൈബ്രറിയിൽ നിന്ന് ഒഴിവാക്കപ്പെടുന്നു",
+  "youVisSensitivity": "വിഷ്വലൈസർ സംവേദനക്ഷമത",
+  "youVisSensitivitySub": "അതിനെ വെറും ചലിപ്പിക്കുന്ന പാട്ടുകൾക്ക് കൂട്ടുക",
+  "youNerdMode": "നെർഡ് മോഡ്",
+  "youNerdModeSub": "ഇപ്പോൾ പ്ലേ ചെയ്യുന്നതിൽ codec, bitrate, ഓഡിയോ ഔട്ട്‌പുട്ട് കാണിക്കുക",
+  "youEqualizer": "ഇക്വലൈസർ",
+  "youComingSoon": "ഉടൻ വരുന്നു",
+  "sleepTimer": "സ്ലീപ്പ് ടൈമർ",
+  "sleep15": "15 മിനിറ്റ്",
+  "sleep30": "30 മിനിറ്റ്",
+  "sleep1h": "1 മണിക്കൂർ",
+  "sleepEndTrack": "പാട്ടിന്റെ അവസാനം",
+  "sleepFading": "മങ്ങുന്നു… മധുര സ്വപ്നങ്ങൾ",
+  "sleepIn": "{time} കഴിഞ്ഞ് ഉറക്കം",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "ഈ പാട്ട് അവസാനിക്കുമ്പോൾ ഉറക്കം",
+  "sleepCancel": "ടൈമർ റദ്ദാക്കുക",
+  "queueUpNext": "അടുത്തത്",
+  "queueEmpty": "ക്യൂ ശൂന്യമാണ്",
+  "updateAvailable": "അപ്ഡേറ്റ് ലഭ്യമാണ് ✨",
+  "updateNoNotes": "റിലീസ് കുറിപ്പുകളൊന്നുമില്ല.",
+  "updateInstalling": "ഇൻസ്റ്റാളേഷൻ തുറക്കുന്നു…",
+  "updateFailed": "അപ്ഡേറ്റ് ചെയ്യാനായില്ല — പിന്നീട് വീണ്ടും ശ്രമിക്കുക",
+  "updateLater": "പിന്നീട്",
+  "updateRetry": "വീണ്ടും ശ്രമിക്കുക",
+  "updateNow": "അപ്ഡേറ്റ് ചെയ്യുക",
+  "spatialToggleTitle": "360° സ്പേഷ്യൽ ഓഡിയോ",
+  "spatialOn": "ഓൺ",
+  "spatialOff": "ഓഫ്",
+  "lyricsNoFound": "വരികൾ കണ്ടെത്തിയില്ല",
+  "lyricsJustListening": "ഇത് കേൾക്കാൻ മാത്രമുള്ളതാണ്",
+  "lyricsTrySource": "മറ്റൊരു ഉറവിടം പരീക്ഷിക്കുക",
+  "lyricsSource": "വരികളുടെ ഉറവിടം",
+  "lyricsWordSynced": "വാക്ക്-സമന്വയം",
+  "lyricsLineSynced": "വരി-സമന്വയം",
+  "lyricsUnsynced": "സമന്വയമില്ലാത്തത്",
+  "plNoPlaylists": "ഇതുവരെ പ്ലേലിസ്റ്റുകളൊന്നുമില്ല — ആദ്യം ഒന്ന് ഉണ്ടാക്കുക!",
+  "plAddToPlaylist": "പ്ലേലിസ്റ്റിലേക്ക് ചേർക്കുക",
+  "plAddedTo": "{name} ലേക്ക് ചേർത്തു",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "വരികൾ പങ്കിടുക",
+  "shareMaxLines": "പരമാവധി വരികൾ തിരഞ്ഞെടുത്തു",
+  "sharePickLines": "{count} വരെ വരികൾ തിരഞ്ഞെടുക്കുക",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "താഴെ കുറച്ച് വരികൾ തിരഞ്ഞെടുക്കുക…",
+  "shareButton": "പങ്കിടുക",
+  "batTitle": "സംഗീതം പ്ലേ ആയിക്കൊണ്ടിരിക്കട്ടെ 🎵",
+  "batBody": "Android ന്റെ ബാറ്ററി ഒപ്റ്റിമൈസേഷൻ സ്ക്രീൻ ഓഫായിരിക്കുമ്പോൾ സംഗീതം പോസ് ചെയ്യാം. സ്ഥിരമായ പ്ലേബാക്കിനായി Hana360 ന് നിയന്ത്രണമില്ലാതെ പ്രവർത്തിക്കാൻ അനുവദിക്കുക.\n\nനിങ്ങൾ → \"പശ്ചാത്തലത്തിൽ പ്ലേ തുടരുക\" എന്നതിൽ ഇത് എപ്പോൾ വേണമെങ്കിലും മാറ്റാം.",
+  "batNotNow": "ഇപ്പോൾ വേണ്ട",
+  "batAllow": "അനുവദിക്കുക",
+  "algoSwitch": "അൽഗോരിതം",
+  "speakerDistance": "സ്പീക്കർ ദൂരം",
+  "channelTrim": "ചാനൽ ട്രിം",
+  "masterGain": "മാസ്റ്റർ ഗെയിൻ",
+  "secHrtf": "HRTF വ്യക്തിഗതമാക്കൽ",
+  "outputGain": "ഔട്ട്‌പുട്ട് ഗെയിൻ",
+  "secEq": "സ്പേഷ്യൽ EQ",
+  "secReverb": "റിവേർബ്",
+  "roomSize": "മുറി",
+  "reverbGain": "റിവേർബ് ഗെയിൻ",
+  "secTracking": "തല ട്രാക്കിംഗ്",
+  "trackOff": "ഓഫ്",
+  "trackSensor": "ഫോൺ സെൻസർ",
+  "trackManual": "മാനുവൽ XY",
+  "dragHint": "തലയുടെ ദിശ ക്രമീകരിക്കാൻ വലിക്കുക (ശബ്ദമണ്ഡലം പിന്തുടരുന്നു)",
+  "customEq": "ഇഷ്ടാനുസൃതം",
+  "eqPresetMusic": "സംഗീതം",
+  "eqPresetCinema": "സിനിമ",
+  "eqPresetGame": "ഗെയിം",
+  "eqPresetVoice": "ശബ്ദം",
+
+  "hrtfGroup0": "പുരുഷൻ / ചെറുത് / ചെറുത്",
+  "hrtfGroup1": "പുരുഷൻ / ചെറുത് / ഇടത്തരം",
+  "hrtfGroup2": "പുരുഷൻ / ചെറുത് / വലുത്",
+  "hrtfGroup3": "പുരുഷൻ / ഇടത്തരം / ചെറുത്",
+  "hrtfGroup4": "പുരുഷൻ / ഇടത്തരം / ഇടത്തരം",
+  "hrtfGroup5": "പുരുഷൻ / ഇടത്തരം / വലുത്",
+  "hrtfGroup6": "പുരുഷൻ / വലുത് / ചെറുത്",
+  "hrtfGroup7": "പുരുഷൻ / വലുത് / ഇടത്തരം",
+  "hrtfGroup8": "പുരുഷൻ / വലുത് / വലുത്",
+  "hrtfGroup9": "സ്ത്രീ / ചെറുത് / ചെറുത്",
+  "hrtfGroup10": "സ്ത്രീ / ചെറുത് / ഇടത്തരം",
+  "hrtfGroup11": "സ്ത്രീ / ചെറുത് / വലുത്",
+  "hrtfGroup12": "സ്ത്രീ / ഇടത്തരം / ചെറുത്",
+  "hrtfGroup13": "സ്ത്രീ / ഇടത്തരം / ഇടത്തരം",
+  "hrtfGroup14": "സ്ത്രീ / ഇടത്തരം / വലുത്",
+
+  "navHome": "ഹോം",
+  "navLibrary": "ലൈബ്രറി",
+  "navPlaying": "പ്ലേ ചെയ്യുന്നു",
+  "navYou": "നിങ്ങൾ",
+  "tabSongs": "പാട്ടുകൾ",
+  "tabAlbums": "ആൽബങ്ങൾ",
+  "tabFolders": "ഫോൾഡറുകൾ",
+  "tabPlaylists": "പ്ലേലിസ്റ്റുകൾ",
+  "youMood": "മൂഡ്",
+  "youCompanion": "നിങ്ങളുടെ കൂട്ടുകാരൻ",
+  "youBuddies": "സുഹൃത്തുക്കൾ",
+  "youSound": "ശബ്ദം",
+  "youMore": "കൂടുതൽ",
+  "themeCherryBlossom": "ചെറി പുഷ്പം",
+  "themeStarryNight": "നക്ഷത്ര രാത്രി",
+  "themeAdaptiveLight": "അഡാപ്റ്റീവ് ലൈറ്റ്",
+  "themeAdaptiveDark": "അഡാപ്റ്റീവ് ഡാർക്ക്",
+  "youListenedTogether": "{h} മണിക്കൂർ {m} മിനിറ്റ് ഒരുമിച്ച് കേട്ടു",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "ഹെഡറും ഇപ്പോൾ പ്ലേ ചെയ്യുന്നതും",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "ലൈബ്രറി ശീർഷകത്തിൽ ഇരിക്കുന്നു",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "മിനി പ്ലേയറിൽ മയങ്ങുന്നു",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "ഇഷ്ടപ്പെട്ട പാട്ടുകൾക്ക് മുകളിൽ നടക്കുന്നു",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "ഡാർക്ക് തീമുകളിൽ തിളങ്ങുന്നു",
+  "accBow": "പിങ്ക് റിബൺ",
+  "accHeadphones": "ചെറിയ ഹെഡ്ഫോൺ",
+  "accFlower": "പുഷ്പം",
+  "accCrown": "ചെറിയ കിരീടം",
+  "accUnlockLabel": "{h} മണിക്കൂർ കേൾക്കുക",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "ക്രോസ്ഫേഡ്",
+  "youCrossfadeSub": "ഒരു പാട്ടിന്റെ അവസാനം അടുത്തതിലേക്ക് കലർത്തുക",
+  "youSmartShuffle": "സ്മാർട്ട് ഷഫിൾ",
+  "youSmartShuffleSub": "ഷഫിൾ നിങ്ങളുടെ പ്രിയപ്പെട്ടവയിലേക്ക് ചായുന്നു — ഈ ഉപകരണത്തിൽ കണക്കാക്കുന്നു",
+
+  "libLikedSongs": "ഇഷ്ടപ്പെട്ട പാട്ടുകൾ",
+  "libTapHeart": "ഒരു പാട്ട് ഇവിടെ സൂക്ഷിക്കാൻ അതിലെ ഹൃദയം ടാപ്പ് ചെയ്യുക",
+  "libRemovedFromQueue": "ക്യൂവിൽ നിന്ന് നീക്കം ചെയ്തു",
+  "libRemovedFromLibrary": "ലൈബ്രറിയിൽ നിന്ന് നീക്കം ചെയ്തു",
+  "libRemoveFromLibrary": "ലൈബ്രറിയിൽ നിന്ന് നീക്കം ചെയ്യുക",
+  "libNewPlaylist": "പുതിയ പ്ലേലിസ്റ്റ്",
+  "libPlaylistName": "പ്ലേലിസ്റ്റിന്റെ പേര്",
+  "libCreate": "സൃഷ്ടിക്കുക",
+  "libSwipeHint": "നീക്കം ചെയ്യാൻ ഇടത്തേക്ക് സ്വൈപ്പ് · പുനഃക്രമീകരിക്കാൻ അമർത്തിപ്പിടിക്കുക",
+  "libChooseCover": "കവർ ചിത്രം തിരഞ്ഞെടുക്കുക",
+  "libBackToArtCover": "പാട്ടിന്റെ കവറിലേക്ക് മടങ്ങുക",
+  "libDeleteConfirm": "\"{name}\" ഇല്ലാതാക്കണോ?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "പാട്ടുകൾ സ്വയം നിങ്ങളുടെ ഉപകരണത്തിൽ നിലനിൽക്കും",
+  "libKeep": "സൂക്ഷിക്കുക",
+  "libDelete": "ഇല്ലാതാക്കുക",
+  "libRemoveKeepFile": "ഫയൽ സ്വയം നിങ്ങളുടെ ഉപകരണത്തിൽ നിലനിൽക്കും",
+  "libClearConfirm": "എല്ലാ ഫയലുകളും നീക്കം ചെയ്യണോ?",
+  "libLibraryCleared": "ലൈബ്രറി ശൂന്യമാക്കി",
+  "libPickAudioFiles": "ഓഡിയോ ഫയലുകൾ തിരഞ്ഞെടുക്കുക…",
+  "libImportFolder": "ഒരു ഫോൾഡർ ഇറക്കുമതി ചെയ്യുക",
+  "libScanWholeFolder": "മുഴുവൻ ഫോൾഡറും സ്കാൻ ചെയ്യുക… (ശുപാർശ ചെയ്യുന്നു)",
+  "libImportFailed": "ഇറക്കുമതി പരാജയപ്പെട്ടു: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "ഓഡിയോ ഫയലുകളൊന്നും കണ്ടെത്തിയില്ല",
+  "libImportedCount": "{count} പാട്ടുകൾ ഇറക്കുമതി ചെയ്തു",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "ഇവിടെ ഇതുവരെ ഒന്നുമില്ല — നീക്കം ചെയ്യാൻ ഇടത്തേക്ക് സ്വൈപ്പ്, പുനഃക്രമീകരിക്കാൻ അമർത്തിപ്പിടിക്കുക",
+  "sidebarYourLibrary": "നിങ്ങളുടെ ലൈബ്രറി",
+  "sidebarPlaylists": "പ്ലേലിസ്റ്റുകൾ",
+  "sidebarFolders": "ഫോൾഡറുകൾ",
+  "rowQueue": "ക്യൂ",
+  "rowRemove": "നീക്കം ചെയ്യുക",
+  "rowPlaylist": "പ്ലേലിസ്റ്റ്",
+  "plTrackCount": "{count} ട്രാക്കുകൾ",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "ഓട്ടോ",
+  "lyricsSourceEmbedded": "എംബഡ് ചെയ്തത്",
+  "lyricsSourceBestQuality": "ലഭ്യമായ മികച്ച നിലവാരം",
+  "lyricsSourceFileTags": "ഓഡിയോ ഫയലിന്റെ സ്വന്തം ടാഗുകളിൽ നിന്ന്",
+  "lyricsSourceWordOnline": "വാക്ക്-സമന്വയം (ഓൺലൈൻ)",
+  "lyricsSourceLineOnline": "വരി-സമന്വയം (ഓൺലൈൻ)",
+  "lyricsSourceNotFound": "ഈ പാട്ടിന് കണ്ടെത്തിയില്ല",
+  "npCatModeUnlocked": "മ്യാവൂ?! പൂച്ച മോഡ് അൺലോക്ക് ചെയ്തു 🐱",
+  "shellResumePlayback": "പ്ലേബാക്ക് പുനരാരംഭിക്കുക",
+  "shellPlay": "പ്ലേ ചെയ്യുക",
+  "devSection": "ഡെവലപ്പർ",
+  "devModeUnlocked": "🛠️ ഡെവലപ്പർ മോഡ് അൺലോക്ക് ചെയ്തു",
+  "devUnlockAll": "എല്ലാ ആക്സസറികളും അൺലോക്ക് ചെയ്യുക",
+  "devClearLyricsCache": "വരികളുടെ കാഷെ മായ്ക്കുക",
+  "devRefetchLyrics": "എല്ലാ വരികളും വീണ്ടും എടുക്കുക…",
+  "devLyricsCleared": "വരികളുടെ കാഷെ മായ്ച്ചു",
+  "devHideOptions": "ഡെവലപ്പർ ഓപ്ഷനുകൾ മറയ്ക്കുക",
+  "devModeOff": "ഡെവലപ്പർ മോഡ് ഓഫ്",
+  "youCantReadFolders": "നിങ്ങളുടെ സംഗീത ഫോൾഡറുകൾ വായിക്കാൻ കഴിഞ്ഞില്ല",
+  "youNoMusicFolders": "സംഗീത ഫോൾഡറുകളൊന്നും കണ്ടെത്തിയില്ല"
+}

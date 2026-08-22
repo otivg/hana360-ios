@@ -1,0 +1,349 @@
+{
+  "@@locale": "hu",
+  "appName": "Hana360",
+
+  "languageSettings": "Nyelv",
+  "languageFollowSystem": "Rendszer követése",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "Mégse",
+  "commonConfirm": "OK",
+  "commonBack": "Vissza",
+  "commonDone": "Kész",
+  "commonUnknown": "Ismeretlen",
+
+  "secUpmix": "Upmix motor",
+  "spatialAudioTitle": "360° térbeli hang",
+  "npNothingPlaying": "Még semmi sem szól",
+  "npPickSong": "Válassz egy dalt a könyvtáradból",
+  "npSpatialSettings": "360° beállítások",
+  "npLyrics": "Dalszöveg",
+  "libSearchHint": "Keresés a zenédben…",
+  "libClearLibrary": "Könyvtár törlése",
+  "libImportMusic": "Zene importálása",
+  "libError": "Valami hiba történt: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "Nincs találat erre: \"{query}\"",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "A Hana360-nak engedélyre van szüksége a zenéd megtalálásához\nNincs hozzáférés ezen az eszközön? Importálj helyette.",
+  "libNoSongs": "Nem található dal ezen az eszközön\nImportálj zenét a fájljaidból a kezdéshez",
+  "libGrantAccess": "Hozzáférés megadása",
+  "libRescan": "Újraolvasás",
+  "libAddedToQueue": "Hozzáadva a várólistához",
+  "libNoAlbums": "Még nincsenek albumok",
+  "libNoFolders": "Még nincsenek mappák",
+  "libNoPlaylists": "Még nincsenek lejátszási listák",
+  "libPlaylistCreated": "\"{name}\" lejátszási lista létrehozva 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "tartsd lenyomva a mappát, hogy lejátszási listává alakítsd",
+  "libSongCount": "{count} dal",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} dal · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "Későn fent ♪",
+  "homeGreetingMorning": "Jó reggelt ♪",
+  "homeGreetingAfternoon": "Jó napot ♪",
+  "homeGreetingEvening": "Jó estét ♪",
+  "homeJumpBackIn": "FOLYTATÁS",
+  "homeForYou": "NEKED",
+  "homeForYouSub": "ezen az eszközön, a hallgatásaid alapján választva",
+  "homeWelcome": "Üdvözlünk a Hana360-ban 🌸",
+  "homeAllQuiet": "Minden csendes 🌸",
+  "homeLibraryHint": "A zenéd a Könyvtár fülön él — ott adj hozzá mappákat. Minden, amit lejátszol, itt gyűlik össze.",
+  "homePlayHint": "Játssz le valamit, és legközelebb itt fog várni.",
+  "youRescanLibrary": "Könyvtár újraolvasása",
+  "youExcludedFolders": "Kizárt mappák",
+  "youExcludedFoldersSub": "Mappák elrejtése a könyvtárból",
+  "youCatMode": "Macska mód",
+  "youAbout": "Névjegy",
+  "youScanning": "Zenéd beolvasása…",
+  "youOpenSource": "Open Source",
+  "youOpenSourceSub": "A Hana360 a Hanamimi (GPLv3, ShaptakNaskar) származéka — módosítva: 2026-08-10",
+  "youCheckUpdates": "Frissítések keresése",
+  "youCheckUpdatesSub": "Az új verziók a GitHub Releases oldalon jelennek meg",
+  "youUpToDate": "Naprakész vagy 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Készítette: Sappy",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "Lejátszás folytatása a háttérben",
+  "youKeepPlayingAllowed": "Engedélyezve — a rendszer nem szünetelteti a zenéd",
+  "youKeepPlayingTap": "Koppints, hogy a rendszer ne állítsa le a lejátszást",
+  "youExcludedFoldersTitle": "Kizárt mappák",
+  "youExcludedFoldersDesc": "A kikapcsolt mappák dalai kimaradnak a könyvtárból",
+  "youVisSensitivity": "Vizualizátor érzékenysége",
+  "youVisSensitivitySub": "Növeld azoknál a daloknál, amelyek alig mozgatják",
+  "youNerdMode": "Nerd mód",
+  "youNerdModeSub": "Kodek, bitráta és hangkimenet megjelenítése a Most játszik képernyőn",
+  "youEqualizer": "Hangszínszabályzó",
+  "youComingSoon": "Hamarosan",
+  "sleepTimer": "Elalvás időzítő",
+  "sleep15": "15 perc",
+  "sleep30": "30 perc",
+  "sleep1h": "1 óra",
+  "sleepEndTrack": "A dal vége",
+  "sleepFading": "Elhalkulás… szép álmokat",
+  "sleepIn": "Elalvás ennyi múlva: {time}",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "Elalvás, amikor ez a dal véget ér",
+  "sleepCancel": "Időzítő törlése",
+  "queueUpNext": "Következő",
+  "queueEmpty": "A várólista üres",
+  "updateAvailable": "Frissítés érhető el ✨",
+  "updateNoNotes": "Nincsenek kiadási megjegyzések.",
+  "updateInstalling": "Telepítő megnyitása…",
+  "updateFailed": "Nem sikerült frissíteni — próbáld újra később",
+  "updateLater": "Később",
+  "updateRetry": "Újra",
+  "updateNow": "Frissítés",
+  "spatialToggleTitle": "360° térbeli hang",
+  "spatialOn": "Be",
+  "spatialOff": "Ki",
+  "lyricsNoFound": "Nem található dalszöveg",
+  "lyricsJustListening": "Ez csak hallgatásra való",
+  "lyricsTrySource": "Próbálj másik forrást",
+  "lyricsSource": "Dalszöveg forrása",
+  "lyricsWordSynced": "Szó-szinkronizált",
+  "lyricsLineSynced": "Sor-szinkronizált",
+  "lyricsUnsynced": "Nem szinkronizált",
+  "plNoPlaylists": "Még nincs lejátszási lista — előbb hozz létre egyet!",
+  "plAddToPlaylist": "Hozzáadás a listához",
+  "plAddedTo": "Hozzáadva ehhez: {name}",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "Dalszöveg megosztása",
+  "shareMaxLines": "Maximális sorszám kiválasztva",
+  "sharePickLines": "Válassz legfeljebb {count} sort",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "Válassz néhány sort lentebb…",
+  "shareButton": "Megosztás",
+  "batTitle": "Zenéljen tovább 🎵",
+  "batBody": "Az Android akkumulátor-optimalizálása szüneteltetheti a zenét, ha a képernyő ki van kapcsolva. Engedélyezd, hogy a Hana360 korlátozás nélkül fusson, hogy a lejátszás stabil maradjon.\n\nEzt bármikor módosíthatod: Te → \"Lejátszás folytatása a háttérben\".",
+  "batNotNow": "Most nem",
+  "batAllow": "Engedélyezés",
+  "algoSwitch": "Algoritmus",
+  "speakerDistance": "Hangszóró távolság",
+  "channelTrim": "Csatorna trim",
+  "masterGain": "Fő erősítés",
+  "secHrtf": "HRTF személyre szabás",
+  "outputGain": "Kimeneti erősítés",
+  "secEq": "Térbeli EQ",
+  "secReverb": "Visszhang",
+  "roomSize": "Szoba",
+  "reverbGain": "Visszhang erősítés",
+  "secTracking": "Fejkövetés",
+  "trackOff": "Ki",
+  "trackSensor": "Telefon érzékelő",
+  "trackManual": "Kézi XY",
+  "dragHint": "Húzd a fej irányának beállításához (a hangtér követi)",
+  "customEq": "Egyéni",
+  "eqPresetMusic": "Zene",
+  "eqPresetCinema": "Mozi",
+  "eqPresetGame": "Játék",
+  "eqPresetVoice": "Beszéd",
+
+  "hrtfGroup0": "Férfi / Kicsi / Kicsi",
+  "hrtfGroup1": "Férfi / Kicsi / Közepes",
+  "hrtfGroup2": "Férfi / Kicsi / Nagy",
+  "hrtfGroup3": "Férfi / Közepes / Kicsi",
+  "hrtfGroup4": "Férfi / Közepes / Közepes",
+  "hrtfGroup5": "Férfi / Közepes / Nagy",
+  "hrtfGroup6": "Férfi / Nagy / Kicsi",
+  "hrtfGroup7": "Férfi / Nagy / Közepes",
+  "hrtfGroup8": "Férfi / Nagy / Nagy",
+  "hrtfGroup9": "Nő / Kicsi / Kicsi",
+  "hrtfGroup10": "Nő / Kicsi / Közepes",
+  "hrtfGroup11": "Nő / Kicsi / Nagy",
+  "hrtfGroup12": "Nő / Közepes / Kicsi",
+  "hrtfGroup13": "Nő / Közepes / Közepes",
+  "hrtfGroup14": "Nő / Közepes / Nagy",
+
+  "navHome": "Kezdőlap",
+  "navLibrary": "Könyvtár",
+  "navPlaying": "Lejátszás",
+  "navYou": "Te",
+  "tabSongs": "Dalok",
+  "tabAlbums": "Albumok",
+  "tabFolders": "Mappák",
+  "tabPlaylists": "Lejátszási listák",
+  "youMood": "HANGULAT",
+  "youCompanion": "A TÁRSAD",
+  "youBuddies": "PAJTÁSOK",
+  "youSound": "HANG",
+  "youMore": "TOVÁBB",
+  "themeCherryBlossom": "Cseresznyevirág",
+  "themeStarryNight": "Csillagos éj",
+  "themeAdaptiveLight": "Adaptív világos",
+  "themeAdaptiveDark": "Adaptív sötét",
+  "youListenedTogether": "{h}ó {m}p közös hallgatás",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "Fejléc és Most játszik",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "A Könyvtár címén ül",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "A mini lejátszón szunyókál",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "A kedvelt dalok felett lépeget",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "Ragyognak a sötét témákon",
+  "accBow": "Rózsaszín masni",
+  "accHeadphones": "Apró fejhallgató",
+  "accFlower": "Virág",
+  "accCrown": "Apró korona",
+  "accUnlockLabel": "Hallgass {h} órát",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "Áttűnés",
+  "youCrossfadeSub": "Olvaszd a dal végét a következőbe",
+  "youSmartShuffle": "Okos keverés",
+  "youSmartShuffleSub": "A keverés a kedvenceid felé hajlik — ezen az eszközön számolva",
+
+  "libLikedSongs": "Kedvelt dalok",
+  "libTapHeart": "Koppints a szívre egy dalon, hogy itt tartsd",
+  "libRemovedFromQueue": "Eltávolítva a várólistából",
+  "libRemovedFromLibrary": "Eltávolítva a könyvtárból",
+  "libRemoveFromLibrary": "Eltávolítás a könyvtárból",
+  "libNewPlaylist": "Új lejátszási lista",
+  "libPlaylistName": "Lista neve",
+  "libCreate": "Létrehozás",
+  "libSwipeHint": "csúsztasd balra az eltávolításhoz · tartsd lenyomva az átrendezéshez",
+  "libChooseCover": "Borítókép kiválasztása",
+  "libBackToArtCover": "Vissza a dal borítójához",
+  "libDeleteConfirm": "Törlöd ezt: \"{name}\"?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "Maguk a dalok az eszközödön maradnak",
+  "libKeep": "Megtartás",
+  "libDelete": "Törlés",
+  "libRemoveKeepFile": "Maga a fájl az eszközödön marad",
+  "libClearConfirm": "Az összes fájl eltávolítása?",
+  "libLibraryCleared": "Könyvtár törölve",
+  "libPickAudioFiles": "Hangfájlok kiválasztása…",
+  "libImportFolder": "Mappa importálása",
+  "libScanWholeFolder": "Teljes mappa beolvasása… (ajánlott)",
+  "libImportFailed": "Importálás sikertelen: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "Nem találhatók hangfájlok",
+  "libImportedCount": "Importálva: {count} dal",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "Még nincs itt semmi — csúsztasd balra az eltávolításhoz, tartsd lenyomva az átrendezéshez",
+  "sidebarYourLibrary": "A KÖNYVTÁRAD",
+  "sidebarPlaylists": "LEJÁTSZÁSI LISTÁK",
+  "sidebarFolders": "MAPPÁK",
+  "rowQueue": "Várólista",
+  "rowRemove": "Eltávolítás",
+  "rowPlaylist": "Lejátszási lista",
+  "plTrackCount": "{count} szám",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "Auto",
+  "lyricsSourceEmbedded": "Beágyazott",
+  "lyricsSourceBestQuality": "Legjobb elérhető minőség",
+  "lyricsSourceFileTags": "A hangfájl saját címkéiből",
+  "lyricsSourceWordOnline": "Szó-szinkronizált (online)",
+  "lyricsSourceLineOnline": "Sor-szinkronizált (online)",
+  "lyricsSourceNotFound": "Ehhez a dalhoz nem található",
+  "npCatModeUnlocked": "Miáú?! Macska mód feloldva 🐱",
+  "shellResumePlayback": "Lejátszás folytatása",
+  "shellPlay": "LEJÁTSZÁS",
+  "devSection": "FEJLESZTŐ",
+  "devModeUnlocked": "🛠️ Fejlesztői mód feloldva",
+  "devUnlockAll": "Az összes kiegészítő feloldása",
+  "devClearLyricsCache": "Dalszöveg gyorsítótár törlése",
+  "devRefetchLyrics": "Az összes dalszöveg újra lekérése…",
+  "devLyricsCleared": "Dalszöveg gyorsítótár törölve",
+  "devHideOptions": "Fejlesztői beállítások elrejtése",
+  "devModeOff": "Fejlesztői mód kikapcsolva",
+  "youCantReadFolders": "Nem sikerült beolvasni a zenei mappáidat",
+  "youNoMusicFolders": "Nem találhatók zenei mappák"
+}

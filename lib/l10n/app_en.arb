@@ -1,0 +1,349 @@
+{
+  "@@locale": "en",
+  "appName": "Hana360",
+
+  "languageSettings": "Language",
+  "languageFollowSystem": "Follow System",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "Cancel",
+  "commonConfirm": "OK",
+  "commonBack": "Back",
+  "commonDone": "Done",
+  "commonUnknown": "Unknown",
+
+  "secUpmix": "Upmix Engine",
+  "spatialAudioTitle": "360 Spatial Audio",
+  "npNothingPlaying": "Nothing playing yet",
+  "npPickSong": "Pick a song from your library",
+  "npSpatialSettings": "360 Settings",
+  "npLyrics": "Lyrics",
+  "libSearchHint": "Search your music…",
+  "libClearLibrary": "Clear library",
+  "libImportMusic": "Import music",
+  "libError": "Something went wrong: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "Nothing matches \"{query}\"",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "Hana360 needs permission to find your music\nNo access on this device? Import instead.",
+  "libNoSongs": "No songs found on this device\nImport music from your files to get started",
+  "libGrantAccess": "Grant access",
+  "libRescan": "Rescan",
+  "libAddedToQueue": "Added to queue",
+  "libNoAlbums": "No albums yet",
+  "libNoFolders": "No folders yet",
+  "libNoPlaylists": "No playlists yet",
+  "libPlaylistCreated": "Playlist \"{name}\" created 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "long-press a folder to turn it into a playlist",
+  "libSongCount": "{count} songs",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} songs · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "Up late ♪",
+  "homeGreetingMorning": "Good morning ♪",
+  "homeGreetingAfternoon": "Good afternoon ♪",
+  "homeGreetingEvening": "Good evening ♪",
+  "homeJumpBackIn": "JUMP BACK IN",
+  "homeForYou": "FOR YOU",
+  "homeForYouSub": "picked on this device, from your listening",
+  "homeWelcome": "Welcome to Hana360 🌸",
+  "homeAllQuiet": "All quiet 🌸",
+  "homeLibraryHint": "Your music lives in the Library tab — add folders there. Everything you play gathers here.",
+  "homePlayHint": "Play something and it'll be waiting here next time.",
+  "youRescanLibrary": "Rescan library",
+  "youExcludedFolders": "Excluded folders",
+  "youExcludedFoldersSub": "Hide folders from your library",
+  "youCatMode": "Cat Mode",
+  "youAbout": "About",
+  "youScanning": "Scanning your music…",
+  "youOpenSource": "Open Source",
+  "youOpenSourceSub": "Hana360 is a derivative of Hanamimi (GPLv3) by ShaptakNaskar — modified 2026-08-10",
+  "youCheckUpdates": "Check for updates",
+  "youCheckUpdatesSub": "New builds land on GitHub Releases",
+  "youUpToDate": "You're up to date 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Made by Sappy",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "Keep playing in background",
+  "youKeepPlayingAllowed": "Allowed — the system won't pause your music",
+  "youKeepPlayingTap": "Tap to stop the system killing playback",
+  "youExcludedFoldersTitle": "Excluded folders",
+  "youExcludedFoldersDesc": "Songs in switched-off folders are left out of your library",
+  "youVisSensitivity": "Visualizer sensitivity",
+  "youVisSensitivitySub": "Turn up for songs that barely move it",
+  "youNerdMode": "Nerd mode",
+  "youNerdModeSub": "Show codec, bitrate & audio output on Now Playing",
+  "youEqualizer": "Equalizer",
+  "youComingSoon": "Coming soon",
+  "sleepTimer": "Sleep timer",
+  "sleep15": "15 minutes",
+  "sleep30": "30 minutes",
+  "sleep1h": "1 hour",
+  "sleepEndTrack": "End of track",
+  "sleepFading": "Fading out… sweet dreams",
+  "sleepIn": "Sleeping in {time}",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "Sleeping when this song ends",
+  "sleepCancel": "Cancel timer",
+  "queueUpNext": "Up next",
+  "queueEmpty": "Queue is empty",
+  "updateAvailable": "Update available ✨",
+  "updateNoNotes": "No release notes.",
+  "updateInstalling": "Opening installer…",
+  "updateFailed": "Couldn't update — try again later",
+  "updateLater": "Later",
+  "updateRetry": "Retry",
+  "updateNow": "Update",
+  "spatialToggleTitle": "360 Spatial Audio",
+  "spatialOn": "On",
+  "spatialOff": "Off",
+  "lyricsNoFound": "No lyrics found",
+  "lyricsJustListening": "This one's just for listening",
+  "lyricsTrySource": "Try another source",
+  "lyricsSource": "Lyrics source",
+  "lyricsWordSynced": "Word-synced",
+  "lyricsLineSynced": "Line-synced",
+  "lyricsUnsynced": "Unsynced",
+  "plNoPlaylists": "No playlists yet — make one first!",
+  "plAddToPlaylist": "Add to playlist",
+  "plAddedTo": "Added to {name}",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "Share lyrics",
+  "shareMaxLines": "Max lines selected",
+  "sharePickLines": "Pick up to {count} lines",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "Pick some lines below…",
+  "shareButton": "Share",
+  "batTitle": "Keep the music playing 🎵",
+  "batBody": "Android's battery optimization can pause your music when the screen is off. Allow Hana360 to run unrestricted so playback stays stable.\n\nYou can change this anytime in You → \"Keep playing in background\".",
+  "batNotNow": "Not now",
+  "batAllow": "Allow",
+  "algoSwitch": "Algorithm",
+  "speakerDistance": "Speaker Distance",
+  "channelTrim": "Channel Trim",
+  "masterGain": "Master Gain",
+  "secHrtf": "HRTF Personalization",
+  "outputGain": "Output Gain",
+  "secEq": "Spatial EQ",
+  "secReverb": "Reverb",
+  "roomSize": "Room",
+  "reverbGain": "Reverb Gain",
+  "secTracking": "Head Tracking",
+  "trackOff": "Off",
+  "trackSensor": "Phone Sensor",
+  "trackManual": "Manual XY",
+  "dragHint": "Drag to adjust head orientation (sound field follows)",
+  "customEq": "Custom",
+  "eqPresetMusic": "Music",
+  "eqPresetCinema": "Cinema",
+  "eqPresetGame": "Game",
+  "eqPresetVoice": "Voice",
+
+  "hrtfGroup0": "Male / Small / Small",
+  "hrtfGroup1": "Male / Small / Mid",
+  "hrtfGroup2": "Male / Small / Large",
+  "hrtfGroup3": "Male / Mid / Small",
+  "hrtfGroup4": "Male / Mid / Mid",
+  "hrtfGroup5": "Male / Mid / Large",
+  "hrtfGroup6": "Male / Large / Small",
+  "hrtfGroup7": "Male / Large / Mid",
+  "hrtfGroup8": "Male / Large / Large",
+  "hrtfGroup9": "Female / Small / Small",
+  "hrtfGroup10": "Female / Small / Mid",
+  "hrtfGroup11": "Female / Small / Large",
+  "hrtfGroup12": "Female / Mid / Small",
+  "hrtfGroup13": "Female / Mid / Mid",
+  "hrtfGroup14": "Female / Mid / Large",
+
+  "navHome": "Home",
+  "navLibrary": "Library",
+  "navPlaying": "Playing",
+  "navYou": "You",
+  "tabSongs": "Songs",
+  "tabAlbums": "Albums",
+  "tabFolders": "Folders",
+  "tabPlaylists": "Playlists",
+  "youMood": "MOOD",
+  "youCompanion": "YOUR COMPANION",
+  "youBuddies": "BUDDIES",
+  "youSound": "SOUND",
+  "youMore": "MORE",
+  "themeCherryBlossom": "Cherry Blossom",
+  "themeStarryNight": "Starry Night",
+  "themeAdaptiveLight": "Adaptive Light",
+  "themeAdaptiveDark": "Adaptive Dark",
+  "youListenedTogether": "{h}h {m}m listened together",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "Header & Now Playing",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "Perches on the Library title",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "Naps on the mini player",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "Struts atop Liked songs",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "Glow on the dark themes",
+  "accBow": "Pink bow",
+  "accHeadphones": "Tiny headphones",
+  "accFlower": "Flower",
+  "accCrown": "Tiny crown",
+  "accUnlockLabel": "Listen for {h} hours",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "Crossfade",
+  "youCrossfadeSub": "Blend the end of a song into the next",
+  "youSmartShuffle": "Smart shuffle",
+  "youSmartShuffleSub": "Shuffle leans toward your favorites — computed on this device",
+
+  "libLikedSongs": "Liked songs",
+  "libTapHeart": "Tap the heart on a song to keep it here",
+  "libRemovedFromQueue": "Removed from queue",
+  "libRemovedFromLibrary": "Removed from library",
+  "libRemoveFromLibrary": "Remove from library",
+  "libNewPlaylist": "New playlist",
+  "libPlaylistName": "Playlist name",
+  "libCreate": "Create",
+  "libSwipeHint": "swipe left to remove · hold to reorder",
+  "libChooseCover": "Choose cover image",
+  "libBackToArtCover": "Back to song-art cover",
+  "libDeleteConfirm": "Delete \"{name}\"?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "The songs themselves stay on your device",
+  "libKeep": "Keep",
+  "libDelete": "Delete",
+  "libRemoveKeepFile": "The file itself stays on your device",
+  "libClearConfirm": "Remove all files?",
+  "libLibraryCleared": "Library cleared",
+  "libPickAudioFiles": "Pick audio files…",
+  "libImportFolder": "Import a folder",
+  "libScanWholeFolder": "Scan a whole folder… (recommended)",
+  "libImportFailed": "Import failed: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "No audio files found",
+  "libImportedCount": "Imported {count} songs",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "Nothing here yet — swipe left to remove, hold to reorder",
+  "sidebarYourLibrary": "YOUR LIBRARY",
+  "sidebarPlaylists": "PLAYLISTS",
+  "sidebarFolders": "FOLDERS",
+  "rowQueue": "Queue",
+  "rowRemove": "Remove",
+  "rowPlaylist": "Playlist",
+  "plTrackCount": "{count} tracks",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "Auto",
+  "lyricsSourceEmbedded": "Embedded",
+  "lyricsSourceBestQuality": "Best available quality",
+  "lyricsSourceFileTags": "From the audio file's own tags",
+  "lyricsSourceWordOnline": "Word-synced (online)",
+  "lyricsSourceLineOnline": "Line-synced (online)",
+  "lyricsSourceNotFound": "Not found for this song",
+  "npCatModeUnlocked": "Meow?! Cat Mode unlocked 🐱",
+  "shellResumePlayback": "Resume playback",
+  "shellPlay": "PLAY",
+  "devSection": "DEVELOPER",
+  "devModeUnlocked": "🛠️ Developer mode unlocked",
+  "devUnlockAll": "Unlock all accessories",
+  "devClearLyricsCache": "Clear lyrics cache",
+  "devRefetchLyrics": "Refetch all lyrics…",
+  "devLyricsCleared": "Lyrics cache cleared",
+  "devHideOptions": "Hide developer options",
+  "devModeOff": "Developer mode off",
+  "youCantReadFolders": "Couldn't read your music folders",
+  "youNoMusicFolders": "No music folders found"
+}

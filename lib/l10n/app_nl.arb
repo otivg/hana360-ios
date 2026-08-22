@@ -1,0 +1,349 @@
+{
+  "@@locale": "nl",
+  "appName": "Hana360",
+
+  "languageSettings": "Taal",
+  "languageFollowSystem": "Volg systeem",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "Annuleren",
+  "commonConfirm": "OK",
+  "commonBack": "Terug",
+  "commonDone": "Klaar",
+  "commonUnknown": "Onbekend",
+
+  "secUpmix": "Upmix-engine",
+  "spatialAudioTitle": "360° ruimtelijke audio",
+  "npNothingPlaying": "Er speelt nog niets",
+  "npPickSong": "Kies een nummer uit je bibliotheek",
+  "npSpatialSettings": "360°-instellingen",
+  "npLyrics": "Songteksten",
+  "libSearchHint": "Zoek in je muziek…",
+  "libClearLibrary": "Bibliotheek leegmaken",
+  "libImportMusic": "Muziek importeren",
+  "libError": "Er is iets misgegaan: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "Niets komt overeen met \"{query}\"",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "Hana360 heeft toestemming nodig om je muziek te vinden\nGeen toegang op dit apparaat? Importeer in plaats daarvan.",
+  "libNoSongs": "Geen nummers gevonden op dit apparaat\nImporteer muziek uit je bestanden om te beginnen",
+  "libGrantAccess": "Toegang verlenen",
+  "libRescan": "Opnieuw scannen",
+  "libAddedToQueue": "Aan wachtrij toegevoegd",
+  "libNoAlbums": "Nog geen albums",
+  "libNoFolders": "Nog geen mappen",
+  "libNoPlaylists": "Nog geen afspeellijsten",
+  "libPlaylistCreated": "Afspeellijst \"{name}\" aangemaakt 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "houd een map ingedrukt om er een afspeellijst van te maken",
+  "libSongCount": "{count} nummers",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} nummers · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "Laat op ♪",
+  "homeGreetingMorning": "Goedemorgen ♪",
+  "homeGreetingAfternoon": "Goedemiddag ♪",
+  "homeGreetingEvening": "Goedenavond ♪",
+  "homeJumpBackIn": "GA VERDER",
+  "homeForYou": "VOOR JOU",
+  "homeForYouSub": "gekozen op dit apparaat, op basis van je luistergedrag",
+  "homeWelcome": "Welkom bij Hana360 🌸",
+  "homeAllQuiet": "Alles stil 🌸",
+  "homeLibraryHint": "Je muziek leeft in het tabblad Bibliotheek — voeg daar mappen toe. Alles wat je afspeelt, verzamelt zich hier.",
+  "homePlayHint": "Speel iets af en het wacht hier de volgende keer op je.",
+  "youRescanLibrary": "Bibliotheek opnieuw scannen",
+  "youExcludedFolders": "Uitgesloten mappen",
+  "youExcludedFoldersSub": "Mappen verbergen uit je bibliotheek",
+  "youCatMode": "Kattenmodus",
+  "youAbout": "Over",
+  "youScanning": "Je muziek scannen…",
+  "youOpenSource": "Open source",
+  "youOpenSourceSub": "Hana360 is een afgeleide van Hanamimi (GPLv3) van ShaptakNaskar — gewijzigd op 2026-08-10",
+  "youCheckUpdates": "Controleren op updates",
+  "youCheckUpdatesSub": "Nieuwe builds verschijnen op GitHub Releases",
+  "youUpToDate": "Je bent up-to-date 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Gemaakt door Sappy",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "Blijf afspelen op de achtergrond",
+  "youKeepPlayingAllowed": "Toegestaan — het systeem pauzeert je muziek niet",
+  "youKeepPlayingTap": "Tik om te voorkomen dat het systeem het afspelen stopt",
+  "youExcludedFoldersTitle": "Uitgesloten mappen",
+  "youExcludedFoldersDesc": "Nummers in uitgeschakelde mappen worden uit je bibliotheek weggelaten",
+  "youVisSensitivity": "Gevoeligheid visualizer",
+  "youVisSensitivitySub": "Zet omhoog voor nummers die hem nauwelijks bewegen",
+  "youNerdMode": "Nerdmodus",
+  "youNerdModeSub": "Toon codec, bitrate en audio-uitvoer op Nu afspelen",
+  "youEqualizer": "Equalizer",
+  "youComingSoon": "Binnenkort",
+  "sleepTimer": "Slaaptimer",
+  "sleep15": "15 minuten",
+  "sleep30": "30 minuten",
+  "sleep1h": "1 uur",
+  "sleepEndTrack": "Einde van nummer",
+  "sleepFading": "Uitfaden… slaap lekker",
+  "sleepIn": "Slapen over {time}",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "Slapen wanneer dit nummer eindigt",
+  "sleepCancel": "Timer annuleren",
+  "queueUpNext": "Volgende",
+  "queueEmpty": "Wachtrij is leeg",
+  "updateAvailable": "Update beschikbaar ✨",
+  "updateNoNotes": "Geen release-opmerkingen.",
+  "updateInstalling": "Installatie openen…",
+  "updateFailed": "Kon niet updaten — probeer het later opnieuw",
+  "updateLater": "Later",
+  "updateRetry": "Opnieuw",
+  "updateNow": "Updaten",
+  "spatialToggleTitle": "360° ruimtelijke audio",
+  "spatialOn": "Aan",
+  "spatialOff": "Uit",
+  "lyricsNoFound": "Geen songteksten gevonden",
+  "lyricsJustListening": "Deze is gewoon om naar te luisteren",
+  "lyricsTrySource": "Probeer een andere bron",
+  "lyricsSource": "Bron van songteksten",
+  "lyricsWordSynced": "Woord-synchroon",
+  "lyricsLineSynced": "Regel-synchroon",
+  "lyricsUnsynced": "Niet synchroon",
+  "plNoPlaylists": "Nog geen afspeellijsten — maak er eerst een!",
+  "plAddToPlaylist": "Toevoegen aan afspeellijst",
+  "plAddedTo": "Toegevoegd aan {name}",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "Songteksten delen",
+  "shareMaxLines": "Maximaal aantal regels geselecteerd",
+  "sharePickLines": "Kies maximaal {count} regels",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "Kies hieronder enkele regels…",
+  "shareButton": "Delen",
+  "batTitle": "Blijf de muziek afspelen 🎵",
+  "batBody": "De batterij-optimalisatie van Android kan je muziek pauzeren wanneer het scherm uit staat. Sta Hana360 toe onbeperkt te draaien zodat het afspelen stabiel blijft.\n\nJe kunt dit op elk moment wijzigen in Jij → \"Blijf afspelen op de achtergrond\".",
+  "batNotNow": "Niet nu",
+  "batAllow": "Toestaan",
+  "algoSwitch": "Algoritme",
+  "speakerDistance": "Luidsprekerafstand",
+  "channelTrim": "Kanaal-trim",
+  "masterGain": "Mastergain",
+  "secHrtf": "HRTF-personalisatie",
+  "outputGain": "Uitgangsgain",
+  "secEq": "Ruimtelijke EQ",
+  "secReverb": "Galm",
+  "roomSize": "Ruimte",
+  "reverbGain": "Galmgain",
+  "secTracking": "Hoofdtracking",
+  "trackOff": "Uit",
+  "trackSensor": "Telefoonsensor",
+  "trackManual": "Handmatig XY",
+  "dragHint": "Sleep om de hoofdorichting aan te passen (het geluidsveld volgt)",
+  "customEq": "Aangepast",
+  "eqPresetMusic": "Muziek",
+  "eqPresetCinema": "Bioscoop",
+  "eqPresetGame": "Game",
+  "eqPresetVoice": "Stem",
+
+  "hrtfGroup0": "Man / Klein / Klein",
+  "hrtfGroup1": "Man / Klein / Middel",
+  "hrtfGroup2": "Man / Klein / Groot",
+  "hrtfGroup3": "Man / Middel / Klein",
+  "hrtfGroup4": "Man / Middel / Middel",
+  "hrtfGroup5": "Man / Middel / Groot",
+  "hrtfGroup6": "Man / Groot / Klein",
+  "hrtfGroup7": "Man / Groot / Middel",
+  "hrtfGroup8": "Man / Groot / Groot",
+  "hrtfGroup9": "Vrouw / Klein / Klein",
+  "hrtfGroup10": "Vrouw / Klein / Middel",
+  "hrtfGroup11": "Vrouw / Klein / Groot",
+  "hrtfGroup12": "Vrouw / Middel / Klein",
+  "hrtfGroup13": "Vrouw / Middel / Middel",
+  "hrtfGroup14": "Vrouw / Middel / Groot",
+
+  "navHome": "Home",
+  "navLibrary": "Bibliotheek",
+  "navPlaying": "Afspelen",
+  "navYou": "Jij",
+  "tabSongs": "Nummers",
+  "tabAlbums": "Albums",
+  "tabFolders": "Mappen",
+  "tabPlaylists": "Afspeellijsten",
+  "youMood": "STEMMING",
+  "youCompanion": "JOUW METGEZEL",
+  "youBuddies": "MAATJES",
+  "youSound": "GELUID",
+  "youMore": "MEER",
+  "themeCherryBlossom": "Kersenbloesem",
+  "themeStarryNight": "Sterrennacht",
+  "themeAdaptiveLight": "Adaptief licht",
+  "themeAdaptiveDark": "Adaptief donker",
+  "youListenedTogether": "{h}u {m}m samen geluisterd",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "Koptekst en Nu afspelen",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "Zit op de titel van de Bibliotheek",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "Dut op de minispeler",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "Loopt boven de leuke nummers",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "Gloeien op de donkere thema's",
+  "accBow": "Roze strik",
+  "accHeadphones": "Mini-koptelefoon",
+  "accFlower": "Bloem",
+  "accCrown": "Mini-kroon",
+  "accUnlockLabel": "Luister {h} uur",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "Crossfade",
+  "youCrossfadeSub": "Laat het einde van een nummer overvloeien in het volgende",
+  "youSmartShuffle": "Slimme shuffle",
+  "youSmartShuffleSub": "Shuffle neigt naar je favorieten — berekend op dit apparaat",
+
+  "libLikedSongs": "Leuke nummers",
+  "libTapHeart": "Tik op het hartje bij een nummer om het hier te bewaren",
+  "libRemovedFromQueue": "Uit wachtrij verwijderd",
+  "libRemovedFromLibrary": "Uit bibliotheek verwijderd",
+  "libRemoveFromLibrary": "Uit bibliotheek verwijderen",
+  "libNewPlaylist": "Nieuwe afspeellijst",
+  "libPlaylistName": "Naam afspeellijst",
+  "libCreate": "Maken",
+  "libSwipeHint": "veeg naar links om te verwijderen · houd vast om te herschikken",
+  "libChooseCover": "Kies omslagafbeelding",
+  "libBackToArtCover": "Terug naar omslag van nummer",
+  "libDeleteConfirm": "\"{name}\" verwijderen?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "De nummers zelf blijven op je apparaat",
+  "libKeep": "Behouden",
+  "libDelete": "Verwijderen",
+  "libRemoveKeepFile": "Het bestand zelf blijft op je apparaat",
+  "libClearConfirm": "Alle bestanden verwijderen?",
+  "libLibraryCleared": "Bibliotheek leeggemaakt",
+  "libPickAudioFiles": "Kies audiobestanden…",
+  "libImportFolder": "Een map importeren",
+  "libScanWholeFolder": "Een hele map scannen… (aanbevolen)",
+  "libImportFailed": "Importeren mislukt: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "Geen audiobestanden gevonden",
+  "libImportedCount": "{count} nummers geïmporteerd",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "Nog niets hier — veeg naar links om te verwijderen, houd vast om te herschikken",
+  "sidebarYourLibrary": "JOUW BIBLIOTHEEK",
+  "sidebarPlaylists": "AFSPEELLIJSTEN",
+  "sidebarFolders": "MAPPEN",
+  "rowQueue": "Wachtrij",
+  "rowRemove": "Verwijderen",
+  "rowPlaylist": "Afspeellijst",
+  "plTrackCount": "{count} tracks",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "Auto",
+  "lyricsSourceEmbedded": "Ingebed",
+  "lyricsSourceBestQuality": "Beste beschikbare kwaliteit",
+  "lyricsSourceFileTags": "Uit de eigen tags van het audiobestand",
+  "lyricsSourceWordOnline": "Woord-synchroon (online)",
+  "lyricsSourceLineOnline": "Regel-synchroon (online)",
+  "lyricsSourceNotFound": "Niet gevonden voor dit nummer",
+  "npCatModeUnlocked": "Miauw?! Kattenmodus ontgrendeld 🐱",
+  "shellResumePlayback": "Afspelen hervatten",
+  "shellPlay": "AFSPELEN",
+  "devSection": "ONTWIKKELAAR",
+  "devModeUnlocked": "🛠️ Ontwikkelaarsmodus ontgrendeld",
+  "devUnlockAll": "Alle accessoires ontgrendelen",
+  "devClearLyricsCache": "Songtekstencache wissen",
+  "devRefetchLyrics": "Alle songteksten opnieuw ophalen…",
+  "devLyricsCleared": "Songtekstencache gewist",
+  "devHideOptions": "Ontwikkelaarsopties verbergen",
+  "devModeOff": "Ontwikkelaarsmodus uit",
+  "youCantReadFolders": "Kon je muziekmappen niet lezen",
+  "youNoMusicFolders": "Geen muziekmappen gevonden"
+}

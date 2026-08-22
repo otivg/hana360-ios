@@ -1,0 +1,349 @@
+{
+  "@@locale": "da",
+  "appName": "Hana360",
+
+  "languageSettings": "Sprog",
+  "languageFollowSystem": "Følg systemet",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "Annuller",
+  "commonConfirm": "OK",
+  "commonBack": "Tilbage",
+  "commonDone": "Udført",
+  "commonUnknown": "Ukendt",
+
+  "secUpmix": "Upmix-motor",
+  "spatialAudioTitle": "360° rumlig lyd",
+  "npNothingPlaying": "Intet afspilles endnu",
+  "npPickSong": "Vælg en sang fra dit bibliotek",
+  "npSpatialSettings": "360°-indstillinger",
+  "npLyrics": "Tekster",
+  "libSearchHint": "Søg i din musik…",
+  "libClearLibrary": "Ryd bibliotek",
+  "libImportMusic": "Importer musik",
+  "libError": "Noget gik galt: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "Intet matcher \"{query}\"",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "Hana360 har brug for tilladelse til at finde din musik\nIngen adgang på denne enhed? Importer i stedet.",
+  "libNoSongs": "Ingen sange fundet på denne enhed\nImporter musik fra dine filer for at komme i gang",
+  "libGrantAccess": "Giv adgang",
+  "libRescan": "Scan igen",
+  "libAddedToQueue": "Føjet til køen",
+  "libNoAlbums": "Ingen album endnu",
+  "libNoFolders": "Ingen mapper endnu",
+  "libNoPlaylists": "Ingen playlister endnu",
+  "libPlaylistCreated": "Playlisten \"{name}\" oprettet 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "hold en mappe nede for at gøre den til en playliste",
+  "libSongCount": "{count} sange",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} sange · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "Oppe sent ♪",
+  "homeGreetingMorning": "Godmorgen ♪",
+  "homeGreetingAfternoon": "God eftermiddag ♪",
+  "homeGreetingEvening": "God aften ♪",
+  "homeJumpBackIn": "SPRING TILBAGE",
+  "homeForYou": "TIL DIG",
+  "homeForYouSub": "valgt på denne enhed ud fra din lytning",
+  "homeWelcome": "Velkommen til Hana360 🌸",
+  "homeAllQuiet": "Alt stille 🌸",
+  "homeLibraryHint": "Din musik bor i fanen Bibliotek — tilføj mapper der. Alt, du spiller, samles her.",
+  "homePlayHint": "Spil noget, så venter det her næste gang.",
+  "youRescanLibrary": "Scan bibliotek igen",
+  "youExcludedFolders": "Udelukkede mapper",
+  "youExcludedFoldersSub": "Skjul mapper fra dit bibliotek",
+  "youCatMode": "Kattetilstand",
+  "youAbout": "Om",
+  "youScanning": "Scanner din musik…",
+  "youOpenSource": "Open Source",
+  "youOpenSourceSub": "Hana360 er et derivat af Hanamimi (GPLv3) af ShaptakNaskar — ændret 2026-08-10",
+  "youCheckUpdates": "Søg efter opdateringer",
+  "youCheckUpdatesSub": "Nye builds lander på GitHub Releases",
+  "youUpToDate": "Du er opdateret 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Lavet af Sappy",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "Fortsæt med at afspille i baggrunden",
+  "youKeepPlayingAllowed": "Tilladt — systemet pauser ikke din musik",
+  "youKeepPlayingTap": "Tryk for at forhindre systemet i at stoppe afspilningen",
+  "youExcludedFoldersTitle": "Udelukkede mapper",
+  "youExcludedFoldersDesc": "Sange i slukkede mapper udelades fra biblioteket",
+  "youVisSensitivity": "Visualizer-følsomhed",
+  "youVisSensitivitySub": "Skru op for sange, der knap bevæger den",
+  "youNerdMode": "Nørdtilstand",
+  "youNerdModeSub": "Vis codec, bitrate og lydudgang på Afspiller nu",
+  "youEqualizer": "Equalizer",
+  "youComingSoon": "Kommer snart",
+  "sleepTimer": "Søvntimer",
+  "sleep15": "15 minutter",
+  "sleep30": "30 minutter",
+  "sleep1h": "1 time",
+  "sleepEndTrack": "Slutningen af sangen",
+  "sleepFading": "Fader ud… sov godt",
+  "sleepIn": "Sover om {time}",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "Sover, når denne sang slutter",
+  "sleepCancel": "Annuller timer",
+  "queueUpNext": "Næste",
+  "queueEmpty": "Køen er tom",
+  "updateAvailable": "Opdatering tilgængelig ✨",
+  "updateNoNotes": "Ingen udgivelsesnoter.",
+  "updateInstalling": "Åbner installation…",
+  "updateFailed": "Kunne ikke opdatere — prøv igen senere",
+  "updateLater": "Senere",
+  "updateRetry": "Prøv igen",
+  "updateNow": "Opdater",
+  "spatialToggleTitle": "360° rumlig lyd",
+  "spatialOn": "Til",
+  "spatialOff": "Fra",
+  "lyricsNoFound": "Ingen tekst fundet",
+  "lyricsJustListening": "Denne er bare til at lytte til",
+  "lyricsTrySource": "Prøv en anden kilde",
+  "lyricsSource": "Tekstkilde",
+  "lyricsWordSynced": "Ordsynkroniseret",
+  "lyricsLineSynced": "Linjesynkroniseret",
+  "lyricsUnsynced": "Usynkroniseret",
+  "plNoPlaylists": "Ingen playlister endnu — lav en først!",
+  "plAddToPlaylist": "Føj til playliste",
+  "plAddedTo": "Føjet til {name}",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "Del tekster",
+  "shareMaxLines": "Maksimalt antal linjer valgt",
+  "sharePickLines": "Vælg op til {count} linjer",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "Vælg nogle linjer nedenfor…",
+  "shareButton": "Del",
+  "batTitle": "Fortsæt med at afspille musikken 🎵",
+  "batBody": "Androids batterioptimering kan sætte din musik på pause, når skærmen er slukket. Lad Hana360 køre ubegrænset, så afspilningen forbliver stabil.\n\nDu kan til enhver tid ændre dette under Dig → \"Fortsæt med at afspille i baggrunden\".",
+  "batNotNow": "Ikke nu",
+  "batAllow": "Tillad",
+  "algoSwitch": "Algoritme",
+  "speakerDistance": "Højttalerafstand",
+  "channelTrim": "Kanaltrim",
+  "masterGain": "Master-gain",
+  "secHrtf": "HRTF-personalisering",
+  "outputGain": "Udgangs-gain",
+  "secEq": "Rumlig EQ",
+  "secReverb": "Efterklang",
+  "roomSize": "Rum",
+  "reverbGain": "Efterklangs-gain",
+  "secTracking": "Hovedsporing",
+  "trackOff": "Fra",
+  "trackSensor": "Telefonsensor",
+  "trackManual": "Manuel XY",
+  "dragHint": "Træk for at justere hovedets retning (lydfeltet følger)",
+  "customEq": "Brugerdefineret",
+  "eqPresetMusic": "Musik",
+  "eqPresetCinema": "Biograf",
+  "eqPresetGame": "Spil",
+  "eqPresetVoice": "Stemme",
+
+  "hrtfGroup0": "Mand / Lille / Lille",
+  "hrtfGroup1": "Mand / Lille / Mellem",
+  "hrtfGroup2": "Mand / Lille / Stor",
+  "hrtfGroup3": "Mand / Mellem / Lille",
+  "hrtfGroup4": "Mand / Mellem / Mellem",
+  "hrtfGroup5": "Mand / Mellem / Stor",
+  "hrtfGroup6": "Mand / Stor / Lille",
+  "hrtfGroup7": "Mand / Stor / Mellem",
+  "hrtfGroup8": "Mand / Stor / Stor",
+  "hrtfGroup9": "Kvinde / Lille / Lille",
+  "hrtfGroup10": "Kvinde / Lille / Mellem",
+  "hrtfGroup11": "Kvinde / Lille / Stor",
+  "hrtfGroup12": "Kvinde / Mellem / Lille",
+  "hrtfGroup13": "Kvinde / Mellem / Mellem",
+  "hrtfGroup14": "Kvinde / Mellem / Stor",
+
+  "navHome": "Hjem",
+  "navLibrary": "Bibliotek",
+  "navPlaying": "Afspiller",
+  "navYou": "Dig",
+  "tabSongs": "Sange",
+  "tabAlbums": "Album",
+  "tabFolders": "Mapper",
+  "tabPlaylists": "Playlister",
+  "youMood": "STEMNING",
+  "youCompanion": "DIN LEDSAGER",
+  "youBuddies": "VENNER",
+  "youSound": "LYD",
+  "youMore": "MERE",
+  "themeCherryBlossom": "Kirsebærblomst",
+  "themeStarryNight": "Stjernenat",
+  "themeAdaptiveLight": "Adaptivt lyst",
+  "themeAdaptiveDark": "Adaptivt mørkt",
+  "youListenedTogether": "{h}t {m}m lyttet sammen",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "Sidehoved og Afspiller nu",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "Sidder på bibliotekets titel",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "Lur på miniafspilleren",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "Spankulerer over likede sange",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "Gløder på de mørke temaer",
+  "accBow": "Lyserød sløjfe",
+  "accHeadphones": "Bittesmå hovedtelefoner",
+  "accFlower": "Blomst",
+  "accCrown": "Lille krone",
+  "accUnlockLabel": "Lyt i {h} timer",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "Crossfade",
+  "youCrossfadeSub": "Bland slutningen af en sang ind i den næste",
+  "youSmartShuffle": "Smart shuffle",
+  "youSmartShuffleSub": "Shuffle hælder mod dine favoritter — beregnet på denne enhed",
+
+  "libLikedSongs": "Likede sange",
+  "libTapHeart": "Tryk på hjertet på en sang for at beholde den her",
+  "libRemovedFromQueue": "Fjernet fra køen",
+  "libRemovedFromLibrary": "Fjernet fra biblioteket",
+  "libRemoveFromLibrary": "Fjern fra biblioteket",
+  "libNewPlaylist": "Ny playliste",
+  "libPlaylistName": "Playlistenavn",
+  "libCreate": "Opret",
+  "libSwipeHint": "svirp til venstre for at fjerne · hold nede for at omarrangere",
+  "libChooseCover": "Vælg omslagsbillede",
+  "libBackToArtCover": "Tilbage til sangens omslag",
+  "libDeleteConfirm": "Slet \"{name}\"?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "Selve sangene forbliver på din enhed",
+  "libKeep": "Behold",
+  "libDelete": "Slet",
+  "libRemoveKeepFile": "Selve filen forbliver på din enhed",
+  "libClearConfirm": "Fjerne alle filer?",
+  "libLibraryCleared": "Biblioteket ryddet",
+  "libPickAudioFiles": "Vælg lydfiler…",
+  "libImportFolder": "Importer en mappe",
+  "libScanWholeFolder": "Scan en hel mappe… (anbefales)",
+  "libImportFailed": "Import mislykkedes: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "Ingen lydfiler fundet",
+  "libImportedCount": "Importerede {count} sange",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "Intet her endnu — svirp til venstre for at fjerne, hold nede for at omarrangere",
+  "sidebarYourLibrary": "DIT BIBLIOTEK",
+  "sidebarPlaylists": "PLAYLISTER",
+  "sidebarFolders": "MAPPER",
+  "rowQueue": "Kø",
+  "rowRemove": "Fjern",
+  "rowPlaylist": "Playliste",
+  "plTrackCount": "{count} spor",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "Auto",
+  "lyricsSourceEmbedded": "Indlejret",
+  "lyricsSourceBestQuality": "Bedste tilgængelige kvalitet",
+  "lyricsSourceFileTags": "Fra lydfilens egne tags",
+  "lyricsSourceWordOnline": "Ordsynkroniseret (online)",
+  "lyricsSourceLineOnline": "Linjesynkroniseret (online)",
+  "lyricsSourceNotFound": "Ikke fundet for denne sang",
+  "npCatModeUnlocked": "Mjav?! Kattetilstand låst op 🐱",
+  "shellResumePlayback": "Genoptag afspilning",
+  "shellPlay": "AFSPIL",
+  "devSection": "UDVIKLER",
+  "devModeUnlocked": "🛠️ Udviklertilstand låst op",
+  "devUnlockAll": "Lås alle tilbehør op",
+  "devClearLyricsCache": "Ryd tekst-cache",
+  "devRefetchLyrics": "Hent alle tekster igen…",
+  "devLyricsCleared": "Tekst-cache ryddet",
+  "devHideOptions": "Skjul udviklerindstillinger",
+  "devModeOff": "Udviklertilstand fra",
+  "youCantReadFolders": "Kunne ikke læse dine musikmapper",
+  "youNoMusicFolders": "Ingen musikmapper fundet"
+}

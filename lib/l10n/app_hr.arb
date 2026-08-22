@@ -1,0 +1,349 @@
+{
+  "@@locale": "hr",
+  "appName": "Hana360",
+
+  "languageSettings": "Jezik",
+  "languageFollowSystem": "Prati sustav",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "Odustani",
+  "commonConfirm": "OK",
+  "commonBack": "Natrag",
+  "commonDone": "Gotovo",
+  "commonUnknown": "Nepoznato",
+
+  "secUpmix": "Upmix motor",
+  "spatialAudioTitle": "360° prostorni zvuk",
+  "npNothingPlaying": "Još se ništa ne reproducira",
+  "npPickSong": "Odaberi pjesmu iz svoje biblioteke",
+  "npSpatialSettings": "Postavke 360°",
+  "npLyrics": "Tekstovi",
+  "libSearchHint": "Pretraži svoju glazbu…",
+  "libClearLibrary": "Očisti biblioteku",
+  "libImportMusic": "Uvezi glazbu",
+  "libError": "Nešto je pošlo po zlu: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "Ništa ne odgovara \"{query}\"",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "Hana360 treba dopuštenje da pronađe vašu glazbu\nNema pristupa na ovom uređaju? Uvezite umjesto toga.",
+  "libNoSongs": "Nema pronađenih pjesama na ovom uređaju\nUvezite glazbu iz svojih datoteka za početak",
+  "libGrantAccess": "Dopusti pristup",
+  "libRescan": "Ponovno skeniraj",
+  "libAddedToQueue": "Dodano u red",
+  "libNoAlbums": "Još nema albuma",
+  "libNoFolders": "Još nema mapa",
+  "libNoPlaylists": "Još nema popisa za reprodukciju",
+  "libPlaylistCreated": "Popis \"{name}\" stvoren 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "dugo pritisnite mapu da je pretvorite u popis za reprodukciju",
+  "libSongCount": "{count} pjesama",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} pjesama · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "Kasno budni ♪",
+  "homeGreetingMorning": "Dobro jutro ♪",
+  "homeGreetingAfternoon": "Dobar dan ♪",
+  "homeGreetingEvening": "Dobra večer ♪",
+  "homeJumpBackIn": "NASTAVI",
+  "homeForYou": "ZA TEBE",
+  "homeForYouSub": "odabrano na ovom uređaju, iz vašeg slušanja",
+  "homeWelcome": "Dobrodošli u Hana360 🌸",
+  "homeAllQuiet": "Sve tiho 🌸",
+  "homeLibraryHint": "Vaša glazba živi na kartici Biblioteka — ondje dodajte mape. Sve što reproducirate skuplja se ovdje.",
+  "homePlayHint": "Reproducirajte nešto i čekat će vas ovdje sljedeći put.",
+  "youRescanLibrary": "Ponovno skeniraj biblioteku",
+  "youExcludedFolders": "Isključene mape",
+  "youExcludedFoldersSub": "Sakrij mape iz biblioteke",
+  "youCatMode": "Mačji način",
+  "youAbout": "O aplikaciji",
+  "youScanning": "Skeniranje vaše glazbe…",
+  "youOpenSource": "Open Source",
+  "youOpenSourceSub": "Hana360 je izvedenica Hanamimija (GPLv3) autora ShaptakNaskar — izmijenjeno 2026-08-10",
+  "youCheckUpdates": "Provjeri ažuriranja",
+  "youCheckUpdatesSub": "Nove verzije izlaze na GitHub Releases",
+  "youUpToDate": "Imate najnoviju verziju 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Napravio Sappy",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "Nastavi reproducirati u pozadini",
+  "youKeepPlayingAllowed": "Dopušteno — sustav neće pauzirati vašu glazbu",
+  "youKeepPlayingTap": "Dodirnite da spriječite sustav da zaustavi reprodukciju",
+  "youExcludedFoldersTitle": "Isključene mape",
+  "youExcludedFoldersDesc": "Pjesme u isključenim mapama izostavljene su iz biblioteke",
+  "youVisSensitivity": "Osjetljivost vizualizatora",
+  "youVisSensitivitySub": "Pojačajte za pjesme koje ga jedva pokreću",
+  "youNerdMode": "Nerd način",
+  "youNerdModeSub": "Prikaži kodek, bitrate i audio izlaz na Sada svira",
+  "youEqualizer": "Ekvilizator",
+  "youComingSoon": "Uskoro",
+  "sleepTimer": "Tajmer spavanja",
+  "sleep15": "15 minuta",
+  "sleep30": "30 minuta",
+  "sleep1h": "1 sat",
+  "sleepEndTrack": "Kraj pjesme",
+  "sleepFading": "Stišavanje… laku noć",
+  "sleepIn": "Spavanje za {time}",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "Spavanje kad ova pjesma završi",
+  "sleepCancel": "Otkaži tajmer",
+  "queueUpNext": "Sljedeće",
+  "queueEmpty": "Red je prazan",
+  "updateAvailable": "Dostupno ažuriranje ✨",
+  "updateNoNotes": "Nema bilješki o izdanju.",
+  "updateInstalling": "Otvaranje instalacije…",
+  "updateFailed": "Ažuriranje nije uspjelo — pokušajte kasnije",
+  "updateLater": "Kasnije",
+  "updateRetry": "Pokušaj ponovno",
+  "updateNow": "Ažuriraj",
+  "spatialToggleTitle": "360° prostorni zvuk",
+  "spatialOn": "Uključeno",
+  "spatialOff": "Isključeno",
+  "lyricsNoFound": "Tekst nije pronađen",
+  "lyricsJustListening": "Ova je samo za slušanje",
+  "lyricsTrySource": "Pokušajte drugi izvor",
+  "lyricsSource": "Izvor tekstova",
+  "lyricsWordSynced": "Sinkronizirano po riječima",
+  "lyricsLineSynced": "Sinkronizirano po stihovima",
+  "lyricsUnsynced": "Nesinkronizirano",
+  "plNoPlaylists": "Još nema popisa — prvo napravite jedan!",
+  "plAddToPlaylist": "Dodaj u popis",
+  "plAddedTo": "Dodano u {name}",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "Podijeli tekstove",
+  "shareMaxLines": "Odabran najveći broj stihova",
+  "sharePickLines": "Odaberite do {count} stihova",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "Odaberite nekoliko stihova ispod…",
+  "shareButton": "Podijeli",
+  "batTitle": "Neka glazba nastavi svirati 🎵",
+  "batBody": "Optimizacija baterije Androida može pauzirati glazbu kad je zaslon isključen. Dopustite Hana360 da radi bez ograničenja kako bi reprodukcija ostala stabilna.\n\nTo možete u svakom trenutku promijeniti u Ti → \"Nastavi reproducirati u pozadini\".",
+  "batNotNow": "Ne sada",
+  "batAllow": "Dopusti",
+  "algoSwitch": "Algoritam",
+  "speakerDistance": "Udaljenost zvučnika",
+  "channelTrim": "Trim kanala",
+  "masterGain": "Glavno pojačanje",
+  "secHrtf": "Personalizacija HRTF-a",
+  "outputGain": "Izlazno pojačanje",
+  "secEq": "Prostorni EQ",
+  "secReverb": "Odjek",
+  "roomSize": "Prostorija",
+  "reverbGain": "Pojačanje odjeka",
+  "secTracking": "Praćenje glave",
+  "trackOff": "Isključeno",
+  "trackSensor": "Senzor telefona",
+  "trackManual": "Ručno XY",
+  "dragHint": "Povucite za podešavanje orijentacije glave (zvučno polje slijedi)",
+  "customEq": "Prilagođeno",
+  "eqPresetMusic": "Glazba",
+  "eqPresetCinema": "Kino",
+  "eqPresetGame": "Igra",
+  "eqPresetVoice": "Glas",
+
+  "hrtfGroup0": "Muškarac / Mala / Mala",
+  "hrtfGroup1": "Muškarac / Mala / Srednja",
+  "hrtfGroup2": "Muškarac / Mala / Velika",
+  "hrtfGroup3": "Muškarac / Srednja / Mala",
+  "hrtfGroup4": "Muškarac / Srednja / Srednja",
+  "hrtfGroup5": "Muškarac / Srednja / Velika",
+  "hrtfGroup6": "Muškarac / Velika / Mala",
+  "hrtfGroup7": "Muškarac / Velika / Srednja",
+  "hrtfGroup8": "Muškarac / Velika / Velika",
+  "hrtfGroup9": "Žena / Mala / Mala",
+  "hrtfGroup10": "Žena / Mala / Srednja",
+  "hrtfGroup11": "Žena / Mala / Velika",
+  "hrtfGroup12": "Žena / Srednja / Mala",
+  "hrtfGroup13": "Žena / Srednja / Srednja",
+  "hrtfGroup14": "Žena / Srednja / Velika",
+
+  "navHome": "Početna",
+  "navLibrary": "Biblioteka",
+  "navPlaying": "Reprodukcija",
+  "navYou": "Ti",
+  "tabSongs": "Pjesme",
+  "tabAlbums": "Albumi",
+  "tabFolders": "Mape",
+  "tabPlaylists": "Popisi",
+  "youMood": "RASPOLOŽENJE",
+  "youCompanion": "VAŠ SUPUTNIK",
+  "youBuddies": "PRIJATELJI",
+  "youSound": "ZVUK",
+  "youMore": "VIŠE",
+  "themeCherryBlossom": "Cvijet trešnje",
+  "themeStarryNight": "Zvjezdana noć",
+  "themeAdaptiveLight": "Adaptivno svijetlo",
+  "themeAdaptiveDark": "Adaptivno tamno",
+  "youListenedTogether": "{h} h {m} min zajedničkog slušanja",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "Zaglavlje i Sada svira",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "Sjedi na naslovu biblioteke",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "Drijema na mini playeru",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "Šepuri se nad lajkanim pjesmama",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "Svijetle na tamnim temama",
+  "accBow": "Ružičasta mašna",
+  "accHeadphones": "Sićušne slušalice",
+  "accFlower": "Cvijet",
+  "accCrown": "Sićušna kruna",
+  "accUnlockLabel": "Slušajte {h} sati",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "Crossfade",
+  "youCrossfadeSub": "Stopi kraj pjesme sa sljedećom",
+  "youSmartShuffle": "Pametno miješanje",
+  "youSmartShuffleSub": "Miješanje naginje vašim favoritima — izračunato na ovom uređaju",
+
+  "libLikedSongs": "Lajkane pjesme",
+  "libTapHeart": "Dodirnite srce na pjesmi da je zadržite ovdje",
+  "libRemovedFromQueue": "Uklonjeno iz reda",
+  "libRemovedFromLibrary": "Uklonjeno iz biblioteke",
+  "libRemoveFromLibrary": "Ukloni iz biblioteke",
+  "libNewPlaylist": "Novi popis",
+  "libPlaylistName": "Naziv popisa",
+  "libCreate": "Stvori",
+  "libSwipeHint": "prijeđite ulijevo za uklanjanje · držite za preuređivanje",
+  "libChooseCover": "Odaberite sliku naslovnice",
+  "libBackToArtCover": "Natrag na naslovnicu pjesme",
+  "libDeleteConfirm": "Izbrisati \"{name}\"?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "Same pjesme ostaju na vašem uređaju",
+  "libKeep": "Zadrži",
+  "libDelete": "Izbriši",
+  "libRemoveKeepFile": "Sama datoteka ostaje na vašem uređaju",
+  "libClearConfirm": "Ukloniti sve datoteke?",
+  "libLibraryCleared": "Biblioteka očišćena",
+  "libPickAudioFiles": "Odaberite audio datoteke…",
+  "libImportFolder": "Uvezi mapu",
+  "libScanWholeFolder": "Skeniraj cijelu mapu… (preporučeno)",
+  "libImportFailed": "Uvoz nije uspio: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "Nisu pronađene audio datoteke",
+  "libImportedCount": "Uvezeno {count} pjesama",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "Još ništa ovdje — prijeđite ulijevo za uklanjanje, držite za preuređivanje",
+  "sidebarYourLibrary": "VAŠA BIBLIOTEKA",
+  "sidebarPlaylists": "POPISI",
+  "sidebarFolders": "MAPE",
+  "rowQueue": "Red",
+  "rowRemove": "Ukloni",
+  "rowPlaylist": "Popis",
+  "plTrackCount": "{count} zapisa",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "Auto",
+  "lyricsSourceEmbedded": "Ugrađeni",
+  "lyricsSourceBestQuality": "Najbolja dostupna kvaliteta",
+  "lyricsSourceFileTags": "Iz vlastitih oznaka audio datoteke",
+  "lyricsSourceWordOnline": "Sinkronizirano po riječima (online)",
+  "lyricsSourceLineOnline": "Sinkronizirano po stihovima (online)",
+  "lyricsSourceNotFound": "Nije pronađeno za ovu pjesmu",
+  "npCatModeUnlocked": "Mijau?! Mačji način otključan 🐱",
+  "shellResumePlayback": "Nastavi reprodukciju",
+  "shellPlay": "REPRODUCIRAJ",
+  "devSection": "RAZVOJNI PROGRAMER",
+  "devModeUnlocked": "🛠️ Razvojni način otključan",
+  "devUnlockAll": "Otključaj sve dodatke",
+  "devClearLyricsCache": "Očisti predmemoriju tekstova",
+  "devRefetchLyrics": "Ponovno dohvati sve tekstove…",
+  "devLyricsCleared": "Predmemorija tekstova očišćena",
+  "devHideOptions": "Sakrij razvojne opcije",
+  "devModeOff": "Razvojni način isključen",
+  "youCantReadFolders": "Nije moguće pročitati vaše glazbene mape",
+  "youNoMusicFolders": "Nisu pronađene glazbene mape"
+}

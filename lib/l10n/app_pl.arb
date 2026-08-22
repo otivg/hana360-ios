@@ -1,0 +1,349 @@
+{
+  "@@locale": "pl",
+  "appName": "Hana360",
+
+  "languageSettings": "Język",
+  "languageFollowSystem": "Zgodnie z systemem",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "Anuluj",
+  "commonConfirm": "OK",
+  "commonBack": "Wstecz",
+  "commonDone": "Gotowe",
+  "commonUnknown": "Nieznany",
+
+  "secUpmix": "Silnik upmix",
+  "spatialAudioTitle": "Dźwięk przestrzenny 360°",
+  "npNothingPlaying": "Nic nie jest odtwarzane",
+  "npPickSong": "Wybierz utwór ze swojej biblioteki",
+  "npSpatialSettings": "Ustawienia 360°",
+  "npLyrics": "Teksty",
+  "libSearchHint": "Szukaj w swojej muzyce…",
+  "libClearLibrary": "Wyczyść bibliotekę",
+  "libImportMusic": "Importuj muzykę",
+  "libError": "Coś poszło nie tak: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "Brak wyników dla \"{query}\"",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "Hana360 potrzebuje uprawnień, aby znaleźć Twoją muzykę\nBrak dostępu na tym urządzeniu? Zaimportuj zamiast tego.",
+  "libNoSongs": "Nie znaleziono utworów na tym urządzeniu\nZaimportuj muzykę ze swoich plików, aby rozpocząć",
+  "libGrantAccess": "Udziel dostępu",
+  "libRescan": "Skanuj ponownie",
+  "libAddedToQueue": "Dodano do kolejki",
+  "libNoAlbums": "Brak albumów",
+  "libNoFolders": "Brak folderów",
+  "libNoPlaylists": "Brak list odtwarzania",
+  "libPlaylistCreated": "Utworzono listę \"{name}\" 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "przytrzymaj folder, aby zamienić go w listę odtwarzania",
+  "libSongCount": "{count} utworów",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} utworów · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "Do późna ♪",
+  "homeGreetingMorning": "Dzień dobry ♪",
+  "homeGreetingAfternoon": "Dzień dobry ♪",
+  "homeGreetingEvening": "Dobry wieczór ♪",
+  "homeJumpBackIn": "WRÓĆ DO SŁUCHANIA",
+  "homeForYou": "DLA CIEBIE",
+  "homeForYouSub": "wybrane na tym urządzeniu, na podstawie Twoich odsłuchów",
+  "homeWelcome": "Witaj w Hana360 🌸",
+  "homeAllQuiet": "Wszystko cicho 🌸",
+  "homeLibraryHint": "Twoja muzyka mieszka w zakładce Biblioteka — dodaj tam foldery. Wszystko, czego słuchasz, gromadzi się tutaj.",
+  "homePlayHint": "Odtwórz coś, a będzie na Ciebie czekać następnym razem.",
+  "youRescanLibrary": "Skanuj bibliotekę ponownie",
+  "youExcludedFolders": "Wykluczone foldery",
+  "youExcludedFoldersSub": "Ukryj foldery z biblioteki",
+  "youCatMode": "Tryb kota",
+  "youAbout": "O aplikacji",
+  "youScanning": "Skanowanie Twojej muzyki…",
+  "youOpenSource": "Open Source",
+  "youOpenSourceSub": "Hana360 jest pochodną Hanamimi (GPLv3) autorstwa ShaptakNaskar — zmodyfikowano 2026-08-10",
+  "youCheckUpdates": "Sprawdź aktualizacje",
+  "youCheckUpdatesSub": "Nowe wersje pojawiają się w GitHub Releases",
+  "youUpToDate": "Masz najnowszą wersję 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Stworzone przez Sappy",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "Odtwarzaj w tle",
+  "youKeepPlayingAllowed": "Dozwolone — system nie wstrzyma Twojej muzyki",
+  "youKeepPlayingTap": "Dotknij, aby powstrzymać system przed zatrzymaniem odtwarzania",
+  "youExcludedFoldersTitle": "Wykluczone foldery",
+  "youExcludedFoldersDesc": "Utwory w wyłączonych folderach są pomijane w bibliotece",
+  "youVisSensitivity": "Czułość wizualizatora",
+  "youVisSensitivitySub": "Zwiększ dla utworów, które ledwo go poruszają",
+  "youNerdMode": "Tryb nerd",
+  "youNerdModeSub": "Pokaż kodek, bitrate i wyjście audio na ekranie odtwarzania",
+  "youEqualizer": "Korektor",
+  "youComingSoon": "Wkrótce",
+  "sleepTimer": "Wyłącznik czasowy",
+  "sleep15": "15 minut",
+  "sleep30": "30 minut",
+  "sleep1h": "1 godzina",
+  "sleepEndTrack": "Koniec utworu",
+  "sleepFading": "Wygaszanie… słodkich snów",
+  "sleepIn": "Uśnięcie za {time}",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "Uśnięcie po zakończeniu tego utworu",
+  "sleepCancel": "Anuluj wyłącznik",
+  "queueUpNext": "Następne",
+  "queueEmpty": "Kolejka jest pusta",
+  "updateAvailable": "Dostępna aktualizacja ✨",
+  "updateNoNotes": "Brak informacji o wydaniu.",
+  "updateInstalling": "Otwieranie instalatora…",
+  "updateFailed": "Nie udało się zaktualizować — spróbuj później",
+  "updateLater": "Później",
+  "updateRetry": "Ponów",
+  "updateNow": "Aktualizuj",
+  "spatialToggleTitle": "Dźwięk przestrzenny 360°",
+  "spatialOn": "Wł.",
+  "spatialOff": "Wył.",
+  "lyricsNoFound": "Nie znaleziono tekstu",
+  "lyricsJustListening": "Ten utwór jest tylko do słuchania",
+  "lyricsTrySource": "Wypróbuj inne źródło",
+  "lyricsSource": "Źródło tekstów",
+  "lyricsWordSynced": "Synchronizacja słów",
+  "lyricsLineSynced": "Synchronizacja linii",
+  "lyricsUnsynced": "Bez synchronizacji",
+  "plNoPlaylists": "Brak list odtwarzania — najpierw utwórz jedną!",
+  "plAddToPlaylist": "Dodaj do listy odtwarzania",
+  "plAddedTo": "Dodano do {name}",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "Udostępnij teksty",
+  "shareMaxLines": "Wybrano maksymalną liczbę linii",
+  "sharePickLines": "Wybierz do {count} linii",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "Wybierz kilka linii poniżej…",
+  "shareButton": "Udostępnij",
+  "batTitle": "Odtwarzaj muzykę dalej 🎵",
+  "batBody": "Optymalizacja baterii Androida może wstrzymać muzykę, gdy ekran jest wyłączony. Zezwól Hana360 na działanie bez ograniczeń, aby odtwarzanie było stabilne.\n\nMożesz to zmienić w dowolnym momencie w Ty → \"Odtwarzaj w tle\".",
+  "batNotNow": "Nie teraz",
+  "batAllow": "Zezwól",
+  "algoSwitch": "Algorytm",
+  "speakerDistance": "Odległość głośników",
+  "channelTrim": "Trymowanie kanałów",
+  "masterGain": "Wzmocnienie główne",
+  "secHrtf": "Personalizacja HRTF",
+  "outputGain": "Wzmocnienie wyjściowe",
+  "secEq": "EQ przestrzenny",
+  "secReverb": "Pogłos",
+  "roomSize": "Pomieszczenie",
+  "reverbGain": "Wzmocnienie pogłosu",
+  "secTracking": "Śledzenie głowy",
+  "trackOff": "Wył.",
+  "trackSensor": "Czujnik telefonu",
+  "trackManual": "Ręczne XY",
+  "dragHint": "Przeciągnij, aby dostosować orientację głowy (pole dźwiękowe podąża)",
+  "customEq": "Niestandardowy",
+  "eqPresetMusic": "Muzyka",
+  "eqPresetCinema": "Kino",
+  "eqPresetGame": "Gra",
+  "eqPresetVoice": "Głos",
+
+  "hrtfGroup0": "Mężczyzna / Mała / Mała",
+  "hrtfGroup1": "Mężczyzna / Mała / Średnia",
+  "hrtfGroup2": "Mężczyzna / Mała / Duża",
+  "hrtfGroup3": "Mężczyzna / Średnia / Mała",
+  "hrtfGroup4": "Mężczyzna / Średnia / Średnia",
+  "hrtfGroup5": "Mężczyzna / Średnia / Duża",
+  "hrtfGroup6": "Mężczyzna / Duża / Mała",
+  "hrtfGroup7": "Mężczyzna / Duża / Średnia",
+  "hrtfGroup8": "Mężczyzna / Duża / Duża",
+  "hrtfGroup9": "Kobieta / Mała / Mała",
+  "hrtfGroup10": "Kobieta / Mała / Średnia",
+  "hrtfGroup11": "Kobieta / Mała / Duża",
+  "hrtfGroup12": "Kobieta / Średnia / Mała",
+  "hrtfGroup13": "Kobieta / Średnia / Średnia",
+  "hrtfGroup14": "Kobieta / Średnia / Duża",
+
+  "navHome": "Start",
+  "navLibrary": "Biblioteka",
+  "navPlaying": "Odtwarzanie",
+  "navYou": "Ty",
+  "tabSongs": "Utwory",
+  "tabAlbums": "Albumy",
+  "tabFolders": "Foldery",
+  "tabPlaylists": "Listy odtwarzania",
+  "youMood": "NASTRÓJ",
+  "youCompanion": "TWÓJ TOWARZYSZ",
+  "youBuddies": "KOMPANI",
+  "youSound": "DŹWIĘK",
+  "youMore": "WIĘCEJ",
+  "themeCherryBlossom": "Kwiat wiśni",
+  "themeStarryNight": "Gwiaździsta noc",
+  "themeAdaptiveLight": "Adaptacyjny jasny",
+  "themeAdaptiveDark": "Adaptacyjny ciemny",
+  "youListenedTogether": "{h}g {m}m wspólnego słuchania",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "Nagłówek i Odtwarzanie",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "Siedzi na tytule Biblioteki",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "Drzemie na mini-odtwarzaczu",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "Paraduje nad polubionymi utworami",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "Świecą na ciemnych motywach",
+  "accBow": "Różowa kokarda",
+  "accHeadphones": "Malutkie słuchawki",
+  "accFlower": "Kwiat",
+  "accCrown": "Malutka korona",
+  "accUnlockLabel": "Słuchaj przez {h} godzin",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "Przenikanie",
+  "youCrossfadeSub": "Płynnie łącz koniec utworu z następnym",
+  "youSmartShuffle": "Inteligentne losowanie",
+  "youSmartShuffleSub": "Losowanie faworyzuje Twoje ulubione — obliczane na tym urządzeniu",
+
+  "libLikedSongs": "Polubione utwory",
+  "libTapHeart": "Dotknij serca przy utworze, aby go tu zatrzymać",
+  "libRemovedFromQueue": "Usunięto z kolejki",
+  "libRemovedFromLibrary": "Usunięto z biblioteki",
+  "libRemoveFromLibrary": "Usuń z biblioteki",
+  "libNewPlaylist": "Nowa lista odtwarzania",
+  "libPlaylistName": "Nazwa listy",
+  "libCreate": "Utwórz",
+  "libSwipeHint": "przesuń w lewo, aby usunąć · przytrzymaj, aby zmienić kolejność",
+  "libChooseCover": "Wybierz obraz okładki",
+  "libBackToArtCover": "Wróć do okładki utworu",
+  "libDeleteConfirm": "Usunąć \"{name}\"?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "Same utwory pozostają na Twoim urządzeniu",
+  "libKeep": "Zachowaj",
+  "libDelete": "Usuń",
+  "libRemoveKeepFile": "Sam plik pozostaje na Twoim urządzeniu",
+  "libClearConfirm": "Usunąć wszystkie pliki?",
+  "libLibraryCleared": "Biblioteka wyczyszczona",
+  "libPickAudioFiles": "Wybierz pliki audio…",
+  "libImportFolder": "Importuj folder",
+  "libScanWholeFolder": "Skanuj cały folder… (zalecane)",
+  "libImportFailed": "Import nieudany: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "Nie znaleziono plików audio",
+  "libImportedCount": "Zaimportowano {count} utworów",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "Jeszcze nic tutaj — przesuń w lewo, aby usunąć, przytrzymaj, aby zmienić kolejność",
+  "sidebarYourLibrary": "TWOJA BIBLIOTEKA",
+  "sidebarPlaylists": "LISTY ODTWARZANIA",
+  "sidebarFolders": "FOLDERY",
+  "rowQueue": "Kolejka",
+  "rowRemove": "Usuń",
+  "rowPlaylist": "Lista odtwarzania",
+  "plTrackCount": "{count} ścieżek",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "Auto",
+  "lyricsSourceEmbedded": "Osadzone",
+  "lyricsSourceBestQuality": "Najlepsza dostępna jakość",
+  "lyricsSourceFileTags": "Z własnych tagów pliku audio",
+  "lyricsSourceWordOnline": "Synchronizacja słów (online)",
+  "lyricsSourceLineOnline": "Synchronizacja linii (online)",
+  "lyricsSourceNotFound": "Nie znaleziono dla tego utworu",
+  "npCatModeUnlocked": "Miau?! Odblokowano tryb kota 🐱",
+  "shellResumePlayback": "Wznów odtwarzanie",
+  "shellPlay": "ODTWÓRZ",
+  "devSection": "DEWELOPER",
+  "devModeUnlocked": "🛠️ Odblokowano tryb dewelopera",
+  "devUnlockAll": "Odblokuj wszystkie akcesoria",
+  "devClearLyricsCache": "Wyczyść pamięć podręczną tekstów",
+  "devRefetchLyrics": "Pobierz ponownie wszystkie teksty…",
+  "devLyricsCleared": "Pamięć podręczna tekstów wyczyszczona",
+  "devHideOptions": "Ukryj opcje dewelopera",
+  "devModeOff": "Tryb dewelopera wyłączony",
+  "youCantReadFolders": "Nie można odczytać Twoich folderów muzycznych",
+  "youNoMusicFolders": "Nie znaleziono folderów muzycznych"
+}

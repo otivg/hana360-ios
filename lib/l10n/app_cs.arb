@@ -1,0 +1,349 @@
+{
+  "@@locale": "cs",
+  "appName": "Hana360",
+
+  "languageSettings": "Jazyk",
+  "languageFollowSystem": "Sledovat systém",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "Zrušit",
+  "commonConfirm": "OK",
+  "commonBack": "Zpět",
+  "commonDone": "Hotovo",
+  "commonUnknown": "Neznámý",
+
+  "secUpmix": "Upmix motor",
+  "spatialAudioTitle": "360° prostorový zvuk",
+  "npNothingPlaying": "Zatím nic nehraje",
+  "npPickSong": "Vyberte skladbu ze své knihovny",
+  "npSpatialSettings": "Nastavení 360°",
+  "npLyrics": "Texty",
+  "libSearchHint": "Hledat ve vaší hudbě…",
+  "libClearLibrary": "Vyčistit knihovnu",
+  "libImportMusic": "Importovat hudbu",
+  "libError": "Něco se pokazilo: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "Nic neodpovídá \"{query}\"",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "Hana360 potřebuje oprávnění k nalezení vaší hudby\nŽádný přístup na tomto zařízení? Importujte místo toho.",
+  "libNoSongs": "Na tomto zařízení nebyly nalezeny žádné skladby\nImportujte hudbu ze svých souborů a začněte",
+  "libGrantAccess": "Udělit přístup",
+  "libRescan": "Znovu skenovat",
+  "libAddedToQueue": "Přidáno do fronty",
+  "libNoAlbums": "Zatím žádná alba",
+  "libNoFolders": "Zatím žádné složky",
+  "libNoPlaylists": "Zatím žádné seznamy skladeb",
+  "libPlaylistCreated": "Seznam skladeb \"{name}\" vytvořen 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "podržte složku a promění se v seznam skladeb",
+  "libSongCount": "{count} skladeb",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} skladeb · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "Dlouho vzhůru ♪",
+  "homeGreetingMorning": "Dobré ráno ♪",
+  "homeGreetingAfternoon": "Dobré odpoledne ♪",
+  "homeGreetingEvening": "Dobrý večer ♪",
+  "homeJumpBackIn": "POKRAČOVAT",
+  "homeForYou": "PRO VÁS",
+  "homeForYouSub": "vybráno na tomto zařízení z vašeho poslechu",
+  "homeWelcome": "Vítejte v Hana360 🌸",
+  "homeAllQuiet": "Všude klid 🌸",
+  "homeLibraryHint": "Vaše hudba žije na kartě Knihovna — přidejte tam složky. Vše, co hrajete, se shromažďuje zde.",
+  "homePlayHint": "Něco si přehrajte a příště to zde na vás bude čekat.",
+  "youRescanLibrary": "Znovu skenovat knihovnu",
+  "youExcludedFolders": "Vyloučené složky",
+  "youExcludedFoldersSub": "Skrýt složky z knihovny",
+  "youCatMode": "Kočičí režim",
+  "youAbout": "O aplikaci",
+  "youScanning": "Skenování vaší hudby…",
+  "youOpenSource": "Open Source",
+  "youOpenSourceSub": "Hana360 je odvozenina Hanamimi (GPLv3) od ShaptakNaskar — upraveno 2026-08-10",
+  "youCheckUpdates": "Zkontrolovat aktualizace",
+  "youCheckUpdatesSub": "Nové verze vycházejí na GitHub Releases",
+  "youUpToDate": "Máte aktuální verzi 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Vytvořil Sappy",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "Přehrávat na pozadí",
+  "youKeepPlayingAllowed": "Povoleno — systém vaši hudbu nepozastaví",
+  "youKeepPlayingTap": "Klepněte, aby systém nezastavoval přehrávání",
+  "youExcludedFoldersTitle": "Vyloučené složky",
+  "youExcludedFoldersDesc": "Skladby ve vypnutých složkách jsou z knihovny vynechány",
+  "youVisSensitivity": "Citlivost vizualizéru",
+  "youVisSensitivitySub": "Zvyšte u skladeb, které s ním sotva pohnou",
+  "youNerdMode": "Nerd režim",
+  "youNerdModeSub": "Zobrazit kodek, datový tok a zvukový výstup na Právě hraje",
+  "youEqualizer": "Ekvalizér",
+  "youComingSoon": "Již brzy",
+  "sleepTimer": "Časovač uspání",
+  "sleep15": "15 minut",
+  "sleep30": "30 minut",
+  "sleep1h": "1 hodina",
+  "sleepEndTrack": "Konec skladby",
+  "sleepFading": "Ztišování… sladké sny",
+  "sleepIn": "Uspání za {time}",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "Uspání po skončení této skladby",
+  "sleepCancel": "Zrušit časovač",
+  "queueUpNext": "Další",
+  "queueEmpty": "Fronta je prázdná",
+  "updateAvailable": "Dostupná aktualizace ✨",
+  "updateNoNotes": "Žádné poznámky k vydání.",
+  "updateInstalling": "Otevírání instalace…",
+  "updateFailed": "Aktualizace selhala — zkuste to později",
+  "updateLater": "Později",
+  "updateRetry": "Zkusit znovu",
+  "updateNow": "Aktualizovat",
+  "spatialToggleTitle": "360° prostorový zvuk",
+  "spatialOn": "Zapnuto",
+  "spatialOff": "Vypnuto",
+  "lyricsNoFound": "Text nenalezen",
+  "lyricsJustListening": "Tato je jen k poslechu",
+  "lyricsTrySource": "Zkuste jiný zdroj",
+  "lyricsSource": "Zdroj textů",
+  "lyricsWordSynced": "Synchronizováno po slovech",
+  "lyricsLineSynced": "Synchronizováno po řádcích",
+  "lyricsUnsynced": "Nesynchronizováno",
+  "plNoPlaylists": "Zatím žádné seznamy — nejprve vytvořte jeden!",
+  "plAddToPlaylist": "Přidat do seznamu",
+  "plAddedTo": "Přidáno do {name}",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "Sdílet texty",
+  "shareMaxLines": "Vybrán maximální počet řádků",
+  "sharePickLines": "Vyberte až {count} řádků",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "Vyberte některé řádky níže…",
+  "shareButton": "Sdílet",
+  "batTitle": "Nechat hudbu hrát 🎵",
+  "batBody": "Optimalizace baterie Androidu může pozastavit hudbu, když je obrazovka vypnutá. Povolte Hana360 běžet bez omezení, aby přehrávání zůstalo stabilní.\n\nMůžete to kdykoli změnit v Vy → \"Přehrávat na pozadí\".",
+  "batNotNow": "Teď ne",
+  "batAllow": "Povolit",
+  "algoSwitch": "Algoritmus",
+  "speakerDistance": "Vzdálenost reproduktorů",
+  "channelTrim": "Trim kanálů",
+  "masterGain": "Hlavní zesílení",
+  "secHrtf": "Personalizace HRTF",
+  "outputGain": "Výstupní zesílení",
+  "secEq": "Prostorový EQ",
+  "secReverb": "Dozvuk",
+  "roomSize": "Místnost",
+  "reverbGain": "Zesílení dozvuku",
+  "secTracking": "Sledování hlavy",
+  "trackOff": "Vypnuto",
+  "trackSensor": "Senzor telefonu",
+  "trackManual": "Ruční XY",
+  "dragHint": "Tažením upravte orientaci hlavy (zvukové pole ji sleduje)",
+  "customEq": "Vlastní",
+  "eqPresetMusic": "Hudba",
+  "eqPresetCinema": "Kino",
+  "eqPresetGame": "Hra",
+  "eqPresetVoice": "Hlas",
+
+  "hrtfGroup0": "Muž / Malá / Malá",
+  "hrtfGroup1": "Muž / Malá / Střední",
+  "hrtfGroup2": "Muž / Malá / Velká",
+  "hrtfGroup3": "Muž / Střední / Malá",
+  "hrtfGroup4": "Muž / Střední / Střední",
+  "hrtfGroup5": "Muž / Střední / Velká",
+  "hrtfGroup6": "Muž / Velká / Malá",
+  "hrtfGroup7": "Muž / Velká / Střední",
+  "hrtfGroup8": "Muž / Velká / Velká",
+  "hrtfGroup9": "Žena / Malá / Malá",
+  "hrtfGroup10": "Žena / Malá / Střední",
+  "hrtfGroup11": "Žena / Malá / Velká",
+  "hrtfGroup12": "Žena / Střední / Malá",
+  "hrtfGroup13": "Žena / Střední / Střední",
+  "hrtfGroup14": "Žena / Střední / Velká",
+
+  "navHome": "Domů",
+  "navLibrary": "Knihovna",
+  "navPlaying": "Přehrávání",
+  "navYou": "Vy",
+  "tabSongs": "Skladby",
+  "tabAlbums": "Alba",
+  "tabFolders": "Složky",
+  "tabPlaylists": "Seznamy",
+  "youMood": "NÁLADA",
+  "youCompanion": "VÁŠ SPOLEČNÍK",
+  "youBuddies": "KAMARÁDI",
+  "youSound": "ZVUK",
+  "youMore": "VÍCE",
+  "themeCherryBlossom": "Třešňový květ",
+  "themeStarryNight": "Hvězdná noc",
+  "themeAdaptiveLight": "Adaptivní světlé",
+  "themeAdaptiveDark": "Adaptivní tmavé",
+  "youListenedTogether": "{h} h {m} min poslechu společně",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "Záhlaví a Právě hraje",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "Sedí na názvu knihovny",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "Dřímá na mini přehrávači",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "Kráčí nad oblíbenými skladbami",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "Světélkují na tmavých motivech",
+  "accBow": "Růžová mašle",
+  "accHeadphones": "Drobná sluchátka",
+  "accFlower": "Květina",
+  "accCrown": "Malá korunka",
+  "accUnlockLabel": "Poslouchejte {h} hodin",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "Crossfade",
+  "youCrossfadeSub": "Prolnout konec skladby do další",
+  "youSmartShuffle": "Chytré míchání",
+  "youSmartShuffleSub": "Míchání se přiklání k vašim oblíbeným — počítáno na tomto zařízení",
+
+  "libLikedSongs": "Oblíbené skladby",
+  "libTapHeart": "Klepněte na srdce u skladby, aby zde zůstala",
+  "libRemovedFromQueue": "Odebráno z fronty",
+  "libRemovedFromLibrary": "Odebráno z knihovny",
+  "libRemoveFromLibrary": "Odebrat z knihovny",
+  "libNewPlaylist": "Nový seznam",
+  "libPlaylistName": "Název seznamu",
+  "libCreate": "Vytvořit",
+  "libSwipeHint": "přejetím doleva odeberete · podržením přeuspořádáte",
+  "libChooseCover": "Vybrat obrázek obalu",
+  "libBackToArtCover": "Zpět k obalu skladby",
+  "libDeleteConfirm": "Smazat \"{name}\"?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "Samotné skladby zůstanou na vašem zařízení",
+  "libKeep": "Ponechat",
+  "libDelete": "Smazat",
+  "libRemoveKeepFile": "Samotný soubor zůstane na vašem zařízení",
+  "libClearConfirm": "Odebrat všechny soubory?",
+  "libLibraryCleared": "Knihovna vyčištěna",
+  "libPickAudioFiles": "Vybrat zvukové soubory…",
+  "libImportFolder": "Importovat složku",
+  "libScanWholeFolder": "Skenovat celou složku… (doporučeno)",
+  "libImportFailed": "Import selhal: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "Nebyly nalezeny žádné zvukové soubory",
+  "libImportedCount": "Importováno {count} skladeb",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "Zatím zde nic není — přejetím doleva odeberete, podržením přeuspořádáte",
+  "sidebarYourLibrary": "VAŠE KNIHOVNA",
+  "sidebarPlaylists": "SEZNAMY SKLADEB",
+  "sidebarFolders": "SLOŽKY",
+  "rowQueue": "Fronta",
+  "rowRemove": "Odebrat",
+  "rowPlaylist": "Seznam",
+  "plTrackCount": "{count} stop",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "Auto",
+  "lyricsSourceEmbedded": "Vložené",
+  "lyricsSourceBestQuality": "Nejlepší dostupná kvalita",
+  "lyricsSourceFileTags": "Z vlastních tagů zvukového souboru",
+  "lyricsSourceWordOnline": "Synchronizováno po slovech (online)",
+  "lyricsSourceLineOnline": "Synchronizováno po řádcích (online)",
+  "lyricsSourceNotFound": "Pro tuto skladbu nenalezeno",
+  "npCatModeUnlocked": "Mňau?! Kočičí režim odemčen 🐱",
+  "shellResumePlayback": "Obnovit přehrávání",
+  "shellPlay": "PŘEHRÁT",
+  "devSection": "VÝVOJÁŘ",
+  "devModeUnlocked": "🛠️ Vývojářský režim odemčen",
+  "devUnlockAll": "Odemknout všechny doplňky",
+  "devClearLyricsCache": "Vymazat mezipaměť textů",
+  "devRefetchLyrics": "Znovu načíst všechny texty…",
+  "devLyricsCleared": "Mezipaměť textů vymazána",
+  "devHideOptions": "Skrýt možnosti vývojáře",
+  "devModeOff": "Vývojářský režim vypnut",
+  "youCantReadFolders": "Nelze přečíst vaše hudební složky",
+  "youNoMusicFolders": "Nenalezeny žádné hudební složky"
+}

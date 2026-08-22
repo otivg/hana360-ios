@@ -1,0 +1,349 @@
+{
+  "@@locale": "ca",
+  "appName": "Hana360",
+
+  "languageSettings": "Idioma",
+  "languageFollowSystem": "Segueix el sistema",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "Cancel·la",
+  "commonConfirm": "D'acord",
+  "commonBack": "Enrere",
+  "commonDone": "Fet",
+  "commonUnknown": "Desconegut",
+
+  "secUpmix": "Motor d'upmix",
+  "spatialAudioTitle": "Àudio espacial 360°",
+  "npNothingPlaying": "Encara no sona res",
+  "npPickSong": "Tria una cançó de la teva biblioteca",
+  "npSpatialSettings": "Configuració 360°",
+  "npLyrics": "Lletres",
+  "libSearchHint": "Cerca a la teva música…",
+  "libClearLibrary": "Buida la biblioteca",
+  "libImportMusic": "Importa música",
+  "libError": "Alguna cosa ha fallat: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "Res no coincideix amb \"{query}\"",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "Hana360 necessita permís per trobar la teva música\nSense accés en aquest dispositiu? Importa en lloc d'això.",
+  "libNoSongs": "No s'han trobat cançons en aquest dispositiu\nImporta música dels teus fitxers per començar",
+  "libGrantAccess": "Concedeix accés",
+  "libRescan": "Torna a escanejar",
+  "libAddedToQueue": "Afegida a la cua",
+  "libNoAlbums": "Encara no hi ha àlbums",
+  "libNoFolders": "Encara no hi ha carpetes",
+  "libNoPlaylists": "Encara no hi ha llistes de reproducció",
+  "libPlaylistCreated": "Llista \"{name}\" creada 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "mantén premuda una carpeta per convertir-la en llista de reproducció",
+  "libSongCount": "{count} cançons",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} cançons · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "Despert fins tard ♪",
+  "homeGreetingMorning": "Bon dia ♪",
+  "homeGreetingAfternoon": "Bona tarda ♪",
+  "homeGreetingEvening": "Bon vespre ♪",
+  "homeJumpBackIn": "TORNA-HI",
+  "homeForYou": "PER A TU",
+  "homeForYouSub": "triat en aquest dispositiu, a partir de les teves escoltes",
+  "homeWelcome": "Benvingut a Hana360 🌸",
+  "homeAllQuiet": "Tot en silenci 🌸",
+  "homeLibraryHint": "La teva música viu a la pestanya Biblioteca — afegeix-hi carpetes. Tot el que reprodueixes es reuneix aquí.",
+  "homePlayHint": "Reprodueix alguna cosa i t'esperarà aquí la propera vegada.",
+  "youRescanLibrary": "Torna a escanejar la biblioteca",
+  "youExcludedFolders": "Carpetes excloses",
+  "youExcludedFoldersSub": "Amaga carpetes de la biblioteca",
+  "youCatMode": "Mode gat",
+  "youAbout": "Sobre",
+  "youScanning": "Escanejant la teva música…",
+  "youOpenSource": "Codi obert",
+  "youOpenSourceSub": "Hana360 és una derivació de Hanamimi (GPLv3) de ShaptakNaskar — modificat el 2026-08-10",
+  "youCheckUpdates": "Comprova actualitzacions",
+  "youCheckUpdatesSub": "Les noves versions surten a GitHub Releases",
+  "youUpToDate": "Estàs al dia 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Fet per Sappy",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "Continua reproduint en segon pla",
+  "youKeepPlayingAllowed": "Permès — el sistema no pausarà la teva música",
+  "youKeepPlayingTap": "Toca per evitar que el sistema aturi la reproducció",
+  "youExcludedFoldersTitle": "Carpetes excloses",
+  "youExcludedFoldersDesc": "Les cançons de les carpetes desactivades queden fora de la biblioteca",
+  "youVisSensitivity": "Sensibilitat del visualitzador",
+  "youVisSensitivitySub": "Puja-la per a cançons que amb prou feines el mouen",
+  "youNerdMode": "Mode friki",
+  "youNerdModeSub": "Mostra còdec, bitrate i sortida d'àudio a S'està reproduint",
+  "youEqualizer": "Equalitzador",
+  "youComingSoon": "Properament",
+  "sleepTimer": "Temporitzador de son",
+  "sleep15": "15 minuts",
+  "sleep30": "30 minuts",
+  "sleep1h": "1 hora",
+  "sleepEndTrack": "Final de la cançó",
+  "sleepFading": "Es va esvaint… bons somnis",
+  "sleepIn": "Dormint d'aquí a {time}",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "Dormir quan acabi aquesta cançó",
+  "sleepCancel": "Cancel·la el temporitzador",
+  "queueUpNext": "A continuació",
+  "queueEmpty": "La cua és buida",
+  "updateAvailable": "Actualització disponible ✨",
+  "updateNoNotes": "Sense notes de llançament.",
+  "updateInstalling": "Obrint la instal·lació…",
+  "updateFailed": "No s'ha pogut actualitzar — prova-ho més tard",
+  "updateLater": "Més tard",
+  "updateRetry": "Torna-ho a provar",
+  "updateNow": "Actualitza",
+  "spatialToggleTitle": "Àudio espacial 360°",
+  "spatialOn": "Activat",
+  "spatialOff": "Desactivat",
+  "lyricsNoFound": "No s'ha trobat la lletra",
+  "lyricsJustListening": "Aquesta és només per escoltar",
+  "lyricsTrySource": "Prova una altra font",
+  "lyricsSource": "Font de les lletres",
+  "lyricsWordSynced": "Sincronitzada per paraules",
+  "lyricsLineSynced": "Sincronitzada per línies",
+  "lyricsUnsynced": "No sincronitzada",
+  "plNoPlaylists": "Encara no hi ha llistes — crea'n una primer!",
+  "plAddToPlaylist": "Afegeix a la llista",
+  "plAddedTo": "Afegida a {name}",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "Comparteix les lletres",
+  "shareMaxLines": "Nombre màxim de línies seleccionat",
+  "sharePickLines": "Tria fins a {count} línies",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "Tria unes quantes línies a sota…",
+  "shareButton": "Comparteix",
+  "batTitle": "Deixa que la música segueixi sonant 🎵",
+  "batBody": "L'optimització de bateria d'Android pot pausar la música quan la pantalla està apagada. Permet que Hana360 funcioni sense restriccions perquè la reproducció es mantingui estable.\n\nPots canviar-ho en qualsevol moment a Tu → \"Continua reproduint en segon pla\".",
+  "batNotNow": "Ara no",
+  "batAllow": "Permet",
+  "algoSwitch": "Algoritme",
+  "speakerDistance": "Distància dels altaveus",
+  "channelTrim": "Retall de canal",
+  "masterGain": "Guany principal",
+  "secHrtf": "Personalització HRTF",
+  "outputGain": "Guany de sortida",
+  "secEq": "EQ espacial",
+  "secReverb": "Reverberació",
+  "roomSize": "Sala",
+  "reverbGain": "Guany de reverberació",
+  "secTracking": "Seguiment del cap",
+  "trackOff": "Desactivat",
+  "trackSensor": "Sensor del telèfon",
+  "trackManual": "XY manual",
+  "dragHint": "Arrossega per ajustar l'orientació del cap (el camp sonor segueix)",
+  "customEq": "Personalitzat",
+  "eqPresetMusic": "Música",
+  "eqPresetCinema": "Cinema",
+  "eqPresetGame": "Joc",
+  "eqPresetVoice": "Veu",
+
+  "hrtfGroup0": "Home / Petita / Petita",
+  "hrtfGroup1": "Home / Petita / Mitjana",
+  "hrtfGroup2": "Home / Petita / Gran",
+  "hrtfGroup3": "Home / Mitjana / Petita",
+  "hrtfGroup4": "Home / Mitjana / Mitjana",
+  "hrtfGroup5": "Home / Mitjana / Gran",
+  "hrtfGroup6": "Home / Gran / Petita",
+  "hrtfGroup7": "Home / Gran / Mitjana",
+  "hrtfGroup8": "Home / Gran / Gran",
+  "hrtfGroup9": "Dona / Petita / Petita",
+  "hrtfGroup10": "Dona / Petita / Mitjana",
+  "hrtfGroup11": "Dona / Petita / Gran",
+  "hrtfGroup12": "Dona / Mitjana / Petita",
+  "hrtfGroup13": "Dona / Mitjana / Mitjana",
+  "hrtfGroup14": "Dona / Mitjana / Gran",
+
+  "navHome": "Inici",
+  "navLibrary": "Biblioteca",
+  "navPlaying": "Reproducció",
+  "navYou": "Tu",
+  "tabSongs": "Cançons",
+  "tabAlbums": "Àlbums",
+  "tabFolders": "Carpetes",
+  "tabPlaylists": "Llistes",
+  "youMood": "ESTAT D'ÀNIM",
+  "youCompanion": "EL TEU COMPANY",
+  "youBuddies": "AMICS",
+  "youSound": "SO",
+  "youMore": "MÉS",
+  "themeCherryBlossom": "Flor de cirerer",
+  "themeStarryNight": "Nit estrellada",
+  "themeAdaptiveLight": "Clar adaptatiu",
+  "themeAdaptiveDark": "Fosc adaptatiu",
+  "youListenedTogether": "{h} h {m} min escoltats junts",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "Capçalera i S'està reproduint",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "Es posa sobre el títol de la biblioteca",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "Dormisqueja al mini reproductor",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "Camina sobre les cançons que t'agraden",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "Brillen en els temes foscos",
+  "accBow": "Llaç rosa",
+  "accHeadphones": "Auriculars petits",
+  "accFlower": "Flor",
+  "accCrown": "Corona petita",
+  "accUnlockLabel": "Escolta durant {h} hores",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "Fosa encreuada",
+  "youCrossfadeSub": "Fon el final d'una cançó amb la següent",
+  "youSmartShuffle": "Reproducció aleatòria intel·ligent",
+  "youSmartShuffleSub": "L'aleatori s'inclina cap als teus favorits — calculat en aquest dispositiu",
+
+  "libLikedSongs": "Cançons que t'agraden",
+  "libTapHeart": "Toca el cor d'una cançó per guardar-la aquí",
+  "libRemovedFromQueue": "Eliminada de la cua",
+  "libRemovedFromLibrary": "Eliminada de la biblioteca",
+  "libRemoveFromLibrary": "Elimina de la biblioteca",
+  "libNewPlaylist": "Nova llista",
+  "libPlaylistName": "Nom de la llista",
+  "libCreate": "Crea",
+  "libSwipeHint": "llisca a l'esquerra per eliminar · mantén premut per reordenar",
+  "libChooseCover": "Tria la imatge de portada",
+  "libBackToArtCover": "Torna a la portada de la cançó",
+  "libDeleteConfirm": "Suprimeixes \"{name}\"?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "Les cançons mateixes romanen al teu dispositiu",
+  "libKeep": "Conserva",
+  "libDelete": "Suprimeix",
+  "libRemoveKeepFile": "El fitxer mateix roman al teu dispositiu",
+  "libClearConfirm": "Vols eliminar tots els fitxers?",
+  "libLibraryCleared": "Biblioteca buidada",
+  "libPickAudioFiles": "Tria fitxers d'àudio…",
+  "libImportFolder": "Importa una carpeta",
+  "libScanWholeFolder": "Escaneja tota una carpeta… (recomanat)",
+  "libImportFailed": "La importació ha fallat: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "No s'han trobat fitxers d'àudio",
+  "libImportedCount": "Importades {count} cançons",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "Encara no hi ha res aquí — llisca a l'esquerra per eliminar, mantén premut per reordenar",
+  "sidebarYourLibrary": "LA TEVA BIBLIOTECA",
+  "sidebarPlaylists": "LLISTES",
+  "sidebarFolders": "CARPETES",
+  "rowQueue": "Cua",
+  "rowRemove": "Elimina",
+  "rowPlaylist": "Llista",
+  "plTrackCount": "{count} pistes",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "Auto",
+  "lyricsSourceEmbedded": "Incrustades",
+  "lyricsSourceBestQuality": "Millor qualitat disponible",
+  "lyricsSourceFileTags": "De les etiquetes del fitxer d'àudio",
+  "lyricsSourceWordOnline": "Sincronitzada per paraules (en línia)",
+  "lyricsSourceLineOnline": "Sincronitzada per línies (en línia)",
+  "lyricsSourceNotFound": "No trobada per a aquesta cançó",
+  "npCatModeUnlocked": "Miau?! Mode gat desbloquejat 🐱",
+  "shellResumePlayback": "Reprèn la reproducció",
+  "shellPlay": "REPRODUEIX",
+  "devSection": "DESENVOLUPADOR",
+  "devModeUnlocked": "🛠️ Mode desenvolupador desbloquejat",
+  "devUnlockAll": "Desbloqueja tots els accessoris",
+  "devClearLyricsCache": "Buida la memòria cau de lletres",
+  "devRefetchLyrics": "Torna a obtenir totes les lletres…",
+  "devLyricsCleared": "Memòria cau de lletres buidada",
+  "devHideOptions": "Amaga les opcions de desenvolupador",
+  "devModeOff": "Mode desenvolupador desactivat",
+  "youCantReadFolders": "No s'han pogut llegir les teves carpetes de música",
+  "youNoMusicFolders": "No s'han trobat carpetes de música"
+}

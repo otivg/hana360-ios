@@ -1,0 +1,349 @@
+{
+  "@@locale": "or",
+  "appName": "Hana360",
+
+  "languageSettings": "ଭାଷା",
+  "languageFollowSystem": "ସିଷ୍ଟମ ଅନୁସରଣ କରନ୍ତୁ",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "ବାତିଲ୍ କରନ୍ତୁ",
+  "commonConfirm": "ଠିକ୍ ଅଛି",
+  "commonBack": "ପଛକୁ",
+  "commonDone": "ଶେଷ ହେଲା",
+  "commonUnknown": "ଅଜଣା",
+
+  "secUpmix": "ଅପମିକ୍ସ ଇଞ୍ଜିନ୍",
+  "spatialAudioTitle": "360° ସ୍ପେସିଆଲ୍ ଅଡିଓ",
+  "npNothingPlaying": "ଏପର୍ଯ୍ୟନ୍ତ କିଛି ଚାଲୁନାହିଁ",
+  "npPickSong": "ଆପଣଙ୍କ ଲାଇବ୍ରେରୀରୁ ଗୀତ ବାଛନ୍ତୁ",
+  "npSpatialSettings": "360° ସେଟିଂସ୍",
+  "npLyrics": "ଗୀତିକା",
+  "libSearchHint": "ଆପଣଙ୍କ ସଙ୍ଗୀତରେ ଖୋଜନ୍ତୁ…",
+  "libClearLibrary": "ଲାଇବ୍ରେରୀ ଖାଲି କରନ୍ତୁ",
+  "libImportMusic": "ସଙ୍ଗୀତ ଆମଦାନୀ କରନ୍ତୁ",
+  "libError": "କିଛି ଭୁଲ୍ ହେଲା: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "\"{query}\" ସହିତ କିଛି ମେଳ ଖାଉନାହିଁ",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "ଆପଣଙ୍କ ସଙ୍ଗୀତ ଖୋଜିବା ପାଇଁ Hana360 କୁ ଅନୁମତି ଆବଶ୍ୟକ\nଏହି ଡିଭାଇସରେ ଆକ୍ସେସ୍ ନାହିଁ? ବଦଳରେ ଆମଦାନୀ କରନ୍ତୁ।",
+  "libNoSongs": "ଏହି ଡିଭାଇସରେ କୌଣସି ଗୀତ ମିଳିଲା ନାହିଁ\nଆରମ୍ଭ କରିବାକୁ ଆପଣଙ୍କ ଫାଇଲରୁ ସଙ୍ଗୀତ ଆମଦାନୀ କରନ୍ତୁ",
+  "libGrantAccess": "ଆକ୍ସେସ୍ ଦିଅନ୍ତୁ",
+  "libRescan": "ପୁଣି ସ୍କାନ୍ କରନ୍ତୁ",
+  "libAddedToQueue": "କ୍ୟୁରେ ଯୋଡାଗଲା",
+  "libNoAlbums": "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ଆଲବମ୍ ନାହିଁ",
+  "libNoFolders": "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ଫୋଲ୍ଡର ନାହିଁ",
+  "libNoPlaylists": "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ପ୍ଲେଲିଷ୍ଟ ନାହିଁ",
+  "libPlaylistCreated": "ପ୍ଲେଲିଷ୍ଟ \"{name}\" ତିଆରି ହେଲା 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "ଫୋଲ୍ଡରକୁ ପ୍ଲେଲିଷ୍ଟରେ ବଦଳାଇବାକୁ ଅଧିକ ସମୟ ଦବାନ୍ତୁ",
+  "libSongCount": "{count} ଗୀତ",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} ଗୀତ · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "ବିଳମ୍ବରେ ଜାଗ୍ରତ ♪",
+  "homeGreetingMorning": "ସୁପ୍ରଭାତ ♪",
+  "homeGreetingAfternoon": "ଶୁଭ ଅପରାହ୍ନ ♪",
+  "homeGreetingEvening": "ଶୁଭ ସନ୍ଧ୍ୟା ♪",
+  "homeJumpBackIn": "ପୁଣି ଯୋଡନ୍ତୁ",
+  "homeForYou": "ଆପଣଙ୍କ ପାଇଁ",
+  "homeForYouSub": "ଆପଣଙ୍କ ଶୁଣିବାରୁ, ଏହି ଡିଭାଇସରେ ବଛାଗଲା",
+  "homeWelcome": "Hana360 କୁ ସ୍ୱାଗତ 🌸",
+  "homeAllQuiet": "ସବୁ ଶାନ୍ତ 🌸",
+  "homeLibraryHint": "ଆପଣଙ୍କ ସଙ୍ଗୀତ ଲାଇବ୍ରେରୀ ଟ୍ୟାବରେ ରହେ — ସେଠାରେ ଫୋଲ୍ଡର ଯୋଡନ୍ତୁ। ଆପଣ ଯାହା ଚଲାନ୍ତି ତାହା ସବୁ ଏଠାରେ ଏକାଠି ହୁଏ।",
+  "homePlayHint": "କିଛି ଚଲାନ୍ତୁ ଏବଂ ପରବର୍ତ୍ତୀ ଥର ଏହା ଏଠାରେ ଅପେକ୍ଷା କରିବ।",
+  "youRescanLibrary": "ଲାଇବ୍ରେରୀ ପୁଣି ସ୍କାନ୍ କରନ୍ତୁ",
+  "youExcludedFolders": "ବାଦ୍ ଫୋଲ୍ଡରଗୁଡିକ",
+  "youExcludedFoldersSub": "ଲାଇବ୍ରେରୀରୁ ଫୋଲ୍ଡର ଲୁଚାନ୍ତୁ",
+  "youCatMode": "ବିଲେଇ ମୋଡ୍",
+  "youAbout": "ବିଷୟରେ",
+  "youScanning": "ଆପଣଙ୍କ ସଙ୍ଗୀତ ସ୍କାନ୍ ହେଉଛି…",
+  "youOpenSource": "ଓପନ୍ ସୋର୍ସ",
+  "youOpenSourceSub": "ShaptakNaskar ଙ୍କ Hanamimi (GPLv3) ର ବ୍ୟୁତ୍ପନ୍ନ ହେଉଛି Hana360 — 2026-08-10 ରେ ସଂଶୋଧିତ",
+  "youCheckUpdates": "ଅପଡେଟ୍ ଯାଞ୍ଚ କରନ୍ତୁ",
+  "youCheckUpdatesSub": "ନୂଆ ବିଲ୍ଡ GitHub Releases ରେ ଆସେ",
+  "youUpToDate": "ଆପଣ ଅପ-ଟୁ-ଡେଟ୍ 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Sappy ଙ୍କ ଦ୍ୱାରା ନିର୍ମିତ",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "ପୃଷ୍ଠଭୂମିରେ ଚାଲୁ ରଖନ୍ତୁ",
+  "youKeepPlayingAllowed": "ଅନୁମତି ଦିଆଗଲା — ସିଷ୍ଟମ ଆପଣଙ୍କ ସଙ୍ଗୀତ ବିରାମ ଦେବ ନାହିଁ",
+  "youKeepPlayingTap": "ସିଷ୍ଟମ ପ୍ଲେବ୍ୟାକ୍ ଅଟକାଇବା ରୋକିବାକୁ ଟ୍ୟାପ୍ କରନ୍ତୁ",
+  "youExcludedFoldersTitle": "ବାଦ୍ ଫୋଲ୍ଡରଗୁଡିକ",
+  "youExcludedFoldersDesc": "ବନ୍ଦ ଫୋଲ୍ଡରର ଗୀତଗୁଡିକ ଲାଇବ୍ରେରୀରୁ ବାଦ୍ ରହେ",
+  "youVisSensitivity": "ଭିଜୁଆଲାଇଜର ସମ୍ବେଦନଶୀଳତା",
+  "youVisSensitivitySub": "ଯେଉଁ ଗୀତ ଏହାକୁ ଅଳ୍ପ ଚଳାଏ ସେଥିପାଇଁ ବଢାନ୍ତୁ",
+  "youNerdMode": "ନର୍ଡ ମୋଡ୍",
+  "youNerdModeSub": "ଏବେ ଚାଲୁଥିବାରେ codec, bitrate ଏବଂ ଅଡିଓ ଆଉଟପୁଟ୍ ଦେଖାନ୍ତୁ",
+  "youEqualizer": "ଇକ୍ୱାଲାଇଜର",
+  "youComingSoon": "ଶୀଘ୍ର ଆସୁଛି",
+  "sleepTimer": "ଶୋଇବା ଟାଇମର",
+  "sleep15": "15 ମିନିଟ୍",
+  "sleep30": "30 ମିନିଟ୍",
+  "sleep1h": "1 ଘଣ୍ଟା",
+  "sleepEndTrack": "ଗୀତର ଶେଷ",
+  "sleepFading": "ଧୀରେ ଧୀରେ କମୁଛି… ମିଠା ସ୍ୱପ୍ନ",
+  "sleepIn": "{time} ରେ ଶୋଇବା",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "ଏହି ଗୀତ ଶେଷ ହେଲେ ଶୋଇବା",
+  "sleepCancel": "ଟାଇମର ବାତିଲ୍ କରନ୍ତୁ",
+  "queueUpNext": "ପରବର୍ତ୍ତୀ",
+  "queueEmpty": "କ୍ୟୁ ଖାଲି",
+  "updateAvailable": "ଅପଡେଟ୍ ଉପଲବ୍ଧ ✨",
+  "updateNoNotes": "କୌଣସି ରିଲିଜ୍ ନୋଟ୍ ନାହିଁ।",
+  "updateInstalling": "ଇନଷ୍ଟଲେସନ୍ ଖୋଲୁଛି…",
+  "updateFailed": "ଅପଡେଟ୍ ହେଲା ନାହିଁ — ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ",
+  "updateLater": "ପରେ",
+  "updateRetry": "ପୁଣି ଚେଷ୍ଟା",
+  "updateNow": "ଅପଡେଟ୍ କରନ୍ତୁ",
+  "spatialToggleTitle": "360° ସ୍ପେସିଆଲ୍ ଅଡିଓ",
+  "spatialOn": "ଚାଲୁ",
+  "spatialOff": "ବନ୍ଦ",
+  "lyricsNoFound": "ଗୀତିକା ମିଳିଲା ନାହିଁ",
+  "lyricsJustListening": "ଏହା କେବଳ ଶୁଣିବା ପାଇଁ",
+  "lyricsTrySource": "ଅନ୍ୟ ଉତ୍ସ ଚେଷ୍ଟା କରନ୍ତୁ",
+  "lyricsSource": "ଗୀତିକାର ଉତ୍ସ",
+  "lyricsWordSynced": "ଶବ୍ଦ-ସମନ୍ୱୟ",
+  "lyricsLineSynced": "ଧାଡି-ସମନ୍ୱୟ",
+  "lyricsUnsynced": "ଅସମନ୍ୱିତ",
+  "plNoPlaylists": "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ପ୍ଲେଲିଷ୍ଟ ନାହିଁ — ପ୍ରଥମେ ଗୋଟିଏ ତିଆରି କରନ୍ତୁ!",
+  "plAddToPlaylist": "ପ୍ଲେଲିଷ୍ଟରେ ଯୋଡନ୍ତୁ",
+  "plAddedTo": "{name} ରେ ଯୋଡାଗଲା",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "ଗୀତିକା ସେୟାର କରନ୍ତୁ",
+  "shareMaxLines": "ସର୍ବାଧିକ ଧାଡି ବଛାଗଲା",
+  "sharePickLines": "{count} ପର୍ଯ୍ୟନ୍ତ ଧାଡି ବାଛନ୍ତୁ",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "ନିମ୍ନରେ କିଛି ଧାଡି ବାଛନ୍ତୁ…",
+  "shareButton": "ସେୟାର କରନ୍ତୁ",
+  "batTitle": "ସଙ୍ଗୀତ ଚାଲୁ ରହୁ 🎵",
+  "batBody": "Android ର ବ୍ୟାଟେରୀ ଅପ୍ଟିମାଇଜେସନ୍ ସ୍କ୍ରିନ୍ ବନ୍ଦ ଥିବାବେଳେ ସଙ୍ଗୀତ ବିରାମ ଦେଇପାରେ। ସ୍ଥିର ପ୍ଲେବ୍ୟାକ୍ ପାଇଁ Hana360 କୁ ଅନିୟନ୍ତ୍ରିତ ଚଲିବାକୁ ଅନୁମତି ଦିଅନ୍ତୁ।\n\nଆପଣ → \"ପୃଷ୍ଠଭୂମିରେ ଚାଲୁ ରଖନ୍ତୁ\" ରେ ଏହା ଯେକୌଣସି ସମୟରେ ବଦଳାଇ ପାରିବେ।",
+  "batNotNow": "ଏବେ ନୁହେଁ",
+  "batAllow": "ଅନୁମତି ଦିଅନ୍ତୁ",
+  "algoSwitch": "ଆଲଗୋରିଦମ୍",
+  "speakerDistance": "ସ୍ପିକର ଦୂରତା",
+  "channelTrim": "ଚ୍ୟାନେଲ୍ ଟ୍ରିମ୍",
+  "masterGain": "ମାଷ୍ଟର ଗେନ୍",
+  "secHrtf": "HRTF ବ୍ୟକ୍ତିଗତକରଣ",
+  "outputGain": "ଆଉଟପୁଟ୍ ଗେନ୍",
+  "secEq": "ସ୍ପେସିଆଲ୍ EQ",
+  "secReverb": "ରିଭର୍ବ",
+  "roomSize": "ରୁମ୍",
+  "reverbGain": "ରିଭର୍ବ ଗେନ୍",
+  "secTracking": "ମୁଣ୍ଡ ଟ୍ରାକିଂ",
+  "trackOff": "ବନ୍ଦ",
+  "trackSensor": "ଫୋନ୍ ସେନସର",
+  "trackManual": "ମ୍ୟାନୁଆଲ୍ XY",
+  "dragHint": "ମୁଣ୍ଡର ଦିଗ ସଜାଡିବାକୁ ଟାଣନ୍ତୁ (ଧ୍ୱନି କ୍ଷେତ୍ର ଅନୁସରଣ କରେ)",
+  "customEq": "କଷ୍ଟମ୍",
+  "eqPresetMusic": "ସଙ୍ଗୀତ",
+  "eqPresetCinema": "ସିନେମା",
+  "eqPresetGame": "ଗେମ୍",
+  "eqPresetVoice": "ସ୍ୱର",
+
+  "hrtfGroup0": "ପୁରୁଷ / ଛୋଟ / ଛୋଟ",
+  "hrtfGroup1": "ପୁରୁଷ / ଛୋଟ / ମଧ୍ୟମ",
+  "hrtfGroup2": "ପୁରୁଷ / ଛୋଟ / ବଡ",
+  "hrtfGroup3": "ପୁରୁଷ / ମଧ୍ୟମ / ଛୋଟ",
+  "hrtfGroup4": "ପୁରୁଷ / ମଧ୍ୟମ / ମଧ୍ୟମ",
+  "hrtfGroup5": "ପୁରୁଷ / ମଧ୍ୟମ / ବଡ",
+  "hrtfGroup6": "ପୁରୁଷ / ବଡ / ଛୋଟ",
+  "hrtfGroup7": "ପୁରୁଷ / ବଡ / ମଧ୍ୟମ",
+  "hrtfGroup8": "ପୁରୁଷ / ବଡ / ବଡ",
+  "hrtfGroup9": "ମହିଳା / ଛୋଟ / ଛୋଟ",
+  "hrtfGroup10": "ମହିଳା / ଛୋଟ / ମଧ୍ୟମ",
+  "hrtfGroup11": "ମହିଳା / ଛୋଟ / ବଡ",
+  "hrtfGroup12": "ମହିଳା / ମଧ୍ୟମ / ଛୋଟ",
+  "hrtfGroup13": "ମହିଳା / ମଧ୍ୟମ / ମଧ୍ୟମ",
+  "hrtfGroup14": "ମହିଳା / ମଧ୍ୟମ / ବଡ",
+
+  "navHome": "ହୋମ୍",
+  "navLibrary": "ଲାଇବ୍ରେରୀ",
+  "navPlaying": "ଚାଲୁଛି",
+  "navYou": "ଆପଣ",
+  "tabSongs": "ଗୀତ",
+  "tabAlbums": "ଆଲବମ୍",
+  "tabFolders": "ଫୋଲ୍ଡର",
+  "tabPlaylists": "ପ୍ଲେଲିଷ୍ଟ",
+  "youMood": "ମୁଡ୍",
+  "youCompanion": "ଆପଣଙ୍କ ସାଥୀ",
+  "youBuddies": "ବନ୍ଧୁ",
+  "youSound": "ଧ୍ୱନି",
+  "youMore": "ଅଧିକ",
+  "themeCherryBlossom": "ଚେରି ଫୁଲ",
+  "themeStarryNight": "ତାରାଭରା ରାତି",
+  "themeAdaptiveLight": "ଆଡାପ୍ଟିଭ୍ ଲାଇଟ୍",
+  "themeAdaptiveDark": "ଆଡାପ୍ଟିଭ୍ ଡାର୍କ",
+  "youListenedTogether": "{h}ଘ {m}ମି ଏକାଠି ଶୁଣାଗଲା",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "ହେଡର ଏବଂ ଏବେ ଚାଲୁଛି",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "ଲାଇବ୍ରେରୀ ଶୀର୍ଷକରେ ବସେ",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "ମିନି ପ୍ଲେୟରରେ ଶୁଏ",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "ପସନ୍ଦ ଗୀତ ଉପରେ ଚାଲେ",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "ଡାର୍କ ଥିମରେ ଝଲସେ",
+  "accBow": "ଗୋଲାପୀ ଫିତା",
+  "accHeadphones": "ଛୋଟ ହେଡଫୋନ୍",
+  "accFlower": "ଫୁଲ",
+  "accCrown": "ଛୋଟ ମୁକୁଟ",
+  "accUnlockLabel": "{h} ଘଣ୍ଟା ଶୁଣନ୍ତୁ",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "କ୍ରସଫେଡ୍",
+  "youCrossfadeSub": "ଗୀତର ଶେଷକୁ ପରବର୍ତ୍ତୀ ଗୀତ ସହିତ ମିଶାନ୍ତୁ",
+  "youSmartShuffle": "ସ୍ମାର୍ଟ ସଫଲ୍",
+  "youSmartShuffleSub": "ସଫଲ୍ ଆପଣଙ୍କ ପ୍ରିୟଙ୍କ ଆଡକୁ ଢଳେ — ଏହି ଡିଭାଇସରେ ଗଣନା",
+
+  "libLikedSongs": "ପସନ୍ଦ ଗୀତ",
+  "libTapHeart": "ଗୀତକୁ ଏଠାରେ ରଖିବାକୁ ତା'ର ହୃଦୟ ଟ୍ୟାପ୍ କରନ୍ତୁ",
+  "libRemovedFromQueue": "କ୍ୟୁରୁ ବାହାର କରାଗଲା",
+  "libRemovedFromLibrary": "ଲାଇବ୍ରେରୀରୁ ବାହାର କରାଗଲା",
+  "libRemoveFromLibrary": "ଲାଇବ୍ରେରୀରୁ ବାହାର କରନ୍ତୁ",
+  "libNewPlaylist": "ନୂଆ ପ୍ଲେଲିଷ୍ଟ",
+  "libPlaylistName": "ପ୍ଲେଲିଷ୍ଟ ନାମ",
+  "libCreate": "ତିଆରି କରନ୍ତୁ",
+  "libSwipeHint": "ବାହାର କରିବାକୁ ବାମକୁ ସ୍ୱାଇପ୍ · ପୁନଃକ୍ରମ କରିବାକୁ ଧରି ରଖନ୍ତୁ",
+  "libChooseCover": "କଭର ଚିତ୍ର ବାଛନ୍ତୁ",
+  "libBackToArtCover": "ଗୀତର କଭରକୁ ଫେରନ୍ତୁ",
+  "libDeleteConfirm": "\"{name}\" ଡିଲିଟ୍ କରିବେ?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "ଗୀତଗୁଡିକ ନିଜେ ଆପଣଙ୍କ ଡିଭାଇସରେ ରହିବ",
+  "libKeep": "ରଖନ୍ତୁ",
+  "libDelete": "ଡିଲିଟ୍",
+  "libRemoveKeepFile": "ଫାଇଲ ନିଜେ ଆପଣଙ୍କ ଡିଭାଇସରେ ରହିବ",
+  "libClearConfirm": "ସବୁ ଫାଇଲ ବାହାର କରିବେ?",
+  "libLibraryCleared": "ଲାଇବ୍ରେରୀ ଖାଲି ହେଲା",
+  "libPickAudioFiles": "ଅଡିଓ ଫାଇଲ ବାଛନ୍ତୁ…",
+  "libImportFolder": "ଫୋଲ୍ଡର ଆମଦାନୀ କରନ୍ତୁ",
+  "libScanWholeFolder": "ପୂରା ଫୋଲ୍ଡର ସ୍କାନ୍ କରନ୍ତୁ… (ସୁପାରିଶ)",
+  "libImportFailed": "ଆମଦାନୀ ବିଫଳ: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "କୌଣସି ଅଡିଓ ଫାଇଲ ମିଳିଲା ନାହିଁ",
+  "libImportedCount": "{count} ଗୀତ ଆମଦାନୀ ହେଲା",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "ଏଠାରେ ଏପର୍ଯ୍ୟନ୍ତ କିଛି ନାହିଁ — ବାହାର କରିବାକୁ ବାମକୁ ସ୍ୱାଇପ୍, ପୁନଃକ୍ରମ କରିବାକୁ ଧରି ରଖନ୍ତୁ",
+  "sidebarYourLibrary": "ଆପଣଙ୍କ ଲାଇବ୍ରେରୀ",
+  "sidebarPlaylists": "ପ୍ଲେଲିଷ୍ଟ",
+  "sidebarFolders": "ଫୋଲ୍ଡର",
+  "rowQueue": "କ୍ୟୁ",
+  "rowRemove": "ବାହାର କରନ୍ତୁ",
+  "rowPlaylist": "ପ୍ଲେଲିଷ୍ଟ",
+  "plTrackCount": "{count} ଟ୍ରାକ୍",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "ଅଟୋ",
+  "lyricsSourceEmbedded": "ଏମବେଡେଡ୍",
+  "lyricsSourceBestQuality": "ସର୍ବୋତ୍ତମ ଉପଲବ୍ଧ ଗୁଣବତ୍ତା",
+  "lyricsSourceFileTags": "ଅଡିଓ ଫାଇଲର ନିଜସ୍ୱ ଟ୍ୟାଗରୁ",
+  "lyricsSourceWordOnline": "ଶବ୍ଦ-ସମନ୍ୱୟ (ଅନଲାଇନ୍)",
+  "lyricsSourceLineOnline": "ଧାଡି-ସମନ୍ୱୟ (ଅନଲାଇନ୍)",
+  "lyricsSourceNotFound": "ଏହି ଗୀତ ପାଇଁ ମିଳିଲା ନାହିଁ",
+  "npCatModeUnlocked": "ମିଆଉ?! ବିଲେଇ ମୋଡ୍ ଅନଲକ୍ ହେଲା 🐱",
+  "shellResumePlayback": "ପ୍ଲେବ୍ୟାକ୍ ପୁନଃଆରମ୍ଭ କରନ୍ତୁ",
+  "shellPlay": "ଚଲାନ୍ତୁ",
+  "devSection": "ଡେଭେଲପର",
+  "devModeUnlocked": "🛠️ ଡେଭେଲପର ମୋଡ୍ ଅନଲକ୍ ହେଲା",
+  "devUnlockAll": "ସବୁ ଆକ୍ସେସରି ଅନଲକ୍ କରନ୍ତୁ",
+  "devClearLyricsCache": "ଗୀତିକା କ୍ୟାସ୍ ସଫା କରନ୍ତୁ",
+  "devRefetchLyrics": "ସବୁ ଗୀତିକା ପୁଣି ଆଣନ୍ତୁ…",
+  "devLyricsCleared": "ଗୀତିକା କ୍ୟାସ୍ ସଫା ହେଲା",
+  "devHideOptions": "ଡେଭେଲପର ବିକଳ୍ପ ଲୁଚାନ୍ତୁ",
+  "devModeOff": "ଡେଭେଲପର ମୋଡ୍ ବନ୍ଦ",
+  "youCantReadFolders": "ଆପଣଙ୍କ ସଙ୍ଗୀତ ଫୋଲ୍ଡର ପଢି ହେଲା ନାହିଁ",
+  "youNoMusicFolders": "କୌଣସି ସଙ୍ଗୀତ ଫୋଲ୍ଡର ମିଳିଲା ନାହିଁ"
+}

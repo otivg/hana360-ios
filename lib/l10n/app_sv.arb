@@ -1,0 +1,349 @@
+{
+  "@@locale": "sv",
+  "appName": "Hana360",
+
+  "languageSettings": "Språk",
+  "languageFollowSystem": "Följ systemet",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "Avbryt",
+  "commonConfirm": "OK",
+  "commonBack": "Tillbaka",
+  "commonDone": "Klart",
+  "commonUnknown": "Okänd",
+
+  "secUpmix": "Upmix-motor",
+  "spatialAudioTitle": "360° rumsligt ljud",
+  "npNothingPlaying": "Inget spelas ännu",
+  "npPickSong": "Välj en låt från ditt bibliotek",
+  "npSpatialSettings": "360°-inställningar",
+  "npLyrics": "Text",
+  "libSearchHint": "Sök i din musik…",
+  "libClearLibrary": "Rensa bibliotek",
+  "libImportMusic": "Importera musik",
+  "libError": "Något gick fel: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "Inget matchar \"{query}\"",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "Hana360 behöver behörighet för att hitta din musik\nIngen åtkomst på den här enheten? Importera istället.",
+  "libNoSongs": "Inga låtar hittades på den här enheten\nImportera musik från dina filer för att komma igång",
+  "libGrantAccess": "Ge åtkomst",
+  "libRescan": "Skanna igen",
+  "libAddedToQueue": "Tillagd i kön",
+  "libNoAlbums": "Inga album ännu",
+  "libNoFolders": "Inga mappar ännu",
+  "libNoPlaylists": "Inga spellistor ännu",
+  "libPlaylistCreated": "Spellistan \"{name}\" skapades 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "håll ned en mapp för att göra den till en spellista",
+  "libSongCount": "{count} låtar",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} låtar · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "Uppe sent ♪",
+  "homeGreetingMorning": "God morgon ♪",
+  "homeGreetingAfternoon": "God eftermiddag ♪",
+  "homeGreetingEvening": "God kväll ♪",
+  "homeJumpBackIn": "HOPPA TILLBAKA",
+  "homeForYou": "FÖR DIG",
+  "homeForYouSub": "valt på den här enheten, från ditt lyssnande",
+  "homeWelcome": "Välkommen till Hana360 🌸",
+  "homeAllQuiet": "Allt tyst 🌸",
+  "homeLibraryHint": "Din musik finns i fliken Bibliotek — lägg till mappar där. Allt du spelar samlas här.",
+  "homePlayHint": "Spela något så väntar det här nästa gång.",
+  "youRescanLibrary": "Skanna biblioteket igen",
+  "youExcludedFolders": "Uteslutna mappar",
+  "youExcludedFoldersSub": "Dölj mappar från ditt bibliotek",
+  "youCatMode": "Kattläge",
+  "youAbout": "Om",
+  "youScanning": "Skannar din musik…",
+  "youOpenSource": "Öppen källkod",
+  "youOpenSourceSub": "Hana360 är ett derivat av Hanamimi (GPLv3) av ShaptakNaskar — ändrad 2026-08-10",
+  "youCheckUpdates": "Sök efter uppdateringar",
+  "youCheckUpdatesSub": "Nya versioner hamnar på GitHub Releases",
+  "youUpToDate": "Du är uppdaterad 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Gjord av Sappy",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "Fortsätt spela i bakgrunden",
+  "youKeepPlayingAllowed": "Tillåtet — systemet pausar inte din musik",
+  "youKeepPlayingTap": "Tryck för att hindra systemet från att stoppa uppspelningen",
+  "youExcludedFoldersTitle": "Uteslutna mappar",
+  "youExcludedFoldersDesc": "Låtar i avstängda mappar utelämnas från biblioteket",
+  "youVisSensitivity": "Visualizer-känslighet",
+  "youVisSensitivitySub": "Höj för låtar som knappt rör den",
+  "youNerdMode": "Nördläge",
+  "youNerdModeSub": "Visa codec, bitrate och ljudutgång i Spelas nu",
+  "youEqualizer": "Equalizer",
+  "youComingSoon": "Kommer snart",
+  "sleepTimer": "Insomningstimer",
+  "sleep15": "15 minuter",
+  "sleep30": "30 minuter",
+  "sleep1h": "1 timme",
+  "sleepEndTrack": "Slutet av låten",
+  "sleepFading": "Tona ut… sov gott",
+  "sleepIn": "Sover om {time}",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "Sover när den här låten slutar",
+  "sleepCancel": "Avbryt timer",
+  "queueUpNext": "Nästa",
+  "queueEmpty": "Kön är tom",
+  "updateAvailable": "Uppdatering tillgänglig ✨",
+  "updateNoNotes": "Inga versionsanteckningar.",
+  "updateInstalling": "Öppnar installation…",
+  "updateFailed": "Kunde inte uppdatera — försök igen senare",
+  "updateLater": "Senare",
+  "updateRetry": "Försök igen",
+  "updateNow": "Uppdatera",
+  "spatialToggleTitle": "360° rumsligt ljud",
+  "spatialOn": "På",
+  "spatialOff": "Av",
+  "lyricsNoFound": "Ingen text hittades",
+  "lyricsJustListening": "Den här är bara för att lyssna på",
+  "lyricsTrySource": "Prova en annan källa",
+  "lyricsSource": "Textkälla",
+  "lyricsWordSynced": "Ordsynkroniserad",
+  "lyricsLineSynced": "Radsynkroniserad",
+  "lyricsUnsynced": "Osynkroniserad",
+  "plNoPlaylists": "Inga spellistor ännu — skapa en först!",
+  "plAddToPlaylist": "Lägg till i spellista",
+  "plAddedTo": "Tillagd i {name}",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "Dela text",
+  "shareMaxLines": "Max antal rader valda",
+  "sharePickLines": "Välj upp till {count} rader",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "Välj några rader nedan…",
+  "shareButton": "Dela",
+  "batTitle": "Fortsätt spela musiken 🎵",
+  "batBody": "Androids batterioptimering kan pausa din musik när skärmen är av. Låt Hana360 köra utan begränsningar så att uppspelningen förblir stabil.\n\nDu kan ändra detta när som helst under Du → \"Fortsätt spela i bakgrunden\".",
+  "batNotNow": "Inte nu",
+  "batAllow": "Tillåt",
+  "algoSwitch": "Algoritm",
+  "speakerDistance": "Högtalaravstånd",
+  "channelTrim": "Kanaltrim",
+  "masterGain": "Masterförstärkning",
+  "secHrtf": "HRTF-personalisering",
+  "outputGain": "Utgångsförstärkning",
+  "secEq": "Rumslig EQ",
+  "secReverb": "Eko",
+  "roomSize": "Rum",
+  "reverbGain": "Ekoförstärkning",
+  "secTracking": "Huvudspårning",
+  "trackOff": "Av",
+  "trackSensor": "Telefonsensor",
+  "trackManual": "Manuell XY",
+  "dragHint": "Dra för att justera huvudets riktning (ljudfältet följer)",
+  "customEq": "Anpassad",
+  "eqPresetMusic": "Musik",
+  "eqPresetCinema": "Bio",
+  "eqPresetGame": "Spel",
+  "eqPresetVoice": "Röst",
+
+  "hrtfGroup0": "Man / Litet / Litet",
+  "hrtfGroup1": "Man / Litet / Mellan",
+  "hrtfGroup2": "Man / Litet / Stort",
+  "hrtfGroup3": "Man / Mellan / Litet",
+  "hrtfGroup4": "Man / Mellan / Mellan",
+  "hrtfGroup5": "Man / Mellan / Stort",
+  "hrtfGroup6": "Man / Stort / Litet",
+  "hrtfGroup7": "Man / Stort / Mellan",
+  "hrtfGroup8": "Man / Stort / Stort",
+  "hrtfGroup9": "Kvinna / Litet / Litet",
+  "hrtfGroup10": "Kvinna / Litet / Mellan",
+  "hrtfGroup11": "Kvinna / Litet / Stort",
+  "hrtfGroup12": "Kvinna / Mellan / Litet",
+  "hrtfGroup13": "Kvinna / Mellan / Mellan",
+  "hrtfGroup14": "Kvinna / Mellan / Stort",
+
+  "navHome": "Hem",
+  "navLibrary": "Bibliotek",
+  "navPlaying": "Spelas",
+  "navYou": "Du",
+  "tabSongs": "Låtar",
+  "tabAlbums": "Album",
+  "tabFolders": "Mappar",
+  "tabPlaylists": "Spellistor",
+  "youMood": "STÄMNING",
+  "youCompanion": "DIN FÖLJESLAGARE",
+  "youBuddies": "KOMPISAR",
+  "youSound": "LJUD",
+  "youMore": "MER",
+  "themeCherryBlossom": "Körsbärsblom",
+  "themeStarryNight": "Stjärnenatt",
+  "themeAdaptiveLight": "Adaptivt ljust",
+  "themeAdaptiveDark": "Adaptivt mörkt",
+  "youListenedTogether": "{h} t {m} min lyssnat tillsammans",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "Sidhuvud och Spelas nu",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "Sitter på bibliotekets titel",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "Sover på minispelaren",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "Struttar ovanpå gillade låtar",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "Glöder på de mörka temana",
+  "accBow": "Rosa rosett",
+  "accHeadphones": "Små hörlurar",
+  "accFlower": "Blomma",
+  "accCrown": "Liten krona",
+  "accUnlockLabel": "Lyssna i {h} timmar",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "Övertoning",
+  "youCrossfadeSub": "Blanda slutet av en låt in i nästa",
+  "youSmartShuffle": "Smart blandning",
+  "youSmartShuffleSub": "Blandningen lutar åt dina favoriter — beräknad på den här enheten",
+
+  "libLikedSongs": "Gillade låtar",
+  "libTapHeart": "Tryck på hjärtat på en låt för att behålla den här",
+  "libRemovedFromQueue": "Borttagen från kön",
+  "libRemovedFromLibrary": "Borttagen från biblioteket",
+  "libRemoveFromLibrary": "Ta bort från biblioteket",
+  "libNewPlaylist": "Ny spellista",
+  "libPlaylistName": "Spellistans namn",
+  "libCreate": "Skapa",
+  "libSwipeHint": "svep åt vänster för att ta bort · håll ned för att ordna om",
+  "libChooseCover": "Välj omslagsbild",
+  "libBackToArtCover": "Tillbaka till låtomslag",
+  "libDeleteConfirm": "Ta bort \"{name}\"?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "Själva låtarna finns kvar på din enhet",
+  "libKeep": "Behåll",
+  "libDelete": "Ta bort",
+  "libRemoveKeepFile": "Själva filen finns kvar på din enhet",
+  "libClearConfirm": "Ta bort alla filer?",
+  "libLibraryCleared": "Biblioteket rensat",
+  "libPickAudioFiles": "Välj ljudfiler…",
+  "libImportFolder": "Importera en mapp",
+  "libScanWholeFolder": "Skanna en hel mapp… (rekommenderas)",
+  "libImportFailed": "Import misslyckades: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "Inga ljudfiler hittades",
+  "libImportedCount": "Importerade {count} låtar",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "Inget här ännu — svep åt vänster för att ta bort, håll ned för att ordna om",
+  "sidebarYourLibrary": "DITT BIBLIOTEK",
+  "sidebarPlaylists": "SPELLISTOR",
+  "sidebarFolders": "MAPPAR",
+  "rowQueue": "Kö",
+  "rowRemove": "Ta bort",
+  "rowPlaylist": "Spellista",
+  "plTrackCount": "{count} spår",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "Auto",
+  "lyricsSourceEmbedded": "Inbäddad",
+  "lyricsSourceBestQuality": "Bästa tillgängliga kvalitet",
+  "lyricsSourceFileTags": "Från ljudfilens egna taggar",
+  "lyricsSourceWordOnline": "Ordsynkroniserad (online)",
+  "lyricsSourceLineOnline": "Radsynkroniserad (online)",
+  "lyricsSourceNotFound": "Hittades inte för den här låten",
+  "npCatModeUnlocked": "Mjau?! Kattläget upplåst 🐱",
+  "shellResumePlayback": "Återuppta uppspelning",
+  "shellPlay": "SPELA",
+  "devSection": "UTVECKLARE",
+  "devModeUnlocked": "🛠️ Utvecklarläget upplåst",
+  "devUnlockAll": "Lås upp alla tillbehör",
+  "devClearLyricsCache": "Rensa textcache",
+  "devRefetchLyrics": "Hämta alla texter igen…",
+  "devLyricsCleared": "Textcachen rensad",
+  "devHideOptions": "Dölj utvecklaralternativ",
+  "devModeOff": "Utvecklarläget av",
+  "youCantReadFolders": "Kunde inte läsa dina musikmappar",
+  "youNoMusicFolders": "Inga musikmappar hittades"
+}

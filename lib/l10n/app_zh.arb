@@ -1,0 +1,382 @@
+{
+  "@@locale": "zh",
+  "appName": "Hana360",
+  "@appName": {
+    "description": "App display name"
+  },
+
+  "languageSettings": "语言",
+  "@languageSettings": {
+    "description": "Settings section: language"
+  },
+  "languageFollowSystem": "跟随系统",
+  "@languageFollowSystem": {
+    "description": "Follow system language option"
+  },
+  "languageChinese": "中文",
+  "@languageChinese": {
+    "description": "Chinese option"
+  },
+  "languageEnglish": "English",
+  "@languageEnglish": {
+    "description": "English option"
+  },
+
+  "splashEnter": "Baseus × Hanamimi",
+  "@splashEnter": {
+    "description": "Splash entry button"
+  },
+
+  "commonCancel": "取消",
+  "@commonCancel": {
+    "description": "Common: cancel"
+  },
+  "commonConfirm": "确定",
+  "@commonConfirm": {
+    "description": "Common: confirm"
+  },
+  "commonBack": "返回",
+  "@commonBack": {
+    "description": "Common: back"
+  },
+  "commonDone": "完成",
+  "@commonDone": {
+    "description": "Common: done"
+  },
+  "commonUnknown": "未知",
+  "@commonUnknown": {
+    "description": "Common: unknown"
+  },
+
+  "secUpmix": "上混引擎",
+  "spatialAudioTitle": "360 空间音效",
+  "npNothingPlaying": "暂无播放",
+  "npPickSong": "从资料库选择歌曲",
+  "npSpatialSettings": "360 设置",
+  "npLyrics": "Lyrics",
+  "libSearchHint": "搜索你的音乐…",
+  "libClearLibrary": "清空列表",
+  "libImportMusic": "导入音乐",
+  "libError": "出错了: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "没有匹配 \"{query}\" 的结果",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "Hana360 需要权限来查找你的音乐\n设备无访问权限？改用导入。",
+  "libNoSongs": "设备上没有找到歌曲\n从文件导入音乐即可开始",
+  "libGrantAccess": "授予权限",
+  "libRescan": "重新扫描",
+  "libAddedToQueue": "已加入队列",
+  "libNoAlbums": "还没有专辑",
+  "libNoFolders": "还没有文件夹",
+  "libNoPlaylists": "还没有播放列表",
+  "libPlaylistCreated": "播放列表 \"{name}\" 已创建 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "长按文件夹可转为播放列表",
+  "libSongCount": "{count} 首歌曲",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} 首歌曲 · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "夜深了 ♪",
+  "homeGreetingMorning": "早上好 ♪",
+  "homeGreetingAfternoon": "下午好 ♪",
+  "homeGreetingEvening": "晚上好 ♪",
+  "homeJumpBackIn": "继续收听",
+  "homeForYou": "为你推荐",
+  "homeForYouSub": "基于你的收听，在本机为你挑选",
+  "homeWelcome": "欢迎来到 Hana360 🌸",
+  "homeAllQuiet": "一切安静 🌸",
+  "homeLibraryHint": "你的音乐在「资料库」标签页 — 在那里添加文件夹。播放过的音乐都会汇集在这里。",
+  "homePlayHint": "播放一首歌，下次它会在这里等你。",
+  "youRescanLibrary": "重新扫描库",
+  "youExcludedFolders": "排除的文件夹",
+  "youExcludedFoldersSub": "从资料库中隐藏文件夹",
+  "youCatMode": "猫咪模式",
+  "youAbout": "关于",
+  "youScanning": "正在扫描你的音乐…",
+  "youOpenSource": "开源声明",
+  "youOpenSourceSub": "Hana360 是 Hanamimi (GPLv3) by ShaptakNaskar 的衍生作品 — 修改于 2026-08-10",
+  "youCheckUpdates": "检查更新",
+  "youCheckUpdatesSub": "新版本发布在 GitHub Releases",
+  "youUpToDate": "已是最新版本 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Made by Sappy",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "后台保持播放",
+  "youKeepPlayingAllowed": "已允许 — 系统不会暂停你的音乐",
+  "youKeepPlayingTap": "点击停止系统终止播放",
+  "youExcludedFoldersTitle": "排除的文件夹",
+  "youExcludedFoldersDesc": "已关闭文件夹中的歌曲将从资料库移除",
+  "youVisSensitivity": "可视化灵敏度",
+  "youVisSensitivitySub": "歌曲动感弱时调高",
+  "youNerdMode": "极客模式",
+  "youNerdModeSub": "在播放页显示编码、码率与音频输出",
+  "youEqualizer": "均衡器",
+  "youComingSoon": "即将推出",
+  "sleepTimer": "睡眠定时器",
+  "sleep15": "15 分钟",
+  "sleep30": "30 分钟",
+  "sleep1h": "1 小时",
+  "sleepEndTrack": "歌曲结束时",
+  "sleepFading": "淡出中…好梦",
+  "sleepIn": "{time} 后入睡",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "歌曲结束时入睡",
+  "sleepCancel": "取消定时",
+  "queueUpNext": "接下来播放",
+  "queueEmpty": "队列为空",
+  "updateAvailable": "发现新版本 ✨",
+  "updateNoNotes": "没有发布说明。",
+  "updateInstalling": "正在打开安装器…",
+  "updateFailed": "更新失败 — 请稍后重试",
+  "updateLater": "稍后",
+  "updateRetry": "重试",
+  "updateNow": "更新",
+  "spatialToggleTitle": "360 空间音效",
+  "spatialOn": "已开启",
+  "spatialOff": "已关闭",
+  "lyricsNoFound": "未找到歌词",
+  "lyricsJustListening": "这首歌只适合静静聆听",
+  "lyricsTrySource": "尝试其他来源",
+  "lyricsSource": "歌词来源",
+  "lyricsWordSynced": "逐词同步",
+  "lyricsLineSynced": "逐行同步",
+  "lyricsUnsynced": "未同步",
+  "plNoPlaylists": "还没有播放列表 — 先创建一个吧！",
+  "plAddToPlaylist": "添加到播放列表",
+  "plAddedTo": "已添加到 {name}",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "分享歌词",
+  "shareMaxLines": "已达最大行数",
+  "sharePickLines": "最多选择 {count} 行",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "在下方选择一些歌词…",
+  "shareButton": "分享",
+  "batTitle": "让音乐继续播放 🎵",
+  "batBody": "Android 的电池优化可能会在屏幕关闭时暂停你的音乐。允许 Hana360 不受限制运行，播放才能保持稳定。\n\n你随时可以在「You → 后台保持播放」中更改此设置。",
+  "batNotNow": "稍后",
+  "batAllow": "允许",
+  "algoSwitch": "算法开关",
+  "speakerDistance": "音箱距离",
+  "channelTrim": "通道补偿",
+  "masterGain": "主增益",
+  "secHrtf": "HRTF 个性化",
+  "outputGain": "输出增益",
+  "secEq": "空间 EQ",
+  "secReverb": "混响",
+  "roomSize": "房间",
+  "reverbGain": "混响增益",
+  "secTracking": "头部追踪",
+  "trackOff": "关闭",
+  "trackSensor": "手机传感器",
+  "trackManual": "手动 XY",
+  "dragHint": "拖动调节头部朝向 (声场随之转动)",
+  "customEq": "自定义",
+  "eqPresetMusic": "音乐",
+  "eqPresetCinema": "影院",
+  "eqPresetGame": "游戏",
+  "eqPresetVoice": "人声",
+
+  "hrtfGroup0": "男·小头·小耳",
+  "hrtfGroup1": "男·小头·中耳",
+  "hrtfGroup2": "男·小头·大耳",
+  "hrtfGroup3": "男·中头·小耳",
+  "hrtfGroup4": "男·中头·中耳",
+  "hrtfGroup5": "男·中头·大耳",
+  "hrtfGroup6": "男·大头·小耳",
+  "hrtfGroup7": "男·大头·中耳",
+  "hrtfGroup8": "男·大头·大耳",
+  "hrtfGroup9": "女·小头·小耳",
+  "hrtfGroup10": "女·小头·中耳",
+  "hrtfGroup11": "女·小头·大耳",
+  "hrtfGroup12": "女·中头·小耳",
+  "hrtfGroup13": "女·中头·中耳",
+  "hrtfGroup14": "女·中头·大耳",
+
+  "navHome": "首页",
+  "navLibrary": "资料库",
+  "navPlaying": "播放",
+  "navYou": "我的",
+  "tabSongs": "歌曲",
+  "tabAlbums": "专辑",
+  "tabFolders": "文件夹",
+  "tabPlaylists": "播放列表",
+  "youMood": "心情",
+  "youCompanion": "你的陪伴",
+  "youBuddies": "小伙伴",
+  "youSound": "声音",
+  "youMore": "更多",
+  "themeCherryBlossom": "樱花",
+  "themeStarryNight": "星夜",
+  "themeAdaptiveLight": "自适应浅色",
+  "themeAdaptiveDark": "自适应深色",
+  "youListenedTogether": "一起听了 {h} 小时 {m} 分钟",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon 花音",
+  "buddyHanaHome": "页眉与播放页",
+  "buddyParrot": "Qingyu 青羽",
+  "buddyParrotHome": "停在资料库标题上",
+  "buddyCat": "Yuemian 月眠",
+  "buddyCatHome": "在迷你播放器上打盹",
+  "buddyDuck": "Paopao 泡泡",
+  "buddyDuckHome": "在喜欢歌曲上踱步",
+  "buddyFireflies": "Xingchen 星尘",
+  "buddyFirefliesHome": "在深色主题里发光",
+  "accBow": "粉色蝴蝶结",
+  "accHeadphones": "小耳机",
+  "accFlower": "花朵",
+  "accCrown": "小皇冠",
+  "accUnlockLabel": "收听 {h} 小时解锁",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "交叉淡化",
+  "youCrossfadeSub": "把歌曲结尾融入下一首",
+  "youSmartShuffle": "智能随机",
+  "youSmartShuffleSub": "随机播放偏向你的最爱 — 本机计算",
+
+  "libLikedSongs": "喜欢的歌曲",
+  "libTapHeart": "点击歌曲上的爱心即可保留在这里",
+  "libRemovedFromQueue": "已从队列移除",
+  "libRemovedFromLibrary": "已从资料库移除",
+  "libRemoveFromLibrary": "从资料库移除",
+  "libNewPlaylist": "新建播放列表",
+  "libPlaylistName": "播放列表名称",
+  "libCreate": "创建",
+  "libSwipeHint": "左滑移除 · 长按排序",
+  "libChooseCover": "选择封面图片",
+  "libBackToArtCover": "恢复为歌曲封面",
+  "libDeleteConfirm": "删除 \"{name}\"？",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "歌曲本身会保留在你的设备上",
+  "libKeep": "保留",
+  "libDelete": "删除",
+  "libRemoveKeepFile": "文件本身会保留在你的设备上",
+  "libClearConfirm": "移除全部歌曲？",
+  "libLibraryCleared": "资料库已清空",
+  "libPickAudioFiles": "选择音频文件…",
+  "libImportFolder": "导入文件夹",
+  "libScanWholeFolder": "扫描整个文件夹…（推荐）",
+  "libImportFailed": "导入失败: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "未找到音频文件",
+  "libImportedCount": "已导入 {count} 首歌曲",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "这里还空着 — 左滑可移除，长按可排序",
+  "sidebarYourLibrary": "你的资料库",
+  "sidebarPlaylists": "播放列表",
+  "sidebarFolders": "文件夹",
+  "rowQueue": "加入队列",
+  "rowRemove": "移除",
+  "rowPlaylist": "播放列表",
+  "plTrackCount": "{count} 首曲目",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "自动",
+  "lyricsSourceEmbedded": "内嵌",
+  "lyricsSourceBestQuality": "最佳可用质量",
+  "lyricsSourceFileTags": "来自音频文件自身的标签",
+  "lyricsSourceWordOnline": "逐词同步（在线）",
+  "lyricsSourceLineOnline": "逐行同步（在线）",
+  "lyricsSourceNotFound": "此歌曲未找到",
+  "npCatModeUnlocked": "喵？！猫咪模式已解锁 🐱",
+  "shellResumePlayback": "继续播放",
+  "shellPlay": "播放",
+  "devSection": "开发者",
+  "devModeUnlocked": "🛠️ 开发者模式已解锁",
+  "devUnlockAll": "解锁全部配件",
+  "devClearLyricsCache": "清空歌词缓存",
+  "devRefetchLyrics": "重新拉取全部歌词…",
+  "devLyricsCleared": "歌词缓存已清空",
+  "devHideOptions": "隐藏开发者选项",
+  "devModeOff": "开发者模式已关闭",
+  "youCantReadFolders": "无法读取你的音乐文件夹",
+  "youNoMusicFolders": "未找到音乐文件夹"
+}

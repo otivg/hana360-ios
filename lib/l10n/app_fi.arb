@@ -1,0 +1,349 @@
+{
+  "@@locale": "fi",
+  "appName": "Hana360",
+
+  "languageSettings": "Kieli",
+  "languageFollowSystem": "Seuraa järjestelmää",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+
+  "splashEnter": "Hana360",
+
+  "commonCancel": "Peruuta",
+  "commonConfirm": "OK",
+  "commonBack": "Takaisin",
+  "commonDone": "Valmis",
+  "commonUnknown": "Tuntematon",
+
+  "secUpmix": "Upmix-moottori",
+  "spatialAudioTitle": "360° tilaääni",
+  "npNothingPlaying": "Ei toistoa vielä",
+  "npPickSong": "Valitse kappale kirjastostasi",
+  "npSpatialSettings": "360°-asetukset",
+  "npLyrics": "Sanat",
+  "libSearchHint": "Etsi musiikistasi…",
+  "libClearLibrary": "Tyhjennä kirjasto",
+  "libImportMusic": "Tuo musiikkia",
+  "libError": "Jokin meni pieleen: {error}",
+  "@libError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoMatch": "Ei osumia haulle \"{query}\"",
+  "@libNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "libPermissionDenied": "Hana360 tarvitsee luvan löytääkseen musiikkisi\nEi pääsyä tällä laitteella? Tuo sen sijaan.",
+  "libNoSongs": "Tältä laitteelta ei löytynyt kappaleita\nTuo musiikkia tiedostoistasi aloittaaksesi",
+  "libGrantAccess": "Myönnä pääsy",
+  "libRescan": "Skannaa uudelleen",
+  "libAddedToQueue": "Lisätty jonoon",
+  "libNoAlbums": "Ei vielä albumeja",
+  "libNoFolders": "Ei vielä kansioita",
+  "libNoPlaylists": "Ei vielä soittolistoja",
+  "libPlaylistCreated": "Soittolista \"{name}\" luotu 🌸",
+  "@libPlaylistCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libFolderHint": "pidä kansiota pohjassa muuttaaksesi sen soittolistaksi",
+  "libSongCount": "{count} kappaletta",
+  "@libSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libSongCountPath": "{count} kappaletta · {path}",
+  "@libSongCountPath": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingLate": "Valvot myöhään ♪",
+  "homeGreetingMorning": "Hyvää huomenta ♪",
+  "homeGreetingAfternoon": "Hyvää iltapäivää ♪",
+  "homeGreetingEvening": "Hyvää iltaa ♪",
+  "homeJumpBackIn": "PALAA TAKAISIN",
+  "homeForYou": "SINULLE",
+  "homeForYouSub": "valittu tällä laitteella kuuntelusi perusteella",
+  "homeWelcome": "Tervetuloa Hana360:een 🌸",
+  "homeAllQuiet": "Kaikki hiljaista 🌸",
+  "homeLibraryHint": "Musiikkisi asuu Kirjasto-välilehdellä — lisää kansioita siellä. Kaikki, mitä toistat, kertyy tänne.",
+  "homePlayHint": "Toista jotain, niin se odottaa täällä ensi kerralla.",
+  "youRescanLibrary": "Skannaa kirjasto uudelleen",
+  "youExcludedFolders": "Poissuljetut kansiot",
+  "youExcludedFoldersSub": "Piilota kansiot kirjastostasi",
+  "youCatMode": "Kissatila",
+  "youAbout": "Tietoja",
+  "youScanning": "Skannataan musiikkiasi…",
+  "youOpenSource": "Avoin lähdekoodi",
+  "youOpenSourceSub": "Hana360 on johdannainen Hanamimista (GPLv3), tekijä ShaptakNaskar — muokattu 2026-08-10",
+  "youCheckUpdates": "Tarkista päivitykset",
+  "youCheckUpdatesSub": "Uudet versiot tulevat GitHub Releasesiin",
+  "youUpToDate": "Olet ajan tasalla 🐾",
+  "youGithub": "GitHub",
+  "youGithubSub": "github.com/ShaptakNaskar",
+  "youMadeBy": "Tehnyt Sappy",
+  "youMadeBySub": "sappy-dir.vercel.app",
+  "youKeepPlaying": "Jatka toistoa taustalla",
+  "youKeepPlayingAllowed": "Sallittu — järjestelmä ei keskeytä musiikkiasi",
+  "youKeepPlayingTap": "Napauta estääksesi järjestelmää pysäyttämästä toistoa",
+  "youExcludedFoldersTitle": "Poissuljetut kansiot",
+  "youExcludedFoldersDesc": "Pois päältä olevissa kansioissa olevat kappaleet jätetään pois kirjastosta",
+  "youVisSensitivity": "Visualisaattorin herkkyys",
+  "youVisSensitivitySub": "Nosta kappaleille, jotka tuskin liikuttavat sitä",
+  "youNerdMode": "Nörttitila",
+  "youNerdModeSub": "Näytä koodekki, bittinopeus ja äänilähtö Nyt soi -näkymässä",
+  "youEqualizer": "Taajuuskorjain",
+  "youComingSoon": "Tulossa pian",
+  "sleepTimer": "Uniajastin",
+  "sleep15": "15 minuuttia",
+  "sleep30": "30 minuuttia",
+  "sleep1h": "1 tunti",
+  "sleepEndTrack": "Kappaleen lopussa",
+  "sleepFading": "Häivytetään… kauniita unia",
+  "sleepIn": "Nukutaan {time} päästä",
+  "@sleepIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sleepEndTrackActive": "Nukutaan, kun tämä kappale loppuu",
+  "sleepCancel": "Peruuta ajastin",
+  "queueUpNext": "Seuraavaksi",
+  "queueEmpty": "Jono on tyhjä",
+  "updateAvailable": "Päivitys saatavilla ✨",
+  "updateNoNotes": "Ei julkaisutietoja.",
+  "updateInstalling": "Avataan asennusta…",
+  "updateFailed": "Päivitys epäonnistui — yritä myöhemmin uudelleen",
+  "updateLater": "Myöhemmin",
+  "updateRetry": "Yritä uudelleen",
+  "updateNow": "Päivitä",
+  "spatialToggleTitle": "360° tilaääni",
+  "spatialOn": "Päällä",
+  "spatialOff": "Pois",
+  "lyricsNoFound": "Sanoja ei löytynyt",
+  "lyricsJustListening": "Tämä on vain kuuntelua varten",
+  "lyricsTrySource": "Kokeile toista lähdettä",
+  "lyricsSource": "Sanojen lähde",
+  "lyricsWordSynced": "Sanasynkronoitu",
+  "lyricsLineSynced": "Rivisynkronoitu",
+  "lyricsUnsynced": "Synkronoimaton",
+  "plNoPlaylists": "Ei soittolistoja vielä — tee ensin yksi!",
+  "plAddToPlaylist": "Lisää soittolistaan",
+  "plAddedTo": "Lisätty kohteeseen {name}",
+  "@plAddedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLyrics": "Jaa sanat",
+  "shareMaxLines": "Enimmäismäärä rivejä valittu",
+  "sharePickLines": "Valitse enintään {count} riviä",
+  "@sharePickLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sharePickHint": "Valitse joitain rivejä alta…",
+  "shareButton": "Jaa",
+  "batTitle": "Pidä musiikki soimassa 🎵",
+  "batBody": "Androidin akun optimointi voi keskeyttää musiikin, kun näyttö on pois päältä. Salli Hana360:n toimia rajoituksetta, jotta toisto pysyy vakaana.\n\nVoit muuttaa tätä milloin tahansa kohdassa Sinä → \"Jatka toistoa taustalla\".",
+  "batNotNow": "Ei nyt",
+  "batAllow": "Salli",
+  "algoSwitch": "Algoritmi",
+  "speakerDistance": "Kaiuttimen etäisyys",
+  "channelTrim": "Kanavan trimmi",
+  "masterGain": "Master-vahvistus",
+  "secHrtf": "HRTF-personointi",
+  "outputGain": "Lähtövahvistus",
+  "secEq": "Tila-EQ",
+  "secReverb": "Kaiku",
+  "roomSize": "Huone",
+  "reverbGain": "Kaiun vahvistus",
+  "secTracking": "Pään seuranta",
+  "trackOff": "Pois",
+  "trackSensor": "Puhelimen anturi",
+  "trackManual": "Manuaalinen XY",
+  "dragHint": "Vedä säätääksesi pään suuntaa (äänikenttä seuraa)",
+  "customEq": "Mukautettu",
+  "eqPresetMusic": "Musiikki",
+  "eqPresetCinema": "Elokuva",
+  "eqPresetGame": "Peli",
+  "eqPresetVoice": "Puhe",
+
+  "hrtfGroup0": "Mies / Pieni / Pieni",
+  "hrtfGroup1": "Mies / Pieni / Keskikokoinen",
+  "hrtfGroup2": "Mies / Pieni / Suuri",
+  "hrtfGroup3": "Mies / Keskikokoinen / Pieni",
+  "hrtfGroup4": "Mies / Keskikokoinen / Keskikokoinen",
+  "hrtfGroup5": "Mies / Keskikokoinen / Suuri",
+  "hrtfGroup6": "Mies / Suuri / Pieni",
+  "hrtfGroup7": "Mies / Suuri / Keskikokoinen",
+  "hrtfGroup8": "Mies / Suuri / Suuri",
+  "hrtfGroup9": "Nainen / Pieni / Pieni",
+  "hrtfGroup10": "Nainen / Pieni / Keskikokoinen",
+  "hrtfGroup11": "Nainen / Pieni / Suuri",
+  "hrtfGroup12": "Nainen / Keskikokoinen / Pieni",
+  "hrtfGroup13": "Nainen / Keskikokoinen / Keskikokoinen",
+  "hrtfGroup14": "Nainen / Keskikokoinen / Suuri",
+
+  "navHome": "Koti",
+  "navLibrary": "Kirjasto",
+  "navPlaying": "Toistossa",
+  "navYou": "Sinä",
+  "tabSongs": "Kappaleet",
+  "tabAlbums": "Albumit",
+  "tabFolders": "Kansiot",
+  "tabPlaylists": "Soittolistat",
+  "youMood": "TUNNELMA",
+  "youCompanion": "SEURALAISESI",
+  "youBuddies": "KAVERIT",
+  "youSound": "ÄÄNI",
+  "youMore": "LISÄÄ",
+  "themeCherryBlossom": "Kirsikankukka",
+  "themeStarryNight": "Tähtiyö",
+  "themeAdaptiveLight": "Mukautuva vaalea",
+  "themeAdaptiveDark": "Mukautuva tumma",
+  "youListenedTogether": "{h} t {m} min kuunneltu yhdessä",
+  "@youListenedTogether": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "buddyHana": "Hanon",
+  "buddyHanaHome": "Ylätunniste ja Nyt soi",
+  "buddyParrot": "Qingyu",
+  "buddyParrotHome": "Istuu kirjaston otsikolla",
+  "buddyCat": "Yuemian",
+  "buddyCatHome": "Torkkuu minisoittimella",
+  "buddyDuck": "Paopao",
+  "buddyDuckHome": "Keikistelee tykättyjen kappaleiden päällä",
+  "buddyFireflies": "Xingchen",
+  "buddyFirefliesHome": "Hehkuvat tummilla teemoilla",
+  "accBow": "Vaaleanpunainen rusetti",
+  "accHeadphones": "Pienet kuulokkeet",
+  "accFlower": "Kukka",
+  "accCrown": "Pieni kruunu",
+  "accUnlockLabel": "Kuuntele {h} tuntia",
+  "@accUnlockLabel": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "youCrossfade": "Ristiinhäivytys",
+  "youCrossfadeSub": "Sekoita kappaleen loppu seuraavaan",
+  "youSmartShuffle": "Älykäs sekoitus",
+  "youSmartShuffleSub": "Sekoitus painottuu suosikkeihisi — lasketaan tällä laitteella",
+
+  "libLikedSongs": "Tykätyt kappaleet",
+  "libTapHeart": "Napauta sydäntä kappaleessa pitääksesi sen täällä",
+  "libRemovedFromQueue": "Poistettu jonosta",
+  "libRemovedFromLibrary": "Poistettu kirjastosta",
+  "libRemoveFromLibrary": "Poista kirjastosta",
+  "libNewPlaylist": "Uusi soittolista",
+  "libPlaylistName": "Soittolistan nimi",
+  "libCreate": "Luo",
+  "libSwipeHint": "pyyhkäise vasemmalle poistaaksesi · pidä pohjassa järjestääksesi",
+  "libChooseCover": "Valitse kansikuva",
+  "libBackToArtCover": "Takaisin kappaleen kanteen",
+  "libDeleteConfirm": "Poista \"{name}\"?",
+  "@libDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libDeleteKeepSongs": "Itse kappaleet pysyvät laitteellasi",
+  "libKeep": "Pidä",
+  "libDelete": "Poista",
+  "libRemoveKeepFile": "Itse tiedosto pysyy laitteellasi",
+  "libClearConfirm": "Poista kaikki tiedostot?",
+  "libLibraryCleared": "Kirjasto tyhjennetty",
+  "libPickAudioFiles": "Valitse äänitiedostoja…",
+  "libImportFolder": "Tuo kansio",
+  "libScanWholeFolder": "Skannaa koko kansio… (suositeltu)",
+  "libImportFailed": "Tuonti epäonnistui: {error}",
+  "@libImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libNoAudioFound": "Äänitiedostoja ei löytynyt",
+  "libImportedCount": "Tuotu {count} kappaletta",
+  "@libImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libNothingHere": "Ei vielä mitään — pyyhkäise vasemmalle poistaaksesi, pidä pohjassa järjestääksesi",
+  "sidebarYourLibrary": "KIRJASTOSI",
+  "sidebarPlaylists": "SOITTOLISTAT",
+  "sidebarFolders": "KANSIOT",
+  "rowQueue": "Jono",
+  "rowRemove": "Poista",
+  "rowPlaylist": "Soittolista",
+  "plTrackCount": "{count} raitaa",
+  "@plTrackCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lyricsSourceAuto": "Auto",
+  "lyricsSourceEmbedded": "Upotettu",
+  "lyricsSourceBestQuality": "Paras saatavilla oleva laatu",
+  "lyricsSourceFileTags": "Äänitiedoston omista tunnisteista",
+  "lyricsSourceWordOnline": "Sanasynkronoitu (online)",
+  "lyricsSourceLineOnline": "Rivisynkronoitu (online)",
+  "lyricsSourceNotFound": "Ei löytynyt tälle kappaleelle",
+  "npCatModeUnlocked": "Miau?! Kissatila avattu 🐱",
+  "shellResumePlayback": "Jatka toistoa",
+  "shellPlay": "TOISTA",
+  "devSection": "KEHITTÄJÄ",
+  "devModeUnlocked": "🛠️ Kehittäjätila avattu",
+  "devUnlockAll": "Avaa kaikki lisävarusteet",
+  "devClearLyricsCache": "Tyhjennä sanojen välimuisti",
+  "devRefetchLyrics": "Hae kaikki sanat uudelleen…",
+  "devLyricsCleared": "Sanojen välimuisti tyhjennetty",
+  "devHideOptions": "Piilota kehittäjäasetukset",
+  "devModeOff": "Kehittäjätila pois",
+  "youCantReadFolders": "Musiikkikansioitasi ei voitu lukea",
+  "youNoMusicFolders": "Musiikkikansioita ei löytynyt"
+}
